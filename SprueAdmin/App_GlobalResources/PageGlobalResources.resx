@@ -1,0 +1,1629 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessAccountButton" xml:space="preserve">
+    <value>View Account</value>
+  </data>
+  <data name="AccessAccountDesc" xml:space="preserve">
+    <value>Access the customers’ account for troubleshooting or administration.</value>
+  </data>
+  <data name="AccountHeader" xml:space="preserve">
+    <value>Account ID</value>
+  </data>
+  <data name="AccountHolderLabel" xml:space="preserve">
+    <value>Account Holder:</value>
+  </data>
+  <data name="AccountIDLabel" xml:space="preserve">
+    <value>Account ID:</value>
+  </data>
+  <data name="AccountStatusLabel" xml:space="preserve">
+    <value>Account Status:</value>
+  </data>
+  <data name="AddNoteButton" xml:space="preserve">
+    <value>Add Note</value>
+  </data>
+  <data name="AddNoteDesc" xml:space="preserve">
+    <value>Add a quick note – maybe to acknowledge a call made by the customer.</value>
+  </data>
+  <data name="AddressHeader" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="AddressLabel" xml:space="preserve">
+    <value>Address:</value>
+  </data>
+  <data name="AddSupportButton" xml:space="preserve">
+    <value>Raise Support Ticket</value>
+  </data>
+  <data name="AddSupportDesc" xml:space="preserve">
+    <value>Raise a new support ticket.</value>
+  </data>
+  <data name="AdministrationSystem" xml:space="preserve">
+    <value>Administration System</value>
+  </data>
+  <data name="AnswerLabel" xml:space="preserve">
+    <value>Answer:</value>
+  </data>
+  <data name="AnswerRequiredError" xml:space="preserve">
+    <value>Answer is required.&amp;nbsp;</value>
+  </data>
+  <data name="AuditLogsButton" xml:space="preserve">
+    <value>Account History</value>
+  </data>
+  <data name="AuditLogsDesc" xml:space="preserve">
+    <value>See activity audit for this account.</value>
+  </data>
+  <data name="ConfirmPasswordLabel" xml:space="preserve">
+    <value>Confirm Password:</value>
+  </data>
+  <data name="CustomerServiceContact" xml:space="preserve">
+    <value>email -customerservice@Sprue.com, telephone - 9999999999999</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="DateCancelledLabel" xml:space="preserve">
+    <value>Date Cancelled:</value>
+  </data>
+  <data name="DateRegisteredLabel" xml:space="preserve">
+    <value>Date Registered:</value>
+  </data>
+  <data name="DeActivatedLabel" xml:space="preserve">
+    <value>De-activated:</value>
+  </data>
+  <data name="DeleteButton" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DiagnosticsButton" xml:space="preserve">
+    <value>Diagnostics</value>
+  </data>
+  <data name="DiagnosticsDesc" xml:space="preserve">
+    <value>At a glance diagnosis of alarm and camera technical problems.</value>
+  </data>
+  <data name="EditAccountButton" xml:space="preserve">
+    <value>Edit Account Details</value>
+  </data>
+  <data name="EditAccountDesc" xml:space="preserve">
+    <value>Edit the customers’ account.</value>
+  </data>
+  <data name="EmailHeader" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="EmailLabel" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="ErrorHasOccurred" xml:space="preserve">
+    <value>There has been an error</value>
+  </data>
+  <data name="FactoryResetButton" xml:space="preserve">
+    <value>Factory Reset</value>
+  </data>
+  <data name="FactoryResetDesc" xml:space="preserve">
+    <value>Performs Factory reset of the Alarm Panel on the next poll.</value>
+  </data>
+  <data name="FirstNameHeader" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="FirstNameLabel" xml:space="preserve">
+    <value>First Name:</value>
+  </data>
+  <data name="ForgotPasswordText" xml:space="preserve">
+    <value>I've forgotten my password.</value>
+  </data>
+  <data name="LastNameHeader" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+  <data name="LastNameLabel" xml:space="preserve">
+    <value>Surname:</value>
+  </data>
+  <data name="LockedOutHeader" xml:space="preserve">
+    <value>Locked Out</value>
+  </data>
+  <data name="LoginText" xml:space="preserve">
+    <value>Sign In</value>
+  </data>
+  <data name="MACAddressLabel" xml:space="preserve">
+    <value>MAC address:</value>
+  </data>
+  <data name="NameHeader" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NavBack" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="NewUserEmailSubject" xml:space="preserve">
+    <value>Admin user successfully created</value>
+  </data>
+  <data name="NewUserCreated" xml:space="preserve">
+    <value>User successfully created, please login to continue</value>
+  </data>
+  <data name="NewUserEmailText" xml:space="preserve">
+    <value>Dear user,&lt;br/&gt;&lt;br/&gt;This email is to confirm that your username '$$USERNAME$$' has now been successfully created. &lt;br/&gt;&lt;br/&gt;You may now login and begin using the system.&lt;br/&gt;&lt;br/&gt;Best regards.</value>
+  </data>
+  <data name="PageNotDisplayed" xml:space="preserve">
+    <value>Sorry the website is currently experiencing technical difficulties and the team are working hard to resolve the issue. If you experience this several times, we request that you contact our customer service at</value>
+  </data>
+  <data name="PageSizeLabel" xml:space="preserve">
+    <value>Page Size:</value>
+  </data>
+  <data name="PanelFirmwareButton" xml:space="preserve">
+    <value>Panel Firmware</value>
+  </data>
+  <data name="PanelFirmwareDesc" xml:space="preserve">
+    <value>See current version, and allows upgrade to this Alarm Panel.</value>
+  </data>
+  <data name="PasswordFormatError" xml:space="preserve">
+    <value>Password must be alphanumeric and be between 6 and 20 characters</value>
+  </data>
+  <data name="PasswordLabel" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="PasswordsNotMatchError" xml:space="preserve">
+    <value>Passwords do not match.&amp;nbsp;</value>
+  </data>
+  <data name="PostCodeHeader" xml:space="preserve">
+    <value>Post Code</value>
+  </data>
+  <data name="PostCodeLabel" xml:space="preserve">
+    <value>Postcode:</value>
+  </data>
+  <data name="PropertyHeader" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="PropertyIDLabel" xml:space="preserve">
+    <value>Property ID:</value>
+  </data>
+  <data name="QuestionRequiredError" xml:space="preserve">
+    <value>Question is required.&amp;nbsp;</value>
+  </data>
+  <data name="ResetPanelButton" xml:space="preserve">
+    <value>Reset Panel</value>
+  </data>
+  <data name="ResetPanelDesc" xml:space="preserve">
+    <value>Reboots the Alarm Panel on the next poll (NOT factory reset).</value>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="SearchButton" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="SearchEmptyText" xml:space="preserve">
+    <value>Your search criteria did not return any records</value>
+  </data>
+  <data name="SecurityQLabel" xml:space="preserve">
+    <value>Security Question:</value>
+  </data>
+  <data name="SelectSearchFieldsPrompt" xml:space="preserve">
+    <value>Please select a field to search:</value>
+  </data>
+  <data name="StatusActive" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="StatusButton" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="StatusCancelled" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="StatusChangeButton" xml:space="preserve">
+    <value>Change Status</value>
+  </data>
+  <data name="StatusDisabled" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="StatusLabel" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="TicketStatusLabel" xml:space="preserve">
+    <value>Ticket Status</value>
+  </data>
+  <data name="StatusNotActive" xml:space="preserve">
+    <value>Not Active</value>
+  </data>
+  <data name="SupportRefNoLabel" xml:space="preserve">
+    <value>Ref Number:</value>
+  </data>
+  <data name="SwapCameraButton" xml:space="preserve">
+    <value>Swap Camera</value>
+  </data>
+  <data name="SwapCameraDesc" xml:space="preserve">
+    <value>Use this if replacing a camera, or removing one from the account.</value>
+  </data>
+  <data name="SwapPanelButton" xml:space="preserve">
+    <value>Swap Panel</value>
+  </data>
+  <data name="SwapPanelDesc" xml:space="preserve">
+    <value>Use this if you are sending a replacement Alarm Panel to a customer.</value>
+  </data>
+  <data name="TownLabel" xml:space="preserve">
+    <value>Town:</value>
+  </data>
+  <data name="UserLinkExpiredError" xml:space="preserve">
+    <value>The link you are using to generate this user has expired, please request a new link from your administrator.</value>
+  </data>
+  <data name="UsernameFormatError" xml:space="preserve">
+    <value>Username should be alphanumeric and be between 6 and 20 characters.&amp;nbsp;</value>
+  </data>
+  <data name="UsernameHeader" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="UsernameLabel" xml:space="preserve">
+    <value>Username:</value>
+  </data>
+  <data name="UsernameRequiredError" xml:space="preserve">
+    <value>Username required.&amp;nbsp;</value>
+  </data>
+  <data name="DateEnteredLabel" xml:space="preserve">
+    <value>Date Entered:</value>
+  </data>
+  <data name="EnteredByLabel" xml:space="preserve">
+    <value>Entered By:</value>
+  </data>
+  <data name="NotesButton" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="SupportButton" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="EnteredByHeader" xml:space="preserve">
+    <value>Entered By</value>
+  </data>
+  <data name="NoNotesText" xml:space="preserve">
+    <value>There are no notes logged for this account.</value>
+  </data>
+  <data name="NoteIDHeader" xml:space="preserve">
+    <value>Note ID</value>
+  </data>
+  <data name="SubjectHeader" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="AdminUserHeader" xml:space="preserve">
+    <value>Admin User</value>
+  </data>
+  <data name="NoSupportText" xml:space="preserve">
+    <value>There are no support requests logged for this account.</value>
+  </data>
+  <data name="RefNoHeader" xml:space="preserve">
+    <value>Ref. No.</value>
+  </data>
+  <data name="SeverityHeader" xml:space="preserve">
+    <value>Severity</value>
+  </data>
+  <data name="StatusHeader" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="RefNoLabel" xml:space="preserve">
+    <value>Ref. No.:</value>
+  </data>
+  <data name="AccountIDRequiredError" xml:space="preserve">
+    <value>Account ID required.&amp;nbsp;</value>
+  </data>
+  <data name="ActionTakenLabel" xml:space="preserve">
+    <value>Action already taken:</value>
+  </data>
+  <data name="CustObsLabel" xml:space="preserve">
+    <value>Customer Observation:</value>
+  </data>
+  <data name="CustObsRequiredError" xml:space="preserve">
+    <value>Customer observation required.&amp;nbsp;</value>
+  </data>
+  <data name="IssueTypeLabel" xml:space="preserve">
+    <value>Issue Type:</value>
+  </data>
+  <data name="IssueTypeRequiredError" xml:space="preserve">
+    <value>Issue Type required.&amp;nbsp;</value>
+  </data>
+  <data name="Length2000Error" xml:space="preserve">
+    <value>Entered value must be, at most, 2000 characters long.&amp;nbsp;</value>
+  </data>
+  <data name="Length500Error" xml:space="preserve">
+    <value>Entered value must be, at most, 500 characters long.&amp;nbsp;</value>
+  </data>
+  <data name="NotesLabel" xml:space="preserve">
+    <value>Notes:</value>
+  </data>
+  <data name="NotesRequiredError" xml:space="preserve">
+    <value>Notes required.&amp;nbsp;</value>
+  </data>
+  <data name="RequirementLabel" xml:space="preserve">
+    <value>Requirement:</value>
+  </data>
+  <data name="ResolutionLabel" xml:space="preserve">
+    <value>Resolution:</value>
+  </data>
+  <data name="SeverityCodeLabel" xml:space="preserve">
+    <value>Severity Code:</value>
+  </data>
+  <data name="SeverityCodeRequiredError" xml:space="preserve">
+    <value>Severity Code required.&amp;nbsp;</value>
+  </data>
+  <data name="StatusRequiredError" xml:space="preserve">
+    <value>Status required.&amp;nbsp;</value>
+  </data>
+  <data name="SubjectLabel" xml:space="preserve">
+    <value>Subject:</value>
+  </data>
+  <data name="SubjectRequiredError" xml:space="preserve">
+    <value>Subject required.&amp;nbsp;</value>
+  </data>
+  <data name="AdminUserLabel" xml:space="preserve">
+    <value>Admin Username:</value>
+  </data>
+  <data name="CustLastNameLabel" xml:space="preserve">
+    <value>Customer Surname:</value>
+  </data>
+  <data name="MACLabel" xml:space="preserve">
+    <value>MAC Address:</value>
+  </data>
+  <data name="SeverityLabel" xml:space="preserve">
+    <value>Severity:</value>
+  </data>
+  <data name="ValueNumericError" xml:space="preserve">
+    <value>Entered value must be numeric.&amp;nbsp;</value>
+  </data>
+  <data name="Address1Label" xml:space="preserve">
+    <value>Address 1:</value>
+  </data>
+  <data name="Address2Label" xml:space="preserve">
+    <value>Address 2:</value>
+  </data>
+  <data name="MobileLabel" xml:space="preserve">
+    <value>Mobile:</value>
+  </data>
+  <data name="TownCityLabel" xml:space="preserve">
+    <value>Town/City:</value>
+  </data>
+  <data name="BelgiumLandlineTelephoneFormat" xml:space="preserve">
+    <value>Must start with 0, can only contain numbers and must be 9 digits.</value>
+  </data>
+  <data name="BelgiumPostcodeFormat" xml:space="preserve">
+    <value>Must be 4 numbers. Example 1234</value>
+  </data>
+  <data name="CzechLandlineTelephoneFormat" xml:space="preserve">
+    <value>Must start with 2, 3, 4 or 5 and must be 9 digits.</value>
+  </data>
+  <data name="CzechPostcodeFormat" xml:space="preserve">
+    <value>Must be 5 numbers. Example 12345</value>
+  </data>
+  <data name="FranceLandlineTelephoneFormat" xml:space="preserve">
+    <value>Must start with 0, can only contain numbers and must be 10 digits.</value>
+  </data>
+  <data name="FrancePostcodeFormat" xml:space="preserve">
+    <value>Must be 5 numbers. Example 12345</value>
+  </data>
+  <data name="GermanLandlineTelephoneFormat" xml:space="preserve">
+    <value>Must start with 0 and maximum length is 12 digits.</value>
+  </data>
+  <data name="GermanyPostcodeFormat" xml:space="preserve">
+    <value>Must be 5 numbers. Example 12345</value>
+  </data>
+  <data name="NetherlandsLandlineTelephoneFormat" xml:space="preserve">
+    <value>Must start with 0, can only contain numbers and must be 9 digits.</value>
+  </data>
+  <data name="NetherlandsPostcodeFormat" xml:space="preserve">
+    <value>Must be 4 numbers then 2 letters: Example: 1234AB</value>
+  </data>
+  <data name="PolandLandlineTelephoneFormat" xml:space="preserve">
+    <value>Must start with 1-9 and must be 9 digits.</value>
+  </data>
+  <data name="PolandPostcodeFormat" xml:space="preserve">
+    <value>Must be 5 numbers. Example 12345</value>
+  </data>
+  <data name="SwedenLandlineTelephoneFormat" xml:space="preserve">
+    <value>Must start with 0 and maximum length is 12 digits.</value>
+  </data>
+  <data name="SwedenPostcodeFormat" xml:space="preserve">
+    <value>Must be 5 numbers. Example 12345</value>
+  </data>
+  <data name="USMobileTelephoneFormat" xml:space="preserve">
+    <value>US Phone numbers must be 10 digits and can only contain numbers</value>
+  </data>
+  <data name="USPostcodeFormat" xml:space="preserve">
+    <value>Must be 5 numbers. Example 12345</value>
+  </data>
+  <data name="USUKLandlineTelephoneFormat" xml:space="preserve">
+    <value>UK numbers must start with '1', '2', '3', '7' or '8' (without the preceeding 0). Please try again.</value>
+  </data>
+  <data name="CopyToPropertyButton" xml:space="preserve">
+    <value>Copy to Property</value>
+  </data>
+  <data name="CountryLabel" xml:space="preserve">
+    <value>Country:</value>
+  </data>
+  <data name="CopyToAccountButton" xml:space="preserve">
+    <value>Copy to Account</value>
+  </data>
+  <data name="GetPropertyFailure" xml:space="preserve">
+    <value>Failed to retrieve Property information.&amp;nbsp;</value>
+  </data>
+  <data name="r0031MobileTelephoneFormatError" xml:space="preserve">
+    <value>Mobile phone numbers must start with 06, can only contain numbers and must be 10 digits.</value>
+  </data>
+  <data name="r0031PostcodeFormatError" xml:space="preserve">
+    <value>Postcode must be 4 numeric digits with a 2 character, alphabetic, suffix.</value>
+  </data>
+  <data name="FirmwareVerLabel" xml:space="preserve">
+    <value>Firmware Version:</value>
+  </data>
+  <data name="PanelDiagTitle" xml:space="preserve">
+    <value>Panel Diagnostics</value>
+  </data>
+  <data name="LastPollLabel" xml:space="preserve">
+    <value>Last Polling Date:</value>
+  </data>
+  <data name="OnlineStatusLabel" xml:space="preserve">
+    <value>Online Status:</value>
+  </data>
+  <data name="ZoneDevice0" xml:space="preserve">
+    <value>Key fob</value>
+  </data>
+  <data name="ZoneDevice1" xml:space="preserve">
+    <value>Door Contact</value>
+  </data>
+  <data name="ZoneDevice10" xml:space="preserve">
+    <value>Pendant</value>
+  </data>
+  <data name="ZoneDevice11" xml:space="preserve">
+    <value>Water Sensor</value>
+  </data>
+  <data name="ZoneDevice13" xml:space="preserve">
+    <value>Wrist Pendant</value>
+  </data>
+  <data name="ZoneDevice138" xml:space="preserve">
+    <value>DECT Pendant</value>
+  </data>
+  <data name="ZoneDevice139" xml:space="preserve">
+    <value>Fall Detector</value>
+  </data>
+  <data name="ZoneDevice14" xml:space="preserve">
+    <value>Wrist Pendant</value>
+  </data>
+  <data name="ZoneDevice15" xml:space="preserve">
+    <value>Alarm Panel</value>
+  </data>
+  <data name="ZoneDevice16" xml:space="preserve">
+    <value>Night Switch</value>
+  </data>
+  <data name="ZoneDevice17" xml:space="preserve">
+    <value>Panic Button</value>
+  </data>
+  <data name="ZoneDevice18" xml:space="preserve">
+    <value>Panic Button</value>
+  </data>
+  <data name="ZoneDevice19" xml:space="preserve">
+    <value>C02 Sensor</value>
+  </data>
+  <data name="ZoneDevice2" xml:space="preserve">
+    <value>Pendant</value>
+  </data>
+  <data name="ZoneDevice20" xml:space="preserve">
+    <value>Keypad</value>
+  </data>
+  <data name="ZoneDevice21" xml:space="preserve">
+    <value>External Siren</value>
+  </data>
+  <data name="ZoneDevice29" xml:space="preserve">
+    <value>Smart Plug</value>
+  </data>
+  <data name="ZoneDevice3" xml:space="preserve">
+    <value>Movement Detector</value>
+  </data>
+  <data name="ZoneDevice32" xml:space="preserve">
+    <value>Socket</value>
+  </data>
+  <data name="ZoneDevice34" xml:space="preserve">
+    <value>Heating</value>
+  </data>
+  <data name="ZoneDevice36" xml:space="preserve">
+    <value>Uniplug</value>
+  </data>
+  <data name="ZoneDevice4" xml:space="preserve">
+    <value>Smoke Sensor</value>
+  </data>
+  <data name="ZoneDevice5" xml:space="preserve">
+    <value>Gas Sensor</value>
+  </data>
+  <data name="ZoneDevice6" xml:space="preserve">
+    <value>UniversalTX</value>
+  </data>
+  <data name="ZoneDevice7" xml:space="preserve">
+    <value>Remote Keypad</value>
+  </data>
+  <data name="ZoneDevice8" xml:space="preserve">
+    <value>Glass Sensor</value>
+  </data>
+  <data name="ZoneDevice9" xml:space="preserve">
+    <value>Wrist Pendant</value>
+  </data>
+  <data name="ZoneDeviceAttribute1" xml:space="preserve">
+    <value>Perimeter Sensor</value>
+  </data>
+  <data name="ZoneDeviceAttribute10" xml:space="preserve">
+    <value>24 Hour Sensor</value>
+  </data>
+  <data name="ZoneDeviceAttribute11" xml:space="preserve">
+    <value>Medical</value>
+  </data>
+  <data name="ZoneDeviceAttribute12" xml:space="preserve">
+    <value>Flood</value>
+  </data>
+  <data name="ZoneDeviceAttribute13" xml:space="preserve">
+    <value>Panic</value>
+  </data>
+  <data name="ZoneDeviceAttribute14" xml:space="preserve">
+    <value>Bypass</value>
+  </data>
+  <data name="ZoneDeviceAttribute15" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="ZoneDeviceAttribute2" xml:space="preserve">
+    <value>Internal Sensor</value>
+  </data>
+  <data name="ZoneDeviceAttribute200" xml:space="preserve">
+    <value>Generic</value>
+  </data>
+  <data name="ZoneDeviceAttribute201" xml:space="preserve">
+    <value>Lamp</value>
+  </data>
+  <data name="ZoneDeviceAttribute202" xml:space="preserve">
+    <value>Entertainment</value>
+  </data>
+  <data name="ZoneDeviceAttribute203" xml:space="preserve">
+    <value>IT Equipment</value>
+  </data>
+  <data name="ZoneDeviceAttribute204" xml:space="preserve">
+    <value>Fan</value>
+  </data>
+  <data name="ZoneDeviceAttribute205" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="ZoneDeviceAttribute3" xml:space="preserve">
+    <value>Delay Zone</value>
+  </data>
+  <data name="ZoneDeviceAttribute4" xml:space="preserve">
+    <value>Entry Zone</value>
+  </data>
+  <data name="ZoneDeviceAttribute5" xml:space="preserve">
+    <value>Away Only</value>
+  </data>
+  <data name="ZoneDeviceAttribute6" xml:space="preserve">
+    <value>Home Access</value>
+  </data>
+  <data name="ZoneDeviceAttribute7" xml:space="preserve">
+    <value>Away Entry</value>
+  </data>
+  <data name="ZoneDeviceAttribute8" xml:space="preserve">
+    <value>Set/Unset</value>
+  </data>
+  <data name="ZoneDeviceAttribute9" xml:space="preserve">
+    <value>Fire</value>
+  </data>
+  <data name="ZoneDeviceImgActive0" xml:space="preserve">
+    <value>icon_keyfob.png</value>
+  </data>
+  <data name="ZoneDeviceImgActive1" xml:space="preserve">
+    <value>icon_doorsensor.png</value>
+  </data>
+  <data name="ZoneDeviceImgActive10" xml:space="preserve">
+    <value>icon_pendant.gif</value>
+  </data>
+  <data name="ZoneDeviceImgActive11" xml:space="preserve">
+    <value>icon_watersensor.png</value>
+  </data>
+  <data name="ZoneDeviceImgActive15" xml:space="preserve">
+    <value>g2.png</value>
+  </data>
+  <data name="ZoneDeviceImgActive19" xml:space="preserve">
+    <value>icon_smoke.png</value>
+  </data>
+  <data name="ZoneDeviceImgActive20" xml:space="preserve">
+    <value>icon_keypad.png</value>
+  </data>
+  <data name="ZoneDeviceImgActive21" xml:space="preserve">
+    <value>icon_externalsiren.png</value>
+  </data>
+  <data name="ZoneDeviceImgActive29" xml:space="preserve">
+    <value>icon_smartplug.png</value>
+  </data>
+  <data name="ZoneDeviceImgActive3" xml:space="preserve">
+    <value>icon_movementsensor.png</value>
+  </data>
+  <data name="ZoneDeviceImgActive33" xml:space="preserve">
+    <value>icon_pircamera.gif</value>
+  </data>
+  <data name="ZoneDeviceImgActive4" xml:space="preserve">
+    <value>icon_smoke.png</value>
+  </data>
+  <data name="ZoneDeviceImgActive7" xml:space="preserve">
+    <value>icon_keypad.png</value>
+  </data>
+  <data name="CameraDiagTitle" xml:space="preserve">
+    <value>Camera Diagnostics</value>
+  </data>
+  <data name="ThermostatsDiagTitle" xml:space="preserve">
+    <value>Thermostat Diagnostics</value>
+  </data>
+  <data name="CameraMacLabel" xml:space="preserve">
+    <value>MAC Address:</value>
+  </data>
+  <data name="CurrFirmwareLabel" xml:space="preserve">
+    <value>Current Firmware:</value>
+  </data>
+  <data name="DateTimeHeader" xml:space="preserve">
+    <value>Date\Time</value>
+  </data>
+  <data name="DescriptionHeader" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="DeviceNameHeader" xml:space="preserve">
+    <value>Device Name</value>
+  </data>
+  <data name="FactoryCommandText" xml:space="preserve">
+    <value>Factory reset command issued</value>
+  </data>
+  <data name="FWCommandText" xml:space="preserve">
+    <value>Firmware command issued</value>
+  </data>
+  <data name="LastConnectionHeader" xml:space="preserve">
+    <value>Last Connection</value>
+  </data>
+  <data name="NoCamerasText" xml:space="preserve">
+    <value>No cameras on this account.</value>
+  </data>
+  <data name="NoThermostatsText" xml:space="preserve">
+    <value>No thermostats on this account.</value>
+  </data>
+  <data name="NoPanelDiagText" xml:space="preserve">
+    <value>Panel diagnostics are unavailable. Either this is a 'Camera Only' account, or it may have been cancelled</value>
+  </data>
+  <data name="PrivEnabledLabel" xml:space="preserve">
+    <value>Privacy Enabled:</value>
+  </data>
+  <data name="RecentInfoTitle" xml:space="preserve">
+    <value>Recent Information Events</value>
+  </data>
+  <data name="SelectFWLabel" xml:space="preserve">
+    <value>Select new Firmware:</value>
+  </data>
+  <data name="SensorTypeHeader" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="SettingsHeader" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="StreamingLabel" xml:space="preserve">
+    <value>Streaming:</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="LowBattery" xml:space="preserve">
+    <value>Low Battery</value>
+  </data>
+  <data name="NotOKText" xml:space="preserve">
+    <value>Not OK</value>
+  </data>
+  <data name="NotPollingText" xml:space="preserve">
+    <value>Not Polling</value>
+  </data>
+  <data name="OKText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OpenCase" xml:space="preserve">
+    <value>Open Case</value>
+  </data>
+  <data name="PollingInText" xml:space="preserve">
+    <value>Polling In</value>
+  </data>
+  <data name="SensorCheckFail" xml:space="preserve">
+    <value>Sensor Check Failure</value>
+  </data>
+  <data name="NoneText" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="NotApplicableText" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="NoText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="UnknownText" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="YesText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="AddNewUserButton" xml:space="preserve">
+    <value>Add New User</value>
+  </data>
+  <data name="ConfirmEmailLabel" xml:space="preserve">
+    <value>Confirm Email:</value>
+  </data>
+  <data name="EmailNotMatchError" xml:space="preserve">
+    <value>Email Addresses do not match.&amp;nbsp;</value>
+  </data>
+  <data name="UpdateConfirmPrompt" xml:space="preserve">
+    <value>Are you sure you want to save the details?</value>
+  </data>
+  <data name="CreatedByHeader" xml:space="preserve">
+    <value>Created By</value>
+  </data>
+  <data name="DateEnteredHeader" xml:space="preserve">
+    <value>Date Entered</value>
+  </data>
+  <data name="EndDateLabel" xml:space="preserve">
+    <value>To:</value>
+  </data>
+  <data name="StartDateLabel" xml:space="preserve">
+    <value>From:</value>
+  </data>
+  <data name="AuditTypeHeader" xml:space="preserve">
+    <value>AuditType</value>
+  </data>
+  <data name="AccountCancelWarnText" xml:space="preserve">
+    <value>Are you sure you want to cancel this account? After cancelling the account you can not reactivate it again.</value>
+  </data>
+  <data name="CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="StatusChangeConfirm" xml:space="preserve">
+    <value>Are you sure you want to change status?</value>
+  </data>
+  <data name="ChangeAccountStatusTitle" xml:space="preserve">
+    <value>Change Account Status</value>
+  </data>
+  <data name="NotesHeader" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="ConfirmNoteDelete" xml:space="preserve">
+    <value>Are you sure you want to delete this note ?</value>
+  </data>
+  <data name="OldMacAddressLabel" xml:space="preserve">
+    <value>Old MAC Address:</value>
+  </data>
+  <data name="NewMacAddressLabel" xml:space="preserve">
+    <value>New MAC Address:</value>
+  </data>
+  <data name="GatewayNotPolling" xml:space="preserve">
+    <value>The Gateway is not polling in.  Please check and try again.</value>
+  </data>
+  <data name="GatewayResetSent" xml:space="preserve">
+    <value>The Gateway reset command was sent</value>
+  </data>
+  <data name="FactoryResetSent" xml:space="preserve">
+    <value>The factory reset command was sent</value>
+  </data>
+  <data name="FactoryResetSentFailed" xml:space="preserve">
+    <value>Failed to send factory reset command, is the gateway on-line?</value>
+  </data>
+  <data name="AllSelectItemText" xml:space="preserve">
+    <value>All...</value>
+  </data>
+  <data name="PageSizeLabel2" xml:space="preserve">
+    <value>Page:</value>
+  </data>
+  <data name="CreateUserFailedEmail" xml:space="preserve">
+    <value>Create user failed - duplicate email address</value>
+  </data>
+  <data name="CreateUserFailedUsername" xml:space="preserve">
+    <value>Create user failed - duplicate username</value>
+  </data>
+  <data name="CreateUserFailedEmailInvalid" xml:space="preserve">
+    <value>Create user failed - invalid email address</value>
+  </data>
+  <data name="PleaseSelect" xml:space="preserve">
+    <value>-- Please Select --</value>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>Current Password: *</value>
+  </data>
+  <data name="EnterPassword" xml:space="preserve">
+    <value>Please enter your current password</value>
+  </data>
+  <data name="ConfirmNewPassword" xml:space="preserve">
+    <value>Please confirm your new password</value>
+  </data>
+  <data name="CurrentPasswordInvalid" xml:space="preserve">
+    <value>Current Password is not valid.</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>New Password:</value>
+  </data>
+  <data name="ReenterNewPassword" xml:space="preserve">
+    <value>Reenter New Password:</value>
+  </data>
+  <data name="PasswordChangeSuccess" xml:space="preserve">
+    <value>Password change successful for</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="ProvideNewPassword" xml:space="preserve">
+    <value>Please provide a new password</value>
+  </data>
+  <data name="PasswordNotAccepted" xml:space="preserve">
+    <value>Your password was not accepted. It needs to contain at least 8 characters of which at least 4 are letters and 1 is a number. Password cannot match username.</value>
+  </data>
+  <data name="PasswordStrengthPoor" xml:space="preserve">
+    <value>Poor</value>
+  </data>
+  <data name="PasswordStrengthWeak" xml:space="preserve">
+    <value>Weak</value>
+  </data>
+  <data name="PasswordStrengthAverage" xml:space="preserve">
+    <value>Average</value>
+  </data>
+  <data name="PasswordStrengthStrong" xml:space="preserve">
+    <value>Strong</value>
+  </data>
+  <data name="PasswordStrengthExcellent" xml:space="preserve">
+    <value>Excellent</value>
+  </data>
+  <data name="MandatoryFields" xml:space="preserve">
+    <value>Please note: Fields with an asterisk (*) are mandatory fields and must be completed before the form can be submitted</value>
+  </data>
+  <data name="CameraLabel" xml:space="preserve">
+    <value>Camera:</value>
+  </data>
+  <data name="OfflineText" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="OnlineText" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="ZoneDevice141" xml:space="preserve">
+    <value>Lock</value>
+  </data>
+  <data name="ZoneDevice23" xml:space="preserve">
+    <value>Outdoor Siren</value>
+  </data>
+  <data name="ZoneDevice24" xml:space="preserve">
+    <value>Indoor Siren</value>
+  </data>
+  <data name="ZoneDevice26" xml:space="preserve">
+    <value>Thermostat</value>
+  </data>
+  <data name="ZoneDevice46" xml:space="preserve">
+    <value>Smart Plug</value>
+  </data>
+  <data name="ZoneDeviceImgActive46" xml:space="preserve">
+    <value>icon_smartplug.png</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Firstname" xml:space="preserve">
+    <value>Firstname</value>
+  </data>
+  <data name="Lastname" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+  <data name="PersonID" xml:space="preserve">
+    <value>PersonID</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Reset Password</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="UsersOnAccount" xml:space="preserve">
+    <value>Users On Account</value>
+  </data>
+  <data name="PasswordResetEmail" xml:space="preserve">
+    <value>A reset password email will now be sent out to the selected email address.</value>
+  </data>
+  <data name="ThermostatModelLabel" xml:space="preserve">
+    <value>Model:</value>
+  </data>
+  <data name="ZoneLabel" xml:space="preserve">
+    <value>Zone:</value>
+  </data>
+  <data name="AdminUserType" xml:space="preserve">
+    <value>Administrator</value>
+  </data>
+  <data name="MasterCoLabel" xml:space="preserve">
+    <value>Company:</value>
+  </data>
+  <data name="SupportUserType" xml:space="preserve">
+    <value>Support User</value>
+  </data>
+  <data name="UserTypeLabel" xml:space="preserve">
+    <value>User Type:</value>
+  </data>
+  <data name="InstallerUserType" xml:space="preserve">
+    <value>Installation Engineer</value>
+  </data>
+  <data name="ClearButton" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="ExportDataButton" xml:space="preserve">
+    <value>Export Data</value>
+  </data>
+  <data name="FilterByLabel" xml:space="preserve">
+    <value>Filter by:</value>
+  </data>
+  <data name="AdministrationSystemTitle" xml:space="preserve">
+    <value>Administration System</value>
+  </data>
+  <data name="DSH_AlertsLegend" xml:space="preserve">
+    <value>Active Alerts</value>
+  </data>
+  <data name="DSH_FaultsLegend" xml:space="preserve">
+    <value>Active Faults</value>
+  </data>
+  <data name="DSH_NoAlertsLegend" xml:space="preserve">
+    <value>Everything OK</value>
+  </data>
+  <data name="DSH_TicketsLegend" xml:space="preserve">
+    <value>Open Support Tickets</value>
+  </data>
+  <data name="DSH_TotalDevicesLegend" xml:space="preserve">
+    <value>Total Number</value>
+  </data>
+  <data name="DSH_UntestedLegend" xml:space="preserve">
+    <value>Overdue Tests ( 12 months+ )</value>
+  </data>
+  <data name="SearchLabel" xml:space="preserve">
+    <value>Search by:</value>
+  </data>
+  <data name="NoFiltertext" xml:space="preserve">
+    <value>Not Filtered</value>
+  </data>
+  <data name="MACAddressHeader" xml:space="preserve">
+    <value>MAC Address</value>
+  </data>
+  <data name="AllDistributorsText" xml:space="preserve">
+    <value>All Distributors</value>
+  </data>
+  <data name="AllInstallersText" xml:space="preserve">
+    <value>All Installation Engineers</value>
+  </data>
+  <data name="AllProvidersText" xml:space="preserve">
+    <value>All Service Providers</value>
+  </data>
+  <data name="ValidSensorIDMsg" xml:space="preserve">
+    <value>The sensor ID must consist of, up to 6, valid hexadecimal characters.</value>
+  </data>
+  <data name="ValidSensorRangeMsg" xml:space="preserve">
+    <value>The 'From' ID must be less than, or equal to, the 'To' ID.</value>
+  </data>
+  <data name="LicenseActivationDateHeaders" xml:space="preserve">
+    <value>Licence Activation Date</value>
+  </data>
+  <data name="SystemTestDueDateHeader" xml:space="preserve">
+    <value>System Test Due Date</value>
+  </data>
+  <data name="FilterNotAvailableLegend" xml:space="preserve">
+    <value>Not Available</value>
+  </data>
+  <data name="DeviceIDLabel" xml:space="preserve">
+    <value>Device ID:</value>
+  </data>
+  <data name="ActivationHeader" xml:space="preserve">
+    <value>Licence Activation Date</value>
+  </data>
+  <data name="DeviceIDHeader" xml:space="preserve">
+    <value>Device ID</value>
+  </data>
+  <data name="RaiseTicketButton" xml:space="preserve">
+    <value>Raise New Ticket</value>
+  </data>
+  <data name="DateLabel" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <data name="NoteLabel" xml:space="preserve">
+    <value>Note:</value>
+  </data>
+  <data name="DeviceTypeLabel" xml:space="preserve">
+    <value>Device Type:</value>
+  </data>
+  <data name="ReferenceLabel" xml:space="preserve">
+    <value>Additional Ref.:</value>
+  </data>
+  <data name="PropertyAddressLabel" xml:space="preserve">
+    <value>Property Address:</value>
+  </data>
+  <data name="ValidDateRangeMsg" xml:space="preserve">
+    <value>The 'from' date must be before, or the same as, the 'to' date.</value>
+  </data>
+  <data name="CollapserCloseText" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="CollapserOpenText" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="AccountTypeLabel" xml:space="preserve">
+    <value>Account Type:</value>
+  </data>
+  <data name="CoNameLabel" xml:space="preserve">
+    <value>Company Name:</value>
+  </data>
+  <data name="DistributorText" xml:space="preserve">
+    <value>Distributor</value>
+  </data>
+  <data name="EndUsersDetsLegend" xml:space="preserve">
+    <value>End User Details</value>
+  </data>
+  <data name="EndUserText" xml:space="preserve">
+    <value>End User</value>
+  </data>
+  <data name="ServiceProText" xml:space="preserve">
+    <value>Service Provider</value>
+  </data>
+  <data name="CoNameHeader" xml:space="preserve">
+    <value>Company Name</value>
+  </data>
+  <data name="CreateAccountButton" xml:space="preserve">
+    <value>Create Account</value>
+  </data>
+  <data name="ParentNameHeader" xml:space="preserve">
+    <value>Parent Company</value>
+  </data>
+  <data name="ManageSensorsButton" xml:space="preserve">
+    <value>Manage Devices</value>
+  </data>
+  <data name="ManageSensorsDesc" xml:space="preserve">
+    <value>Manage sensors associated with this accoun</value>
+  </data>
+  <data name="EditPropertyButton" xml:space="preserve">
+    <value>Edit Property</value>
+  </data>
+  <data name="DistAdminLegend" xml:space="preserve">
+    <value>Distributor - Administrator</value>
+  </data>
+  <data name="DistSupportLegend" xml:space="preserve">
+    <value>Distributor - Support</value>
+  </data>
+  <data name="InstallerLegend" xml:space="preserve">
+    <value>Installation Engineer</value>
+  </data>
+  <data name="IntamacAdminLegend" xml:space="preserve">
+    <value>Intamac - Administrator</value>
+  </data>
+  <data name="IntamacSupportLegend" xml:space="preserve">
+    <value>Intamac - Support</value>
+  </data>
+  <data name="PermissionLevelHeader" xml:space="preserve">
+    <value>Permission Level</value>
+  </data>
+  <data name="PermissionLevelLabel" xml:space="preserve">
+    <value>Permission Level:</value>
+  </data>
+  <data name="ProvAdminLegend" xml:space="preserve">
+    <value>Contract Service Provider - Administrator</value>
+  </data>
+  <data name="ProvSupportLegend" xml:space="preserve">
+    <value>Contract Service Provider - Support</value>
+  </data>
+  <data name="SprueAdminLegend" xml:space="preserve">
+    <value>SSP - Administrator</value>
+  </data>
+  <data name="SprueSupportLegend" xml:space="preserve">
+    <value>SSP - Support</value>
+  </data>
+  <data name="CreationDateHeader" xml:space="preserve">
+    <value>Creation Date</value>
+  </data>
+  <data name="CreationTimeHeader" xml:space="preserve">
+    <value>Creation Time</value>
+  </data>
+  <data name="ZoneHeader" xml:space="preserve">
+    <value>Zone</value>
+  </data>
+  <data name="EditButtonText" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="FromUnitEmptyText" xml:space="preserve">
+    <value>From Unit ID</value>
+  </data>
+  <data name="ToUnitEmptyText" xml:space="preserve">
+    <value>To Unit ID</value>
+  </data>
+  <data name="SupportLogButton" xml:space="preserve">
+    <value>Support Log</value>
+  </data>
+  <data name="FirmwareButton" xml:space="preserve">
+    <value>Update Firmware</value>
+  </data>
+  <data name="SwapGatewayButton" xml:space="preserve">
+    <value>Swap Gateway</value>
+  </data>
+  <data name="EventLogButton" xml:space="preserve">
+    <value>Event Log</value>
+  </data>
+  <data name="ContactsButton" xml:space="preserve">
+    <value>Manage Contacts</value>
+  </data>
+  <data name="ResetGatewayButton" xml:space="preserve">
+    <value>Reset Gateway</value>
+  </data>
+  <data name="GatewayFirmwareButton" xml:space="preserve">
+    <value>Gateway Firmware</value>
+  </data>
+  <data name="RiskLevelsText" xml:space="preserve">
+    <value>Risk Levels</value>
+  </data>
+  <data name="AccountNameText" xml:space="preserve">
+    <value>Account Name</value>
+  </data>
+  <data name="PropertiesNameText" xml:space="preserve">
+    <value>Properties Name</value>
+  </data>
+  <data name="ZonesText" xml:space="preserve">
+    <value>Zones</value>
+  </data>
+  <data name="GatewaysNameText" xml:space="preserve">
+    <value>Gateways</value>
+  </data>
+  <data name="GoTo" xml:space="preserve">
+    <value>Go To...</value>
+  </data>
+  <data name="SupportLogDescription" xml:space="preserve">
+    <value>View support tickets.</value>
+  </data>
+  <data name="UpgradeGatewayDescription" xml:space="preserve">
+    <value>Check for firmware updates.</value>
+  </data>
+  <data name="ReplacementGatewayDescription" xml:space="preserve">
+    <value>Transfer Licence to a new Gateway.</value>
+  </data>
+  <data name="AlertsAndFaultsDescription" xml:space="preserve">
+    <value>View alerts and faults of devices linked to this account.</value>
+  </data>
+  <data name="ContactsDescription" xml:space="preserve">
+    <value>Add additional contacts for notifications.</value>
+  </data>
+  <data name="EditAccountDescription" xml:space="preserve">
+    <value>Edit customer details.</value>
+  </data>
+  <data name="AuditDescription" xml:space="preserve">
+    <value>View account history.</value>
+  </data>
+  <data name="GatewayRebootDescription" xml:space="preserve">
+    <value>Click to restart Gateway.</value>
+  </data>
+  <data name="ManageSensorsDescription" xml:space="preserve">
+    <value>Manage devices linked to this account.</value>
+  </data>
+  <data name="VersionDescription" xml:space="preserve">
+    <value>See current version,and allows upgrade to this gateway.</value>
+  </data>
+  <data name="AddTicketButtonText" xml:space="preserve">
+    <value>Add Ticket</value>
+  </data>
+  <data name="SupportRequestHeader" xml:space="preserve">
+    <value>Ref No</value>
+  </data>
+  <data name="EventDetailsHeader" xml:space="preserve">
+    <value>Event Details</value>
+  </data>
+  <data name="DeviceHeader" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="LocationHeader" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="FromLabel" xml:space="preserve">
+    <value>From:</value>
+  </data>
+  <data name="ToLabel" xml:space="preserve">
+    <value>To:</value>
+  </data>
+  <data name="SelectButtonText" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="Australia" xml:space="preserve">
+    <value>Australia</value>
+  </data>
+  <data name="Italy" xml:space="preserve">
+    <value>Italy</value>
+  </data>
+  <data name="UnitedKingdom" xml:space="preserve">
+    <value>United Kingdom</value>
+  </data>
+  <data name="SelectCountry" xml:space="preserve">
+    <value>Select Country</value>
+  </data>
+  <data name="UnitedStates" xml:space="preserve">
+    <value>United States</value>
+  </data>
+  <data name="LogoffButton" xml:space="preserve">
+    <value>Sign out</value>
+  </data>
+  <data name="ViewButton" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="FirmwareCurrentLabel" xml:space="preserve">
+    <value>Firmware Version:</value>
+  </data>
+  <data name="FirmwareSelectLabel" xml:space="preserve">
+    <value>Select Firmware:</value>
+  </data>
+  <data name="FirmwareUpdateButton" xml:space="preserve">
+    <value>Update Firmware</value>
+  </data>
+  <data name="FirmwareUpdates" xml:space="preserve">
+    <value>Firmware Updates</value>
+  </data>
+  <data name="FirmwareUnknown" xml:space="preserve">
+    <value>The firmware version for this gateway cannot be determined at the moment.</value>
+  </data>
+  <data name="FirmwareCommandSent" xml:space="preserve">
+    <value>The firmware update has begun.  This may take up to 5 minutes.  Please wait Or check this page later to confirm update.</value>
+  </data>
+  <data name="FirmwareUpdateError" xml:space="preserve">
+    <value>There has been an unexpected problem.  Please try re-loading this page.</value>
+  </data>
+  <data name="DSH_TotalSensorsLegend" xml:space="preserve">
+    <value>Number of sensors:</value>
+  </data>
+  <data name="DSH_TotalDevicesLegend_DeviceDetail" xml:space="preserve">
+    <value>Total Number</value>
+  </data>
+  <data name="AccountTypeHeader" xml:space="preserve">
+    <value>Account Type</value>
+  </data>
+  <data name="ApplicationOwnerText" xml:space="preserve">
+    <value>Application Owner</value>
+  </data>
+  <data name="CountryHeader" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="Address1Header" xml:space="preserve">
+    <value>Address 1</value>
+  </data>
+  <data name="Address2Header" xml:space="preserve">
+    <value>Address 2</value>
+  </data>
+  <data name="LandlineHeader" xml:space="preserve">
+    <value>Property Landline</value>
+  </data>
+  <data name="StateTerritoryHeader" xml:space="preserve">
+    <value>State / County</value>
+  </data>
+  <data name="TelephoneNoHeader" xml:space="preserve">
+    <value>Telephone Number</value>
+  </data>
+  <data name="TownCityHeader" xml:space="preserve">
+    <value>Town / City</value>
+  </data>
+  <data name="CountryRequiredMsg" xml:space="preserve">
+    <value>A Country must be selected.</value>
+  </data>
+  <data name="EmailAddressHeader" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="AccountStatusHeader" xml:space="preserve">
+    <value>Account Status</value>
+  </data>
+  <data name="ChangeStatusButton" xml:space="preserve">
+    <value>Change Status</value>
+  </data>
+  <data name="Selectbutton" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="ConfirmPasswordFormatError" xml:space="preserve">
+    <value>Confirm Password required</value>
+  </data>
+  <data name="PasswordError" xml:space="preserve">
+    <value>Password required</value>
+  </data>
+  <data name="GatewayChangeOnLabel" xml:space="preserve">
+    <value>Change Gateway Status On:</value>
+  </data>
+  <data name="GatewayLabel" xml:space="preserve">
+    <value>Gateway:</value>
+  </data>
+  <data name="GatewaysAllText" xml:space="preserve">
+    <value>All Gateways</value>
+  </data>
+  <data name="SaveAccountButton" xml:space="preserve">
+    <value>Save Account</value>
+  </data>
+  <data name="SetChangeText" xml:space="preserve">
+    <value>Set Change</value>
+  </data>
+  <data name="DateRaised" xml:space="preserve">
+    <value>Date Raised</value>
+  </data>
+  <data name="Devices" xml:space="preserve">
+    <value>Devices</value>
+  </data>
+  <data name="FactoryResetTimeout" xml:space="preserve">
+    <value>The gateway has failed to come back on-line within the expected timeframe.  The command may be taking longer to process than expected.</value>
+  </data>
+  <data name="France" xml:space="preserve">
+    <value>France</value>
+  </data>
+  <data name="Germany" xml:space="preserve">
+    <value>Germany</value>
+  </data>
+  <data name="Netherlands" xml:space="preserve">
+    <value>Netherlands</value>
+  </data>
+  <data name="LastTest" xml:space="preserve">
+    <value>Last Test</value>
+  </data>
+  <data name="LicenceRegistered" xml:space="preserve">
+    <value>Licence Activation Date</value>
+  </data>
+  <data name="CreatedDate" xml:space="preserve">
+    <value>Created Date</value>
+  </data>
+  <data name="CreatedTime" xml:space="preserve">
+    <value>Created Time</value>
+  </data>
+  <data name="RaiseSupportLogButton" xml:space="preserve">
+    <value>Raise Support Ticket</value>
+  </data>
+  <data name="RaiseSupportLogDescription" xml:space="preserve">
+    <value>Raise a new support ticket.</value>
+  </data>
+  <data name="DEU_CountryCode" xml:space="preserve">
+    <value>0049</value>
+  </data>
+  <data name="DEU_CountryName" xml:space="preserve">
+    <value>Germany</value>
+  </data>
+  <data name="FRA_CountryCode" xml:space="preserve">
+    <value>0033</value>
+  </data>
+  <data name="FRA_CountryName" xml:space="preserve">
+    <value>France</value>
+  </data>
+  <data name="GBR_CountryCode" xml:space="preserve">
+    <value>0044</value>
+  </data>
+  <data name="GBR_CountryName" xml:space="preserve">
+    <value>United Kingdom</value>
+  </data>
+  <data name="NLD_CountryCode" xml:space="preserve">
+    <value>0031</value>
+  </data>
+  <data name="NLD_CountryName" xml:space="preserve">
+    <value>Netherlands</value>
+  </data>
+  <data name="SelectDevice" xml:space="preserve">
+    <value>Select a device</value>
+  </data>
+  <data name="AllowRiskLevelsQ" xml:space="preserve">
+    <value>Enable Manage Risk Level permission</value>
+  </data>
+  <data name="AlertText" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="ContactListsText" xml:space="preserve">
+    <value>Contact List(s)</value>
+  </data>
+  <data name="FaultText" xml:space="preserve">
+    <value>Fault</value>
+  </data>
+  <data name="TimeZoneText" xml:space="preserve">
+    <value>Time Zone</value>
+  </data>
+  <data name="CommunityText" xml:space="preserve">
+    <value>Community</value>
+  </data>
+  <data name="SearchUnsuccessfulText" xml:space="preserve">
+    <value>Details incorrect</value>
+  </data>
+  <data name="SaveUpdatedNotesQuestion" xml:space="preserve">
+    <value>Would you like to save your notes ?</value>
+  </data>
+  <data name="DefaultAccountAddress" xml:space="preserve">
+    <value>Default Account Address</value>
+  </data>
+  <data name="DefaultPropertyAddress" xml:space="preserve">
+    <value>Default Property Address</value>
+  </data>
+  <data name="AccountAddress" xml:space="preserve">
+    <value>Account Address</value>
+  </data>
+  <data name="DistributorID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="InstallingEngineers" xml:space="preserve">
+    <value>Installation Engineers</value>
+  </data>
+  <data name="PropertyAddress" xml:space="preserve">
+    <value>Property Address</value>
+  </data>
+  <data name="Dutch" xml:space="preserve">
+    <value>Dutch</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="French" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="German" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="SelectYourCountry" xml:space="preserve">
+    <value>Select your country</value>
+  </data>
+  <data name="Cultures" xml:space="preserve">
+    <value>en-GB;de-DE;nl-NL;fr-FR</value>
+  </data>
+  <data name="DE" xml:space="preserve">
+    <value>DE</value>
+  </data>
+  <data name="FR" xml:space="preserve">
+    <value>FR</value>
+  </data>
+  <data name="GB" xml:space="preserve">
+    <value>GB</value>
+  </data>
+  <data name="NL" xml:space="preserve">
+    <value>NL</value>
+  </data>
+  <data name="RequiredFieldIndicator" xml:space="preserve">
+    <value>* Indicates a required field</value>
+  </data>
+  <data name="GridSortTooltip" xml:space="preserve">
+    <value>Click here to sort this column</value>
+  </data>
+  <data name="GridFirstPageTooltip" xml:space="preserve">
+    <value>First Page</value>
+  </data>
+  <data name="GridLastPageTooltip" xml:space="preserve">
+    <value>Last Page</value>
+  </data>
+  <data name="GridNextPagesTooltip" xml:space="preserve">
+    <value>Next Pages</value>
+  </data>
+  <data name="GridNextPageTooltip" xml:space="preserve">
+    <value>Next Page</value>
+  </data>
+  <data name="GridPagerTextFormat" xml:space="preserve">
+    <value>{4} {5} items in {1} pages</value>
+  </data>
+  <data name="GridPageSizeText" xml:space="preserve">
+    <value>Page size:</value>
+  </data>
+  <data name="GridPreviousPagesTooltip" xml:space="preserve">
+    <value>Previous Pages</value>
+  </data>
+  <data name="GridPreviousPageTooltip" xml:space="preserve">
+    <value>Previous Page</value>
+  </data>
+  <data name="NoRecords" xml:space="preserve">
+    <value>No records to display</value>
+  </data>
+  <data name="UserStatusActive" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="UserStatusDeleted" xml:space="preserve">
+    <value>Deleted</value>
+  </data>
+  <data name="UserStatusDisabled" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="TestDue" xml:space="preserve">
+    <value>Test Due</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="SelectGateway" xml:space="preserve">
+    <value>Please select gateway</value>
+  </data>
+</root>

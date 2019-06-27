@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&quot;Fault&quot;" xml:space="preserve">
+    <value>Fault</value>
+  </data>
+  <data name="1stAlarmHeader" xml:space="preserve">
+    <value>1st Alarm Condition</value>
+  </data>
+  <data name="AddNewDevice" xml:space="preserve">
+    <value>Add New Device</value>
+  </data>
+  <data name="AllDevices" xml:space="preserve">
+    <value>Show All Devices</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Battery" xml:space="preserve">
+    <value>Battery:</value>
+  </data>
+  <data name="BatteryToolTip" xml:space="preserve">
+    <value>Battery Info to be provided</value>
+  </data>
+  <data name="call" xml:space="preserve">
+    <value>Call</value>
+  </data>
+  <data name="ChamberSensorStatus" xml:space="preserve">
+    <value>Chamber/Sensor Status:</value>
+  </data>
+  <data name="ChamberSensorToolTip" xml:space="preserve">
+    <value>Chamber/Sensor Info to be provided</value>
+  </data>
+  <data name="collapse1stAlarmHeader" xml:space="preserve">
+    <value>First Alarm Condition</value>
+  </data>
+  <data name="Connection" xml:space="preserve">
+    <value>Connection:</value>
+  </data>
+  <data name="ConnectionToolTip" xml:space="preserve">
+    <value>Connection Info to be provided</value>
+  </data>
+  <data name="contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="DeviceLocationMandatory" xml:space="preserve">
+    <value>Device Location is required.</value>
+  </data>
+  <data name="DeviceNameMandatory" xml:space="preserve">
+    <value>Device Name is required.</value>
+  </data>
+  <data name="DeviceTooltip_140" xml:space="preserve">
+    <value>Device Info to be provided</value>
+  </data>
+  <data name="FaultAlertStatus" xml:space="preserve">
+    <value>Fault/Alert Status:</value>
+  </data>
+  <data name="FaultAlertStatusToolTip" xml:space="preserve">
+    <value>Fault Alert Info to be provided</value>
+  </data>
+  <data name="Five" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Four" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="HighRisk" xml:space="preserve">
+    <value>High Risk</value>
+  </data>
+  <data name="IsAccountPage" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Locate" xml:space="preserve">
+    <value>Locate</value>
+  </data>
+  <data name="LowRisk" xml:space="preserve">
+    <value>Low Risk</value>
+  </data>
+  <data name="MediumRisk" xml:space="preserve">
+    <value>Medium Risk</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="One" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>Manage Risk Level</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Three" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Two" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="UnitOnBase" xml:space="preserve">
+    <value>Unit on Base:</value>
+  </data>
+  <data name="UnitOnBaseToolTip" xml:space="preserve">
+    <value>Unit on Base Info to be provided</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="1-99" xml:space="preserve">
+    <value>1-99</value>
+  </data>
+  <data name="1stAlarmMinutesLbl" xml:space="preserve">
+    <value>minute(s) from First Alarm?</value>
+  </data>
+  <data name="2ndAlarmHeader" xml:space="preserve">
+    <value>2nd Alarm Condition</value>
+  </data>
+  <data name="2ndAlarmHighRisk" xml:space="preserve">
+    <value>2nd Alarm Condition&lt;br/&gt; For &lt;b&gt; High Risk &lt;/b&gt; &lt;br/&gt;(The Same or different unit as 1st alarm)</value>
+  </data>
+  <data name="2ndAlarmLowRisk" xml:space="preserve">
+    <value>2nd Alarm Condition&lt;br/&gt; For &lt;b&gt; Low Risk &lt;/b&gt; &lt;br/&gt;(The Same or different unit as 1st alarm)</value>
+  </data>
+  <data name="2ndAlarmMediumRisk" xml:space="preserve">
+    <value>2nd Alarm Condition&lt;br/&gt; For &lt;b&gt; Medium Risk &lt;/b&gt; &lt;br/&gt;(The Same or different unit as 1st alarm)</value>
+  </data>
+  <data name="2ndAlarmOccurredLbl" xml:space="preserve">
+    <value>Has the 2nd Alarm occurred</value>
+  </data>
+  <data name="3" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="30" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="6" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ActivationMinuteLbl" xml:space="preserve">
+    <value>minute(s) of activation</value>
+  </data>
+  <data name="Alarm" xml:space="preserve">
+    <value>Alarm</value>
+  </data>
+  <data name="AlarmConditionLbl" xml:space="preserve">
+    <value>Is Alarm condition silenced within</value>
+  </data>
+  <data name="AlarmEventsWithin" xml:space="preserve">
+    <value>Alarm events within</value>
+  </data>
+  <data name="Community" xml:space="preserve">
+    <value>Community</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="DeteriorationMonitorHeader" xml:space="preserve">
+    <value>Deterioration Monitor</value>
+  </data>
+  <data name="DeteriorationMonitorHighRisk" xml:space="preserve">
+    <value>Deterioration Monitor &lt;br/&gt; &lt;b&gt;High Risk&lt;/b&gt;</value>
+  </data>
+  <data name="DeteriorationMonitorLowRisk" xml:space="preserve">
+    <value>Deterioration Monitor &lt;br/&gt; &lt;b&gt;Low Risk&lt;/b&gt;</value>
+  </data>
+  <data name="DeteriorationMonitorMediumRisk" xml:space="preserve">
+    <value>Deterioration Monitor &lt;br/&gt;&lt;b&gt; Medium Risk&lt;/b&gt;</value>
+  </data>
+  <data name="EscalationNoticeLbl" xml:space="preserve">
+    <value>with escalation notice</value>
+  </data>
+  <data name="Fault" xml:space="preserve">
+    <value>Fault</value>
+  </data>
+  <data name="FaultConditionHeader" xml:space="preserve">
+    <value>Fault Condition</value>
+  </data>
+  <data name="GatewayCommunicationLbl" xml:space="preserve">
+    <value>Loss of gateway communication</value>
+  </data>
+  <data name="LossOfCommsHeader" xml:space="preserve">
+    <value>Loss Of Comms</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="NoFurtherAction" xml:space="preserve">
+    <value>No Further Action</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Alerts" xml:space="preserve">
+    <value>Alerts</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="SettingsUpdated" xml:space="preserve">
+    <value>The changes have been saved successfully</value>
+  </data>
+  <data name="TopMenu" xml:space="preserve">
+    <value>Risks</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="FieldRequired" xml:space="preserve">
+    <value>This field is required.</value>
+  </data>
+  <data name="FirstAlarmAlert" xml:space="preserve">
+    <value>When the 1st alarm is received send an email and push notifcation to contacts allocated to Alert category</value>
+  </data>
+  <data name="FirstAlarmCommunity" xml:space="preserve">
+    <value>When the 1st alarm is received send an email and push notifcation to contacts allocated to Community category</value>
+  </data>
+  <data name="FirstAlarmFault" xml:space="preserve">
+    <value>When the 1st alarm is received send an email and push notifcation to contacts allocated to Fault category</value>
+  </data>
+  <data name="FirstAlarmMessage" xml:space="preserve">
+    <value>Does the Device exit Alarm Or the End User Take Action Within</value>
+  </data>
+  <data name="FirstAlarmNoFurtherAction" xml:space="preserve">
+    <value>Do not message any contacts when the 1st alarm is received.</value>
+  </data>
+  <data name="MessageNoAlert" xml:space="preserve">
+    <value>If 1st alarm has NOT been silenced within the specified timeframe then message contacts allocated to Alert category</value>
+  </data>
+  <data name="MessageNoCommunity" xml:space="preserve">
+    <value>If 1st alarm has NOT been silenced within the specified timeframe then message contacts allocated to Community category</value>
+  </data>
+  <data name="MessageNoFault" xml:space="preserve">
+    <value>If 1st alarm has NOT been silenced within the specified timeframe then message contacts allocated to Fault category</value>
+  </data>
+  <data name="MessageNoNoFurtherAction" xml:space="preserve">
+    <value>If 1st alarm has NOT been silenced then do not message any contacts.</value>
+  </data>
+  <data name="MessageYesAlert" xml:space="preserve">
+    <value>If 1st alarm has been silenced within the specified timeframe then message contacts allocated to Alert category</value>
+  </data>
+  <data name="MessageYesCommunity" xml:space="preserve">
+    <value>If 1st alarm has been silenced within the specified timeframe then message contacts allocated to Community category</value>
+  </data>
+  <data name="MessageYesFault" xml:space="preserve">
+    <value>If 1st alarm has been silenced within the specified timeframe then message contacts allocated to Fault category</value>
+  </data>
+  <data name="MessageYesNoFurtherAction" xml:space="preserve">
+    <value>If 1st alarm has been silenced do not message any contacts.</value>
+  </data>
+  <data name="SecondAlarmYesAlert" xml:space="preserve">
+    <value>If a 2nd alarm is received within the specified timescale then message contacts allocated to Alert category.</value>
+  </data>
+  <data name="SecondAlarmYesCommunity" xml:space="preserve">
+    <value>If a 2nd alarm is received within the specified timescale then message contacts allocated to Community category.</value>
+  </data>
+  <data name="SecondAlarmYesFault" xml:space="preserve">
+    <value>If a 2nd alarm is received within the specified timescale then message contacts allocated to Fault category.</value>
+  </data>
+  <data name="SecondAlarmYesNoFurtherAction" xml:space="preserve">
+    <value>If a 2nd alarm is  received within the specified timescale do not message contacts.</value>
+  </data>
+  <data name="DeteriorationAlert" xml:space="preserve">
+    <value>If x number of alarms are receved within the specified time frame then message contacts allocated to Alert category.</value>
+  </data>
+  <data name="DeteriorationCommunity" xml:space="preserve">
+    <value>If x number of alarms are receved within the specified time frame then message contacts allocated to Community category.</value>
+  </data>
+  <data name="DeteriorationFault" xml:space="preserve">
+    <value>If x number of alarms are receved within the specified time frame then message contacts allocated to Fault category.</value>
+  </data>
+  <data name="DeteriorationNoFurtherAction" xml:space="preserve">
+    <value>Do not message any contacts.</value>
+  </data>
+  <data name="FaultAlert" xml:space="preserve">
+    <value>If a fault is received then message contacts allocated to Alert category.</value>
+  </data>
+  <data name="FaultCommunity" xml:space="preserve">
+    <value>If a fault is received then message contacts allocated to Community category.</value>
+  </data>
+  <data name="FaultFault" xml:space="preserve">
+    <value>If a fault is received then message contacts allocated to Fault category.</value>
+  </data>
+  <data name="FaultNoFurtherAction" xml:space="preserve">
+    <value>If a fault is received do not message any contacts.</value>
+  </data>
+  <data name="LossAlert" xml:space="preserve">
+    <value>If the gateway is offline then message contacts allocated to Alert category.</value>
+  </data>
+  <data name="LossCommunity" xml:space="preserve">
+    <value>If the gateway is offline then message contacts allocated to Community category.</value>
+  </data>
+  <data name="LossFault" xml:space="preserve">
+    <value>If the gateway is offline then message contacts allocated to Fault category.</value>
+  </data>
+  <data name="LossNoFurtherAction" xml:space="preserve">
+    <value>If the gateway is offline then do not send message to contacts.</value>
+  </data>
+  <data name="SecondAlarmNoAlert" xml:space="preserve">
+    <value>If a 2nd alarm is NOT received within the specified timescale then message contacts allocated to Alert category.</value>
+  </data>
+  <data name="SecondAlarmNoCommunity" xml:space="preserve">
+    <value>If a 2nd alarm is NOT received within the specified timescale then message contacts allocated to Community category.</value>
+  </data>
+  <data name="SecondAlarmNoFault" xml:space="preserve">
+    <value>If a 2nd alarm is NOT received within the specified timescale then message contacts allocated to Fault category.</value>
+  </data>
+  <data name="SecondAlarmNoNoFurtherAction" xml:space="preserve">
+    <value>If a 2nd alarm is NOT received within the specified timescale do not message contacts.</value>
+  </data>
+</root>

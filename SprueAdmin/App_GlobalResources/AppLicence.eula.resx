@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AgreementKeys" xml:space="preserve">
+    <value>ChkAdminUser</value>
+  </data>
+  <data name="AgreementsMode" xml:space="preserve">
+    <value>individual</value>
+  </data>
+  <data name="ChkAdminUser" xml:space="preserve">
+    <value>"I agree to be bound by and comply with the Mobile App End User Licence Agreement"</value>
+  </data>
+  <data name="EndUserLicenceAgreement" xml:space="preserve">
+    <value>&lt;body&gt;
+&lt;h1 style="text-align:center; text-decoration:underline;"&gt;&lt;strong&gt;FIRE ANGEL WI-SAFE CONNECT - MOBILE APP LICENCE TERMS&lt;/strong&gt;&lt;/h1&gt;
+&lt;p class="level-1"&gt;&lt;strong&gt;PLEASE READ THIS DOCUMENT CAREFULLY BEFORE USING THE APP. IT CONTAINS LEGAL OBLIGATIONS PLACED ON YOU.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This end-user licence agreement ("&lt;strong&gt;EULA"&lt;/strong&gt;) is a legal agreement between you ("&lt;strong&gt;you&lt;/strong&gt;") and Sprue Safety Products Limited (a private limited company, registered under the laws of England and Wales, with company number 3641019 and whose registered address is Bridge House, 4 Borough Street, London Bridge, London, SE1 9QR) ("&lt;strong&gt;we&lt;/strong&gt;", "&lt;strong&gt;us&lt;/strong&gt;" or "&lt;strong&gt;our&lt;/strong&gt;") in respect of the Fire Angel Wi-Safe Connect mobile application software (version 1.0) and associated services (the "&lt;strong&gt;App&lt;/strong&gt;") and any electronic documents provided by us with or forming part of it ("&lt;strong&gt;Documents&lt;/strong&gt;").&lt;/p&gt;
+&lt;p&gt;We license use of the App and Documents to you on the basis of this EULA and any rules or policies applied by any appstore provider or operator from whose site (for example, the appstore operated by Apple, Inc.) you downloaded the App ("&lt;strong&gt;Appstore&lt;/strong&gt;" and "&lt;strong&gt;Appstore Rules&lt;/strong&gt;" respectively). We do not sell the App or Documents to you. We remain the owners of the App and Documents at all times.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;OPERATING SYSTEM REQUIREMENTS:&lt;/strong&gt; THE APP REQUIRES A SMART PHONE ("&lt;strong&gt;Device&lt;/strong&gt;") WITH A MINIMUM OF [16GB] OF MEMORY, INTERNET ACCESS AND THE IOS or ANDROID OPERATING SYSTEM (IOS version 4.0-10.0 / Android 3.0 &amp;ndash; 5.0) ("&lt;strong&gt;Operating System Requirements&lt;/strong&gt;")&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;IMPORTANT NOTICE:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;BY CLICKING ON THE "ACCEPT" BUTTON WHEN PROMPTED TO DO SO UPON OPENING THE APP, YOU ACCEPT AND AGREE TO THESE TERMS, WHICH WILL BIND YOU.&lt;/li&gt;
+&lt;li&gt;IF YOU DO NOT AGREE TO THESE TERMS, WE WILL NOT LICENCE THE APP AND/OR DOCUMENTS TO YOU AND YOU MUST CEASE AND DESIST FROM USING THE APP AND DELETE THE APP FROM THE DEVICE TO WHICH IT WAS DOWNLOADED. UNLESS YOU AGREE TO THESE TERMS, YOU MAY NOT USE THE APP OR THE DOCUMENTATION.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;AGREED TERMS:-&lt;/strong&gt;&lt;/p&gt;
+&lt;p class="level-1"&gt;&lt;a name="_Toc457916691"&gt;&lt;/a&gt;1. Acknowledgements&lt;/p&gt;
+&lt;p class="level-2"&gt;1.1. The terms of this EULA apply to the App and the services accessible through the App ("&lt;strong&gt;Service&lt;/strong&gt;"), including any updates or supplements to the App.&lt;/p&gt;
+&lt;p class="level-2"&gt;1.2. We may change these terms at any time by notifying you of a change when you next start the App following a change in these terms. The new terms will be displayed on-screen and you will be required to read and accept them in order to continue your use of the App, the Documentation and the Service.&lt;/p&gt;
+&lt;p class="level-2"&gt;1.3. From time to time, updates to the App may be issued by us via an Appstore. Depending on the update, you may not be able to use the Service until you have downloaded or streamed the latest version of the App and accepted any new terms (as described in clause 1.1).&lt;/p&gt;
+&lt;p class="level-2"&gt;1.4. You will be assumed to have obtained permission from the owner of the Device (if you are not the owner of the Device) to download and store the App on the Device. You or they may be charged by your or their service provider for internet access on the Device.&lt;/p&gt;
+&lt;p class="level-2"&gt;1.5. A reference in this EULA to a &lt;strong&gt;person&lt;/strong&gt; includes a natural person, corporate or unincorporated body (whether or not having separate legal personality) and that person's personal representatives, successors and permitted assigns.&lt;/p&gt;
+&lt;p class="level-2"&gt;1.6. References in this EULA to clauses are to the clauses of this EULA. Clause headings shall not affect the interpretation of this EULA&lt;/p&gt;
+&lt;p class="level-2"&gt;1.7. A reference in this EULA to a statute or statutory provision is a reference to it as amended, extended or re-enacted from time to time, provided that, as between the parties, no such amendment, extension or re-enactment shall apply for the purposes of this agreement to the extent that it would impose any new or extended obligation, liability or restriction on, or otherwise adversely affect the rights of, any party. A reference to a statute or statutory provision includes any subordinate legislation made under that statute or statutory provision, as amended or re-enacted.&lt;/p&gt;
+&lt;p class="level-2"&gt;1.8. Any obligation in this EULA on a party not to do something includes an obligation not to allow that thing to be done.&lt;/p&gt;
+&lt;p class="level-2"&gt;1.9. In this EULA:&lt;/p&gt;
+&lt;p class="level-3"&gt;1.9.1. words in the singular shall include the plural and vice versa;&lt;/p&gt;
+&lt;p class="level-3"&gt;1.9.2. a reference to &lt;strong&gt;writing&lt;/strong&gt; or &lt;strong&gt;written&lt;/strong&gt; includes e-mail&lt;a name="_Toc457916692"&gt;&lt;/a&gt;; and&lt;/p&gt;
+&lt;p class="level-3"&gt;1.9.3. any words following the terms &lt;strong&gt;including&lt;/strong&gt;, &lt;strong&gt;include&lt;/strong&gt;, &lt;strong&gt;in particular&lt;/strong&gt;, &lt;strong&gt;for example&lt;/strong&gt; or any similar expression shall be construed as illustrative and shall not limit the sense of the words, description, definition, phrase or term preceding those terms.&lt;/p&gt;
+&lt;p class="level-1"&gt;2. Grant and scope of licence&lt;/p&gt;
+&lt;p class="level-2"&gt;2.1. In consideration of you agreeing to (and on the condition that you do, throughout the term of this EULA) abide by the terms of this EULA, we grant you a non-transferable, non-exclusive licence to use the App on a Device, subject to the terms of this EULA and the Appstore Rules.&lt;/p&gt;
+&lt;p class="level-2"&gt;2.2. You may:&lt;/p&gt;
+&lt;p class="level-3"&gt;2.2.1. download a copy of the App onto one Device in order to view, use and display the App on the Device (and to access the Service made available via the App) for your personal purposes only; and&lt;/p&gt;
+&lt;p class="level-3"&gt;2.2.2. use the Documents for your personal purposes in connection with your use of the App only.&lt;/p&gt;
+&lt;p class="level-1"&gt;&lt;a name="_Toc457916693"&gt;&lt;/a&gt;3. About the Service and use of your data&lt;/p&gt;
+&lt;p class="level-2"&gt;3.1. In order to link the App with your Fire Angel Wi-Safe Connect product ("Product"), you will need to:&lt;/p&gt;
+&lt;p class="level-3"&gt;3.1.1. download the App from the App Store;&lt;/p&gt;
+&lt;p class="level-3"&gt;3.1.2. request, from the service provider who manages your Product account, a specific activation code to be sent to an email account nominated by you; and&lt;/p&gt;
+&lt;p class="level-3"&gt;3.1.3. follow the in-App set-up procedure, which will include entering the activation code you have obtained pursuant to clause 3.1.1.&lt;/p&gt;
+&lt;p class="level-2"&gt;3.2. The Service made available via the App comprises:&lt;/p&gt;
+&lt;p class="level-3"&gt;3.2.1. linking the Product with the App when you have taken the steps described in clause 3.1;&lt;/p&gt;
+&lt;p class="level-3"&gt;3.2.2. notifying you if the Product has lost connection to our network;&lt;/p&gt;
+&lt;p class="level-3"&gt;3.2.3. notifying you if the Product has developed a fault; and&lt;/p&gt;
+&lt;p class="level-3"&gt;3.2.4. notifying you about the dates and times at which the alarm in the Product has been triggered&lt;/p&gt;
+&lt;p class="level-3"&gt;3.2.5. allowing you to view the history of your Product network;&lt;/p&gt;
+&lt;p class="level-3"&gt;3.2.6. allowing you to view the last time alarms connected to the Product were tested;&lt;/p&gt;
+&lt;p class="level-3"&gt;3.2.7. allowing you to view multiple networks and/or gateways (provided that your account preferences have been configured by your account service provider to allow you to do so);&lt;/p&gt;
+&lt;p class="level-3"&gt;3.2.8. turn off Product notifications via your Device;&lt;/p&gt;
+&lt;p class="level-3"&gt;3.2.9. making information available to you (via URLs displayed in the App), comprising Product information, Product datasheets, Product manuals, information on troubleshooting and frequently asked questions.&lt;/p&gt;
+&lt;p class="level-2"&gt;3.3. You acknowledge and accept that:&lt;/p&gt;
+&lt;p class="level-3"&gt;3.3.1. you shall:&lt;/p&gt;
+&lt;p class="level-4"&gt;3.3.1.1. ensure that the Device meets the Operating System Requirements;&lt;/p&gt;
+&lt;p class="level-4"&gt;3.3.1.2. procure and maintain in good order your on network connections and telecommunications links from your Device, Product and System to ours; and&lt;/p&gt;
+&lt;p class="level-3"&gt;3.3.2. neither the App, the Service or we will notify any emergency service in the event the alarm in the Product is triggered. It is your responsibility to take any action you deem necessary upon receipt of any of the notifications described in clauses 3.2.2 to 3.2.4 (inclusive).&lt;/p&gt;
+&lt;p class="level-2"&gt;3.4. You recognise that for as long as you fail to comply with clause 3.3.1 then we have no obligation to (and no liability for failing to) provide the Service. Further, any delay or failure of the App and/or the Service arising from or relating to your network or telecommunications links or caused by the Internet shall not be our responsibility and we shall have no liability for the same.&lt;/p&gt;
+&lt;p class="level-2"&gt;3.5. You acknowledge that, during your use of the App and the Service, we may collect, certain data from you. The data will comprise a unique identification number for your Device, your username and your password for the App. We will use the data we collect so that we can provide the Service to you.&lt;/p&gt;
+&lt;p class="level-1"&gt;4. Licence restrictions&lt;/p&gt;
+&lt;p&gt;Except as expressly set out in this EULA, or as permitted by any local law, you agree:&lt;/p&gt;
+&lt;p class="level-3"&gt;4.1.1. not to copy the App or Documents (in whole or in part), except where such copying is incidental to normal use of the App, or where it is necessary for the purpose of back-up or operational security;&lt;/p&gt;
+&lt;p class="level-3"&gt;4.1.2. not to rent, lease, dispose of, sub-licence or loan the App or Documents (in whole or in part);&lt;/p&gt;
+&lt;p class="level-3"&gt;4.1.3. not to make alterations to, or modifications of, the whole or any part of the App, or permit the App or any part of it to be combined with, or become incorporated in, any other programs;&lt;/p&gt;
+&lt;p class="level-3"&gt;4.1.4. not to adapt, reverse engineer, decompile, disassemble, translate, duplicate, create derivative works from, frame, mirror, republish, transmit, distribute, merge or make error corrections to the whole or any part of the App or attempt to do any such thing except to the extent that (by virtue of section 296A of the Copyright, Designs and Patents Act 1988) such actions cannot be prohibited because they are essential for the purpose of achieving inter-operability of the App with another software program;&lt;/p&gt;
+&lt;p class="level-3"&gt;4.1.5. not to remove, amend or hide any proprietary or other notices that are contained in the App or the Documents; and/or&lt;/p&gt;
+&lt;p class="level-3"&gt;4.1.6. not to provide or otherwise make available the App in whole or in part (including object and source code), in any form to any person,&lt;/p&gt;
+&lt;p&gt;together "&lt;strong&gt;Licence Restrictions&lt;/strong&gt;".&lt;/p&gt;
+&lt;p class="level-1"&gt;&lt;a name="_Toc457916694"&gt;&lt;/a&gt;5. Acceptable use restrictions&lt;/p&gt;
+&lt;p&gt;You must not:&lt;/p&gt;
+&lt;p class="level-3"&gt;5.1.1. use the App or the Service in any unlawful manner, for any unlawful purpose, or in any manner inconsistent with this EULA, or act fraudulently or maliciously, for example, by hacking into or inserting malicious code, including viruses, or harmful data, into the App, the Service or any operating system;&lt;/p&gt;
+&lt;p class="level-3"&gt;5.1.2. infringe our intellectual property rights or those of any third party in relation to your use of the App or the Service (to the extent that such use is not licensed by this EULA);&lt;/p&gt;
+&lt;p class="level-3"&gt;5.1.3. transmit any material that is defamatory, offensive or otherwise objectionable in relation to your use of the App or the Service;&lt;/p&gt;
+&lt;p class="level-3"&gt;5.1.4. use the App or the Service in a way that could damage, disable, overburden, impair or compromise our systems or security or interfere with other users; and&lt;/p&gt;
+&lt;p class="level-3"&gt;5.1.5. collect or harvest any information or data from the Service or our systems or attempt to decipher any transmissions to or from the servers running the Service, save to the extent that the same is required by normal use and function of the App,&lt;/p&gt;
+&lt;p&gt;together "&lt;strong&gt;Acceptable Use Restrictions&lt;/strong&gt;".&lt;/p&gt;
+&lt;p class="level-1"&gt;&lt;a name="_Toc457916695"&gt;&lt;/a&gt;6. Intellectual property rights&lt;/p&gt;
+&lt;p class="level-2"&gt;6.1. You acknowledge that all intellectual property rights in the App, the Documents and the Service belong to us or our licensors, that the App, the Documents and the Service are licensed (not sold) to you, and that you have no rights in, or in respect of, the App, the Documents or the Service other than the right to use each of them in accordance normal use and the terms of this EULA.&lt;/p&gt;
+&lt;p class="level-2"&gt;6.2. You acknowledge that you have no right to have access to the App in source-code form.&lt;/p&gt;
+&lt;p class="level-1"&gt;&lt;a name="_Toc457916697"&gt;&lt;/a&gt;7. Limitation of liability&lt;/p&gt;
+&lt;p class="level-2"&gt;7.1. This clause 7 sets out the entire liability of each party (and that of each party's officers, employees, agents and/or servants) to the other in respect of:&lt;/p&gt;
+&lt;p class="level-3"&gt;7.1.1. any breach of this EULA, howsoever arising;&lt;/p&gt;
+&lt;p class="level-3"&gt;7.1.2. the App, the Documents and the Service (or any use made thereof);&lt;/p&gt;
+&lt;p class="level-3"&gt;7.1.3. any representation, statement or tortious act or omission (including negligence) arising under or in connection with this EULA; and&lt;/p&gt;
+&lt;p class="level-3"&gt;7.1.4. any other liability (including non-contractual) howsoever arising under any legal theory whatsoever, arising under or in connection with this EULA.&lt;/p&gt;
+&lt;p class="level-2"&gt;7.2. You acknowledge that the App has not been developed to meet your individual requirements, and that it is therefore your responsibility to ensure that the facilities and functions of the App (including the Service) meet your requirements.&lt;/p&gt;
+&lt;p class="level-2"&gt;7.3. Nothing in this EULA shall exclude or limit either party's liability for:&lt;/p&gt;
+&lt;p class="level-3"&gt;7.3.1. death or personal injury resulting from negligence; or&lt;/p&gt;
+&lt;p class="level-3"&gt;7.3.2. fraud or fraudulent misrepresentation or willful default; or&lt;/p&gt;
+&lt;p class="level-3"&gt;7.3.3. for any other matter for which it would be unlawful for either party to exclude or limit or attempt to exclude or limit its liability.&lt;/p&gt;
+&lt;p class="level-2"&gt;7.4. Subject to clause 7.3, and save in respect of claims that you have infringed any intellectual property rights in App, the Documents or the Service, neither party shall under any circumstances whatsoever be liable to the other party, whether in contract, tort (including negligence) or restitution, or for breach of statutory duty or misrepresentation, and/or otherwise howsoever arising under any legal theory whatsoever, for any of the following losses (in each case, whether direct or indirect):&lt;/p&gt;
+&lt;p class="level-3"&gt;7.4.1. loss of profit or revenue;&lt;/p&gt;
+&lt;p class="level-3"&gt;7.4.2. loss of reputation or depletion of goodwill;&lt;/p&gt;
+&lt;p class="level-3"&gt;7.4.3. loss of business;&lt;/p&gt;
+&lt;p class="level-3"&gt;7.4.4. loss of contracts or loss of business opportunity;&lt;/p&gt;
+&lt;p class="level-3"&gt;7.4.5. loss of anticipated saving;&lt;/p&gt;
+&lt;p class="level-3"&gt;7.4.6. payments (e.g. penalties) due to be paid/paid to any third party under any contract or arrangement;&lt;/p&gt;
+&lt;p class="level-3"&gt;7.4.7. wasted management and/or staff time and/or office time;&lt;/p&gt;
+&lt;p class="level-3"&gt;7.4.8. loss or corruption of data, information or software;&lt;/p&gt;
+&lt;p class="level-3"&gt;7.4.9. damage to property (e.g. devices, buildings and/or possessions),&lt;/p&gt;
+&lt;p&gt;nor any special, indirect, or consequential loss.&lt;/p&gt;
+&lt;p class="level-2"&gt;7.5. Subject to clause 7.3, and save in respect of claims that you have infringed any intellectual property rights in the App, the Documents and/or the Service, each party's total liability to the other party, whether in contract, tort (including negligence) or restitution, or for breach of statutory duty or for misrepresentation and/or otherwise howsoever arising under any legal theory whatsoever, shall be limited to GBP &amp;pound;50 (fifty pounds sterling).&lt;/p&gt;
+&lt;p class="level-1"&gt;&lt;a name="_Toc457916698"&gt;&lt;/a&gt;8. Termination&lt;/p&gt;
+&lt;p class="level-2"&gt;8.1. You may terminate this EULA at any time and with immediate effect by permanently deleting the App from the Device on which it is installed.&lt;/p&gt;
+&lt;p class="level-2"&gt;8.2. Without affecting any other right or remedy available to us, we may terminate this EULA with immediate effect by giving written notice to you if you breach any of the Licence Restrictions or the Acceptable Use Restrictions.&lt;/p&gt;
+&lt;p class="level-2"&gt;8.3. We may terminate the Service at any time 12 months or more after your Service has been first activated in respect of the Product, by giving you written notice of the same. You recognise and agree that this is reasonable because the price of the Product is calculated on the basis that the Service will only be provided for a limited period of time.&lt;/p&gt;
+&lt;p class="level-2"&gt;8.4. Without affecting any other right or remedy available, either party may terminate this EULA with immediate effect by giving written notice to the other party if:&lt;/p&gt;
+&lt;p class="level-3"&gt;8.4.1. the other party commits a material breach of any term of this EULA which breach is irremediable or (if such breach is remediable) fails to remedy that breach within a period of 14 days after being notified in writing to do so;&lt;/p&gt;
+&lt;p class="level-3"&gt;8.4.2. the other party repeatedly breaches the terms of this EULA in such a manner as to reasonably justify the opinion that its conduct is inconsistent with it having the intention or ability to give effect to the terms of this EULA;&lt;/p&gt;
+&lt;p class="level-3"&gt;8.4.3. the other party suspends or ceases, or threatens to suspend or cease, carrying on all or a substantial part of its business.&lt;/p&gt;
+&lt;p class="level-2"&gt;8.5. On termination for any reason:&lt;/p&gt;
+&lt;p class="level-3"&gt;8.5.1. all rights granted to you under this EULA shall cease;&lt;/p&gt;
+&lt;p class="level-3"&gt;8.5.2. you must immediately cease all activities authorised by this EULA, including your use of the Service;&lt;/p&gt;
+&lt;p class="level-3"&gt;8.5.3. you must immediately delete the App from the Device on which it is installed, and immediately destroy all copies of the App and Documents then in your possession, custody or control and (at our request) certify to us that you have done so;&lt;/p&gt;
+&lt;p class="level-1"&gt;&lt;a name="_Toc457916699"&gt;&lt;/a&gt;9. Communication between us&lt;/p&gt;
+&lt;p class="level-2"&gt;&lt;a name="_Toc457916701"&gt;&lt;/a&gt;&lt;a name="_Toc416352709"&gt;&lt;/a&gt;9.1. Any notice given to a party under or in connection with this EULA shall be in writing and shall be delivered:&lt;/p&gt;
+&lt;p class="level-3"&gt;9.1.1. by email to us at &lt;a href="mailto:support@wi-safeconnect.com"&gt;support@wi-safeconnect.com&lt;/a&gt;;&lt;/p&gt;
+&lt;p class="level-3"&gt;9.1.2. by email to you at the email address you gave to us at the time when the App was linked to the Product.&lt;/p&gt;
+&lt;p class="level-2"&gt;9.2. Any notice shall be deemed to have been received on the date the email is sent, provided that the sending party can produce evidence that the email was correctly addressed and that it left its systems.&lt;/p&gt;
+&lt;p class="level-2"&gt;9.3. This clause does not apply to the service of any proceedings or any other documents in any legal action.&lt;/p&gt;
+&lt;p class="level-1"&gt;10. Force Majeure&lt;/p&gt;
+&lt;p class="level-2"&gt;10.1. A party shall not be in breach of this EULA, nor liable for any failure or delay in performance of any obligations under this EULA (and the time for performance of the obligations shall be extended accordingly) arising from or attributable to acts, events, omissions or accidents beyond its reasonable control ("&lt;strong&gt;Force Majeure Event&lt;/strong&gt;"), including but not limited to any of the following:&lt;/p&gt;
+&lt;p class="level-3"&gt;10.1.1. acts of God, including but not limited to fire, flood, earthquake, windstorm or other natural disaster;&lt;/p&gt;
+&lt;p class="level-3"&gt;10.1.2. war, threat of or preparation for war, armed conflict, imposition of sanctions, embargo, breaking off of diplomatic relations or similar actions;&lt;/p&gt;
+&lt;p class="level-3"&gt;10.1.3. terrorist attack, civil war, civil commotion or riots;&lt;/p&gt;
+&lt;p class="level-3"&gt;10.1.4. nuclear, chemical or biological contamination or sonic boom;&lt;/p&gt;
+&lt;p class="level-3"&gt;10.1.5. fire, explosion or accidental damage;&lt;/p&gt;
+&lt;p class="level-3"&gt;10.1.6. adverse weather conditions;&lt;/p&gt;
+&lt;p class="level-3"&gt;10.1.7. collapse of building structures, failure of computers or vehicles;&lt;/p&gt;
+&lt;p class="level-3"&gt;10.1.8. any labour dispute, including but not limited to strikes, industrial action or lockouts;&lt;/p&gt;
+&lt;p class="level-3"&gt;10.1.9. non-performance by suppliers or subcontractors (other than by companies in the same group as the party seeking to rely on this sub-clause); and&lt;/p&gt;
+&lt;p class="level-3"&gt;10.1.10. interruption or failure of utility service, including but not limited to electric power, telecommunications, gas or water.&lt;/p&gt;
+&lt;p class="level-2"&gt;10.2. If the Force Majeure Event prevails for a continuous period of more than 3 months, either party may terminate the EULA by giving 30 days' written notice to all the other party. On the expiry of this notice period, this EULA will terminate. Such termination shall be without prejudice to the rights of the parties in respect of any breach of this EULA occurring prior to such termination.&lt;/p&gt;
+&lt;p class="level-1"&gt;11. General&lt;/p&gt;
+&lt;p class="level-2"&gt;11.1. &lt;strong&gt;Entire Agreement. &lt;/strong&gt;This EULA constitutes the entire agreement between us relating to its subject matter and supersedes and extinguishes all previous agreements, promises, assurances, warranties, representations and understandings between us, whether written or oral, relating to its subject matter.&lt;/p&gt;
+&lt;p class="level-2"&gt;11.2. &lt;strong&gt;Non-Reliance. &lt;/strong&gt;Each party agrees that it shall have no remedies in respect of any statement, representation, assurance or warranty (whether made innocently or negligently) that is not set out in this EULA. Each party agrees that it shall have no claim for innocent or negligent misrepresentation or negligent misstatement based on any statement in this EULA. Nothing in this document shall exclude or limit any liability for fraud.&lt;/p&gt;
+&lt;p class="level-2"&gt;11.3. &lt;strong&gt;Variation. &lt;/strong&gt;No amendment or variation of this EULA shall be effective unless it is in writing and signed by the parties (or their authorised representatives).&lt;/p&gt;
+&lt;p class="level-2"&gt;11.4. &lt;strong&gt;Assignment and other dealings. &lt;/strong&gt;You may not assign, transfer, mortgage, charge, subcontract, declare a trust over or deal in any other manner with any of your rights and obligations under this EULA without our prior written consent (which we may withhold at our absolute discretion).&lt;/p&gt;
+&lt;p class="level-2"&gt;11.5. &lt;strong&gt;Waiver. &lt;/strong&gt;No failure or delay by a party to exercise any right or remedy provided under this EULA or by law shall constitute a waiver of that or any other right or remedy, nor shall it preclude or restrict the further exercise of that or any other right or remedy. No single or partial exercise of such right or remedy shall preclude or restrict the further exercise of that or any other right or remedy.&lt;/p&gt;
+&lt;p class="level-2"&gt;11.6. &lt;strong&gt;Severance &lt;/strong&gt;If any provision or part-provision of this EULA is or becomes invalid, illegal or unenforceable, it shall be deemed modified to the minimum extent necessary to make it valid, legal and enforceable. If such modification is not possible, the relevant provision or part-provision shall be deemed deleted. Any modification to or deletion of a provision or part-provision under this clause shall not affect the validity and enforceability of the rest of this EULA.&lt;/p&gt;
+&lt;p class="level-2"&gt;11.7. &lt;strong&gt;Third party rights. &lt;/strong&gt;No person, other than a party to this EULA, shall have any rights under or in connection with this EULA.&lt;/p&gt;
+&lt;p class="level-2"&gt;11.8. &lt;strong&gt;Governing law. &lt;/strong&gt;This EULA and any dispute or claim arising out of or in connection with it or its subject matter or formation (including non-contractual disputes or claims) shall be governed by and construed in accordance with the law of England and Wales.&lt;/p&gt;
+&lt;p class="level-2"&gt;11.9. &lt;strong&gt;Jurisdiction. &lt;/strong&gt;Each party irrevocably agrees that the courts of England and Wales shall have jurisdiction to settle any dispute or claim arising out of or in connection with this EULA or its subject matter or formation (including non-contractual disputes or claims).&lt;/p&gt;
+&lt;/body&gt;</value>
+  </data>
+</root>

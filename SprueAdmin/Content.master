@@ -1,0 +1,146 @@
+﻿<%@ Master Language="VB" Inherits="SprueAdmin.Content" MasterPageFile="~/Site.master" CodeBehind="Content.master.vb" %>
+
+<asp:Content ID="ContentHead" ContentPlaceHolderID="siteHeadContent" runat="Server">
+    <asp:ContentPlaceHolder ID="contentHead" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="ContentMenu" ContentPlaceHolderID="siteContentHeader" runat="Server">
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $(".dropdown-menu li a").click(function () {
+                var selText = $(this).text();
+                $(this).parents('.btn-group').find('.dropdown-toggle').html(selText);
+            });
+        });
+
+
+        </script>
+
+    <div class="container-fluid masHeaderbg rwPadLR0" runat="server" id="divSiteHeader">
+        <div class="container rwHeader rwPadLR0">
+            <div class="row">
+                <div class="col-md-8">
+                    <span class="lblHeader">
+                        <asp:Literal ID="Literal1" runat="server" Text="<%$Resources:PageGlobalResources,AdministrationSystemTitle %>" /></span>
+                    <div class="btn-group pull-right">
+                        <button type="button" class="btn btn-default dropdown-toggle loginddl" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <%--<asp:Label ID="lblSelectCountry" runat="server" Text="<%$Resources:PageGlobalResources,SelectCountry %>" />--%>
+                            <img src="/common/img/GB.png" />
+                            <span class="caret"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                   <%--      <ul class="dropdown-menu">
+                            <li role="presentation"><a href="#" role="menuitem">
+                                <img src="/common/img/GB.png" />
+                                <asp:Label ID="lblUK" CssClass="lblUK" runat="server" Text="<%$Resources:PageGlobalResources,UnitedKingdom %>" />
+                            </a></li>
+                                     <li role="presentation"><a href="#" role="menuitem">
+                                <img src="/common/img/AU.png" />
+                                <asp:Label ID="lblAU" runat="server" Text="<%$Resources:PageGlobalResources,Australia %>" />
+                            </a></li>
+                            <li role="presentation"><a href="#" role="menuitem">
+                                <img src="/common/img/IT.png" />
+                                <asp:Label ID="lblIT" runat="server" Text="<%$Resources:PageGlobalResources,Italy %>" />
+                            </a></li>
+                            <li role="presentation"><a href="#" role="menuitem">
+                                <img src="/common/img/US.png" />
+                                <asp:Label ID="lblUS" runat="server" Text="<%$Resources:PageGlobalResources,UnitedStates %>" />
+                            </a></li>
+                        </ul>--%>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="pull-right">
+                        <asp:Image ID="Image1" runat="server" ImageUrl="~/common/img/header-logo.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="row rwPadLR0" style="margin-top: 30px;">
+                <div class="col-md-9">
+                    <asp:Repeater ID="rptMenu" runat="server">
+                        <HeaderTemplate>
+                            <ul class="nav nav-tabs">
+                        </HeaderTemplate>
+                        <ItemTemplate>
+                            <li class='topMenuItem <%# Eval("CssClass")%>' style="font-weight: bold">
+                                <asp:HyperLink ID="lnkItem" runat="server" Target="_top" NavigateUrl='<%#Eval("link")%>' Text='<%#Eval("text")%>' />
+                            </li>
+                        </ItemTemplate>
+                        <FooterTemplate>
+                            </ul>
+                        </FooterTemplate>
+                    </asp:Repeater>
+                </div>
+                <div class="col-md-3 padL0">
+                    <div class="col-md-8 colPadR5 padL0">
+                        <div class="left-inner-addon">
+                            <i class="glyphicon glyphicon-user"></i>
+                            <asp:Label ID="lblUserName" runat="server" CssClass="form-control" />
+                        </div>
+                    </div>
+                    <div class="pull-right">
+                        <asp:LinkButton ID="lnkLogoff" runat="server" Text="<%$Resources:PageGlobalResources,LogoffButton %>" CssClass="btn btn-warning btnLogOff" CausesValidation="false"></asp:LinkButton>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bgorange">
+        </div>
+    </div>
+
+
+</asp:Content>
+<asp:Content ID="ContentBody" ContentPlaceHolderID="siteBodyContent" runat="Server">
+    <script type="text/javascript">
+
+        function setupValidConfirm() {
+            $('.validateAll').click(function (e) {
+                return ValidateAllValidationGroups(true);
+            });
+            $('.validateAllNoMsg').click(function (e) {
+                return ValidateAllValidationGroups(false);
+            });
+
+        }
+
+        $(document).ready(function () {
+            setupValidConfirm();
+        });
+
+        function ValidateAllValidationGroups(showConfirm) {
+            if (Page_ClientValidate()) {
+                if (showConfirm) {
+                    return confirm($("[id$='hdnConfirmPrompt']").val());
+                }
+                else {
+                    return true;
+                }
+            }
+            else {
+                return false;
+            }
+        }
+
+    </script>
+    <div class="container rwPLR45 rwPadLR0">
+        <asp:HiddenField runat="server" ID="hdnConfirmPrompt"></asp:HiddenField>
+        <div id="titleBar" runat="server" class="col-md-12 rwPT10B7 bgTheme">
+            <div class="row rwmargin9">
+                <div class="col-md-6">
+                    <asp:Label ID="lblPageTitle" runat="server" Text="ContentPage" CssClass="lblMgeSensor label" />
+                </div>
+                <div class="col-md-6 text-right">
+                    <asp:Button ID="btnBack" runat="server" CssClass="btn btn-warning btnLogOff" Text="<%$Resources:PageGlobalResources,NavBack %>" CausesValidation="false" />
+                </div>
+            </div>
+        </div>
+
+        <asp:ContentPlaceHolder ID="contentBody" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+</asp:Content>

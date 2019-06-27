@@ -1,0 +1,952 @@
+
+/* Layout */
+body
+{
+background-color: #E4E4E4;
+min-width:1280px;
+}
+.bgAccountSearchTheme {
+     background-color: #333; 
+     height:150px;
+}
+    .bgAccountSearchTheme .control-label {
+        color: white;
+    }
+
+    .control-label label {
+        font-weight: inherit;
+    margin-top: .2em;
+    font-size: small;
+    padding-right: 2em;
+    }
+
+
+.bgTheme
+{
+     background-color: #333 !important; 
+     padding:10px;
+     height:auto;
+}
+
+    .bgTheme .control-label {
+        color: white;
+    }
+.hiddenElement {
+    display:none;
+}
+
+.hideHeaderBar .rgHeader {
+    display:none;
+}
+.rwPT12 {
+    padding-top: 12px;
+}
+.masHeaderbg { 
+    background: url(/common/img/header-bg.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom:20px; 
+}
+.nav 
+{
+    background-color: transparent !important;
+    border-bottom-width: 0px;
+    padding-bottom: 1px;
+}        
+.nav>li>a
+{
+    color: #000;
+   background-color: white;
+   text-decoration: none;
+}
+
+.nav-tabs > .current > a,
+.nav-tabs > .current > a:hover,
+.nav-tabs > .current > a:focus
+{
+    background-color: #E16B05;  
+    color: white;
+} 
+.nav.current
+{
+    background-color: #E16B05 !important;
+}
+.badge-default {
+    background-color: #e6e6e6;
+    color: black;
+}
+.sprBadge {
+    border-radius: 16px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 2;
+    min-width: 32px;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.bgorange
+{
+    background-color: #E16B05;
+    padding-bottom: 15px;
+    margin-top: -20px;
+}
+.tileSelected {
+   border:3px solid #0099CC;
+}
+
+.left-inner-addon 
+{
+    position: relative;
+}
+.left-inner-addon input, .left-inner-addon .form-control 
+{
+    padding-left: 30px;    
+}
+.left-inner-addon i 
+{
+    position: absolute;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+.rwHeader
+{
+    margin-top: 29px; 
+    border-bottom-width: 0px; 
+    margin-bottom: 20px;
+}
+.lblHeader
+{
+    font-size:22px;
+    color: white;            
+    font-weight: bold;          
+}
+.lblsubHeader
+{
+    font-size:20px;
+    color: black;            
+    padding: 18px;          
+}
+.btnGreen
+{
+    color:white;
+    background-color: green;
+    padding-left: 15px;            
+    padding-right: 15px;
+}
+.btnLogOff
+{
+    background-color: #E16B05;
+    padding-left: 15px;            
+    padding-right: 15px;
+}
+.colPadR5{padding-right:5px; }
+.colPadL5{padding-left:5px; }
+.bgwhite{background-color:white;}
+.borderBlack {
+    border:2px solid #333;
+}
+/* end of Layout */
+
+
+/*----------------------------------------Margin Style--------------------------------------- */
+
+.rwMargLR0{margin-left: 0px;margin-right:0px;}
+
+/*-------------------------------------end of Margin Style--------------------------------------- */
+
+
+/* Padding Style */
+
+ .rwPadLR45
+{
+    padding-left: 45px; 
+    padding-right: 45px; 
+}
+.clMgeSensor
+{  
+    padding-top: 10px;
+    padding-bottom: 7px; 
+}
+.pnlPadLR15
+{
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+.datestyle {
+    width: 60%;
+    position: relative;
+    left: 16px;
+}
+.top5 {
+    top:5px;
+}
+.rwPadR7{
+    padding-right: 7px;
+}
+.imgPadR10{
+    padding-right: 10px;
+}
+.imgpadding{
+    padding: 18px;
+}
+.rwPadTB9{
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.rwPadTB15{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.rwMarTB15{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.rwMarTB10{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rwMarTB5{
+    margin-top: 5px;
+}
+.lblPT12{
+    padding-top: 12px;
+}
+.rWPT15 {
+    padding-top: 15px;
+}
+.rwPadL0
+{
+    padding-left: 0px !important;
+}
+.rwPadLR0
+{
+    padding-left: 0px !important; 
+    padding-right: 0px !important; 
+}
+    .rwPadLR0 a {
+        color:white;
+        font-size:14px;
+    }
+.rwPadLR5
+{
+    padding-left: 5px; 
+    padding-right: 5px; 
+}
+    .rwPadLR5 a {
+        color:white;
+        font-size:14px;
+    }
+.rwPadLR10
+{
+    padding-left: 10px; 
+    padding-right: 10px; 
+}
+
+.rwPT45{padding-top: 45px;}
+
+.rwpadT9{
+        padding-top: 9px;
+}
+.rwpadB9{
+        padding-bottom: 9px;
+}
+.lblPT6{
+        padding-top: 6px;
+}
+.rwpadT2{
+     padding-top: 2px;
+}
+.rowpadding {
+}
+    .rowpadding td {
+        text-align:center;
+    }
+    .rowpadding th {
+        text-align:center;
+    }   
+.rwMargT10 {
+    margin-top: 10px;
+}
+ .rwMargT12
+{
+    margin-top: 12px; 
+}
+ .rwMargT55 {
+    margin-top:55px;
+}
+.btnmargin{
+    margin-left: -73px;
+}
+.btnmarginleft{
+        margin-left: -26px;
+}
+.marL5 {
+    margin-left: 5px;
+}
+.marT7 {
+    margin-top: 7px;
+}
+.marR5 {
+    margin-right: 5px;
+}
+.marR15 {
+    margin-right: 15px;
+}
+.marL30 {
+    margin-left: 30px;
+}
+.marL15 {
+    margin-left: 15px;
+}
+.marL25 {
+    margin-left: 25px;
+}
+.marR30 {
+    margin-right: 30px;
+}
+.bdrRad0
+{
+    border-radius: 0px;
+}
+.padR0 {
+    padding-right:0px;
+}
+.padL0 {
+    padding-left:0px;
+}
+.padL10 {
+    padding-left:10px;
+}
+.padR5 {
+    padding-right:5px;
+}
+/*Button Style */
+.btnTB3{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.btnW83
+{
+    min-width: 83px;
+}
+.btnOK
+{
+    background-color: #339000;
+    border-color: #339000;
+}
+.btnFault
+{
+    background-color: #E26B09;
+    border-color: #E26B09;
+}
+.btnAlert
+{
+    background-color: #DB2C17;
+    border-color: #DB2C17;
+}
+.btnEdit
+{
+     background-color: #EEEEEE;
+}
+.btnimgstyle{
+    width: 120px; 
+}
+
+.btnClearImage {
+        background-image: url(/common/img/Accountenquiry/devclear.png);
+        background-repeat: no-repeat;
+        background-position: 20px 10px;
+
+}
+
+.btnSearchImage {
+        background-image: url(/common/img/Accountenquiry/devsearch.png);
+        background-repeat: no-repeat;
+        background-position: 20px 10px;
+
+}
+.btnAccountexport{
+    height: 75px;
+    margin-left: 35px;
+    border-radius: 5px;
+}
+.btnexport{
+    height: 75px;
+    margin-left: 48px;
+    border-radius: 5px;
+}
+.btncollection{
+    min-width: 146px;  
+    border: solid 1px black;
+}
+
+
+/* Label style */
+.itemstyle {
+}
+    .itemstyle tr {
+        font-size:14px;
+    }
+     .itemstyle td {
+        font-size:14px;
+    }
+
+.lblTableHeader
+{
+     font-size:14px;
+     color: white;
+}
+
+    .lblTableHeader a {
+        display:block;
+        text-align:center;
+        width:100%;
+    }
+.lblMgeSensor
+{
+    font-size:18px;
+    color: white;            
+}
+.lbltexts
+{
+    font-size:14px;
+    color: white;            
+}
+.lblinnerlabel{
+    font-size:16px;
+    padding-top: 12px;
+}
+.lblfont{
+    font-size: 13px;
+    font-weight: 100;
+}
+.lblfont12{
+        font-size: 12px;
+}
+.lblfont13
+{
+    font-size: 13px;
+}
+.optionval{font-size: 10px}
+.hr
+{
+    color: black;
+    height: 1px;
+    background-color:black;
+}
+
+
+/* Text style and Div Style */
+.txtinner{
+    font-size: 28px;
+}
+.fontlabel28{
+    font-size:28px;
+}
+
+.labelInner {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.colorwhite {
+    color:white;
+}
+.colorBlue {
+    color:blue;
+}
+.colorGreen {
+    color:green;
+}
+.cursorPointer {
+    cursor:pointer;
+}
+.txtcolor{
+    color:white;
+}
+.txtcolalert{
+    background-color: #339000;
+    height: 170px;
+    border-radius: 9px;
+    padding-left: 25px;
+    padding-right: 25px;
+    /*border-color:#2A7B2B;*/
+    padding-top:16px;
+}
+.txtcolfault{
+    padding-top:16px;
+    background-color:#E46C05;
+    height: 170px;
+    border-radius: 9px;
+    padding-left: 25px;
+    padding-right: 25px;
+    /*border-color:#AD5505;*/
+}
+.txtcolactive{
+    padding-top:16px;
+    background-color:#D71607;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 170px;
+    border-radius: 9px;
+    /*border-color:#A4180A;*/ 
+}
+.txtcolnumber{
+    padding-top: 16px;
+    background-color: whitesmoke;
+    height: 170px;
+    border-radius: 9px;
+    /*border-color: #808080;*/
+    font-size: 16px;
+}
+.height28 {
+    height: 28px;
+}
+
+.rwpadding{
+   padding: 12px 12px 0;
+    background-color: white;
+    margin-top: 12px;
+}
+.colstyle{
+    background-color: #276AFF;
+    height: 83px;
+    border-radius: 7px;
+}
+.inputhgt{
+    height: 28px;
+    padding-top: 3px;
+  }
+.inputddl{
+    height: 28px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+
+
+/* login */
+
+.login-bg {
+background: url(../images/login-bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.admin-bg {
+background: url(/common/img/admin-bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#login-wrapper {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  display: block;
+  margin-top: -295px;
+  margin-left: -235px;
+  padding: 25px;
+  width: 600px;
+  height: 510px;
+  background: black;
+  opacity:0.8;
+  text-align: center;
+}
+
+.login-inner-container {    
+    width: 100%;
+    height: auto;    
+}
+.colorRed {
+    color:red;
+}
+.login-text {
+
+}
+tr td .label {
+    font-size:18px;
+}
+.margin-top15{ margin-top:15px;}
+.margin-top25{ margin-top:25px;}
+.margin-top10{ margin-top:10px;}
+.margin-left-15{ margin-left: 15px; }
+
+.form-control-login {
+    display: block;
+    width: 170%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    margin: 0 auto;
+}
+.btn-warning-login {
+    background-color: #F26A06;    
+    color: #fff;
+}
+.btn-login {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 7px 34px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    border: 2px solid #77380A;
+}
+.loginddl
+{
+    color:#E46C05 !important;
+}
+.rwMargT15 {
+  margin-top:15px;
+}
+.form-control-login {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    margin: 0 auto;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 70%;
+}
+/*END OF LOGIN*/
+
+/*modal dialog centering*/
+
+.vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+    pointer-events:none; /* This makes sure that we can still click outside of the modal to close it */
+}
+
+.rwMargT35 {
+    margin-top:35px;
+}
+/*UserAccountSearch End*/
+
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events:none;
+}
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width:inherit;
+    height:inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+    pointer-events: all;
+}
+
+.modal.modal-wide .modal-dialog {
+  width: 90%;
+}
+.modal-wide .modal-body {
+  overflow-y: auto;
+}
+
+/*END OF modal dialog centering*/
+
+/*checkbox on modal spacing*/
+
+.okcheckbox input[type="checkbox"] 
+{ 
+    margin-right: 5px; 
+}
+.rwpadT35 {
+    padding-top: 35px;
+}
+.btnEdit{background-color: #EEEEEE;}
+.btncollection{
+    min-width: 146px;  
+    border: solid 1px black;
+}
+.mainButton {
+    border: solid 1px black;
+    width:165px;
+}
+.rwMarg {
+    margin: 13px 0px 20px 1px;
+}
+.rwPadT25 {
+    padding-top: 25px;
+}
+.lblcolor {
+    color:black;
+}
+.rwMarg15 {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 9px;
+}
+
+.grdEventAlarm {
+    background-color: red;
+}
+
+.grdEventTest {
+    background-color: green;
+}
+
+.grdEventFault {
+    background-color: orange;
+}
+.register-popup-device-sounder label {
+    font-weight:500;
+}
+.register-popup-device-sounder input {
+    margin-left:5px;
+}
+
+/*Telerik control styles to override*/
+.RadGrid .rgFilterRow span.RadInput input {
+    height:28px;
+    border-radius: 4px;
+    font-family:Arial;
+    font-style:normal;
+    font-size:14px;
+    padding:5px 7px;
+}
+.RadPicker .RadInput input {
+    height:28px;
+    border-radius: 4px;
+    font-family:Arial;
+    font-size:14px;
+    font-style:normal;
+}
+.RadPicker div.RadInput  {
+    width: 265px;
+    font-family:Arial;
+    font-size:14px;
+    font-style:normal;
+}
+.RadGrid .RadPicker div.RadInput  {
+    width: 110px;
+    font-family:Arial;
+    font-size:14px;
+    font-style:normal;
+}
+.RadGrid .LicensedDateWidth div.RadInput  {
+    width: 190px;
+    font-family:Arial;
+    font-size:14px;
+    font-style:normal;
+}
+.txtFromUnitID span.riSingle input.riTextBox {
+    height:28px;
+    border-radius: 4px;
+    width:232px;
+    font-family:Arial;
+    font-size:14px;
+    font-style:normal;
+}
+.txtToUnitID span.riSingle input.riTextBox {
+    height:28px;
+    border-radius: 4px;
+    width:218px;
+    margin-left:9px;
+    font-style:normal;
+    font-size:14px;
+    font-family:Arial;
+}
+.RadAjaxPanel .RadGrid tr.rgRow td {
+    padding-left:12px;
+    font-family:Arial;
+    font-size:14px;
+}
+.RadAjaxPanel .RadGrid tr.rgAltRow td {
+    padding-left:12px;
+    font-family:Arial;
+    font-size:14px;
+    font-style:normal;
+}
+.txtHeight .RadInput_Default .riTextBox {
+    height:28px;
+    padding:3px 12px;
+    font-size:14px;
+    font-style:normal;
+    font-family:Arial;
+}
+
+.RadComboBox_Default .rcbInner {
+    height:28px;
+    font-family:Arial;
+    font-size:14px;
+}
+.RadComboBox_Default span.rcbInner .rcbInput {
+    font-family:Arial;
+    font-size:14px !important;
+    /*color: grey;*/
+}
+.RadAjaxPanel .RadComboBox .rcbEmptyMessage {
+    font-style:normal;
+}
+html body .RadInput input.riEmpty, html body .RadInput textarea.riEmpty, html body input.RadInput_Empty {
+    font-family:Arial;
+    font-style:normal;
+}
+
+html body .RadInput input.riEmpty, html body .RadInput textarea.riEmpty, html body input.RadInput_Empty {
+    font-family:Arial;
+    font-style:normal;
+}
+.RadPicker_Default .RadInput_Default input.riTextBox  {
+    font-family:Arial;
+    font-style:normal;
+    padding:3px 6px;
+    font-size:14px;
+}
+
+.RadPicker_Default div.rcSelect a.rcCalPopup{
+    background-image:url("WebResource.axd?d=wwF2KCEGFEBpnq7GJgFuTFPB7z1H0jE0BIo-GlJtia3-HiNUqjEdCjPa-IS2X8-thfHaj7PAidEE_mR2Lsys6X9ci5nVDartXmSIxNCfr7Q_tBvmszVHq-O-6kTmbE4AYHs4Q2nUQek31kLZPZHqxg0D9Js1&t=635924258477403873")
+}
+.RadPicker_Default div.rcSelect a.rcTimePopup{
+    background-image:url("WebResource.axd?d=wwF2KCEGFEBpnq7GJgFuTFPB7z1H0jE0BIo-GlJtia3-HiNUqjEdCjPa-IS2X8-thfHaj7PAidEE_mR2Lsys6X9ci5nVDartXmSIxNCfr7Q_tBvmszVHq-O-6kTmbE4AYHs4Q2nUQek31kLZPZHqxg0D9Js1&t=635924258477403873")
+}
+/*Manage Risk level starts here*/
+
+.fontstyleTelerik .RadComboBox .rcbInner input.rcbInput {
+    font-family:Arial;
+    font-style:normal;
+    font-size:12px;
+}
+.margin-top85{ margin-top:85px;}
+.margin-top70{ margin-top:70px;}
+.panelStyle {
+    background-color: #333;
+    border:2px solid #333;
+}
+.PanelHeadingStyle {
+    height: 45px; 
+    padding-top: 5px;
+}
+.blackColor {
+    color:black;
+}
+.left25 {
+    left: 25px;
+}
+.padL15 {
+    padding-left:15px;
+}
+.commonStyle {
+    padding: 6px 12px; 
+    text-align: center; 
+    border-color: #eea236; 
+    color: #fff; 
+    border-radius: 10px;
+}
+.commonStyle2 {
+    padding: 26px 12px; 
+    text-align: center; 
+    border-color: #eea236; 
+    color: #fff; 
+    border-radius: 10px;
+}
+.bgYes {
+    background-color: #70AD47;
+}
+.bgNo {
+    background-color: #A5A5A5;
+}
+.bg1stAlarmcolor1 {
+    background-color: #5B9BD5; 
+}
+.bg1stAlarmcolor2 {
+    background-color: #0066CC; 
+}
+.bg2ndAlarmcolor1 {
+    background-color: #4472C4;
+}
+.bgFaultCondColor1 {
+    background-color: #ED7D31;
+}
+.bgFaultCondColor2 {
+    background-color: #e16b05;
+}
+.bgLossColor1 {
+    background-color: #A5A5A5;
+}
+.bgLossColor2 {
+    background-color: #999999;
+}
+.bgMonitorColor1 {
+    background-color: #FFC000;
+}
+.bgMonitorColor2 {
+    background-color: #FFCC00;
+}
+/*Manage Risk level end here*/
+
+/*Swap Panel starts here*/
+.form-control-mac-holder {
+    width: 50px;
+}
+.form-control-mac {
+    width: 42px;
+    padding-left: 15px;
+}
+.form-control-mac-error {
+    width: 42px;
+    padding-left: 15px;
+    color: red;
+}
+.mac-result {
+    width: 500px;
+    display: inline-block;    
+}
+/*Swap Panel ends here*/
+
+.nav-tabs li.topMenuItem a{
+    padding-left:7px;
+    padding-right:7px;
+}

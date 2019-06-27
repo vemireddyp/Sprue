@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Alert" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="AllFaults" xml:space="preserve">
+    <value>All Faults</value>
+  </data>
+  <data name="AllZones" xml:space="preserve">
+    <value>All Zones</value>
+  </data>
+  <data name="BatteryStatusHeader" xml:space="preserve">
+    <value>Battery Status</value>
+  </data>
+  <data name="ChamberSensorStatusHeader" xml:space="preserve">
+    <value>Sensor Status</value>
+  </data>
+  <data name="DeviceID" xml:space="preserve">
+    <value>Device ID:</value>
+  </data>
+  <data name="DeviceInfo" xml:space="preserve">
+    <value>Device Info</value>
+  </data>
+  <data name="DeviceLocation" xml:space="preserve">
+    <value>Device Location:</value>
+  </data>
+  <data name="DeviceLocationMandatory" xml:space="preserve">
+    <value>The Device Location is mandatory</value>
+  </data>
+  <data name="DeviceName" xml:space="preserve">
+    <value>Device Name:</value>
+  </data>
+  <data name="DeviceNameMandatory" xml:space="preserve">
+    <value>The Device Name is mandatory</value>
+  </data>
+  <data name="DeviceType" xml:space="preserve">
+    <value>Device Type:</value>
+  </data>
+  <data name="DeviceZone" xml:space="preserve">
+    <value>Device Zone:</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="EditDevice" xml:space="preserve">
+    <value>Edit Device</value>
+  </data>
+  <data name="EditPropertyAddress" xml:space="preserve">
+    <value>Edit Property Address</value>
+  </data>
+  <data name="Fault" xml:space="preserve">
+    <value>Fault</value>
+  </data>
+  <data name="InstalledOn" xml:space="preserve">
+    <value>Installed On:</value>
+  </data>
+  <data name="IsAccountPage" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="IsTopMenu" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="LocationHeader" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>Manage Devices</value>
+  </data>
+  <data name="RaiseTicketButton" xml:space="preserve">
+    <value>Raise Ticket</value>
+  </data>
+  <data name="RegisteredSensorHeader" xml:space="preserve">
+    <value>Registered Devices</value>
+  </data>
+  <data name="SupportTicketHeader" xml:space="preserve">
+    <value>Support Ticket</value>
+  </data>
+  <data name="TopMenu" xml:space="preserve">
+    <value>Accounts</value>
+  </data>
+  <data name="TypeHeader" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="UnitonBaseHeader" xml:space="preserve">
+    <value>Unit on base</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="UnRegisteredSensorHeader" xml:space="preserve">
+    <value>Unregistered Devices</value>
+  </data>
+  <data name="UseAccountAddress" xml:space="preserve">
+    <value>Use Account Address</value>
+  </data>
+  <data name="Zone" xml:space="preserve">
+    <value>Zone</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="DeviceDetails" xml:space="preserve">
+    <value>Device Details:</value>
+  </data>
+  <data name="ArchivedSensorHeader" xml:space="preserve">
+    <value>Archived Devices</value>
+  </data>
+  <data name="FaultAlertStatus" xml:space="preserve">
+    <value>Fault/Alert Status</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="GatewayHeader" xml:space="preserve">
+    <value>Gateway Device</value>
+  </data>
+  <data name="Offline" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Deleteinfo" xml:space="preserve">
+    <value>Do you want to remove the gateway.</value>
+  </data>
+  <data name="Gateway" xml:space="preserve">
+    <value>Gateway</value>
+  </data>
+  <data name="GatewayStatus" xml:space="preserve">
+    <value>Gateway Status</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="FaultStatus" xml:space="preserve">
+    <value>Fault Status</value>
+  </data>
+  <data name="DeviceTemperatureSelectHeader" xml:space="preserve">
+    <value>Set Device Temperature</value>
+  </data>
+  <data name="SounderLabel" xml:space="preserve">
+    <value>Sounder On</value>
+  </data>
+  <data name="Device" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="DeleteSensorInfo" xml:space="preserve">
+    <value>This action will remove the sensor for the Network. Do you wish to continue ?</value>
+  </data>
+  <data name="Removed" xml:space="preserve">
+    <value>Removed</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Fault Status</value>
+  </data>
+  <data name="GatewayInfo" xml:space="preserve">
+    <value>Gateway Info</value>
+  </data>
+  <data name="FirmwareVersion" xml:space="preserve">
+    <value>Firmware Version:</value>
+  </data>
+  <data name="ACHeatAlarm" xml:space="preserve">
+    <value>230V - Heat Alarm</value>
+  </data>
+  <data name="ACSmokeAlarm" xml:space="preserve">
+    <value>230V - Smoke Alarm</value>
+  </data>
+  <data name="COAlarm" xml:space="preserve">
+    <value>Carbon Monoxide Alarm</value>
+  </data>
+  <data name="ColdAlarm" xml:space="preserve">
+    <value>Extreme Temperature Alarm</value>
+  </data>
+  <data name="HeatAlarm" xml:space="preserve">
+    <value>Heat Alarm</value>
+  </data>
+  <data name="LowFreqSounder" xml:space="preserve">
+    <value>Low Frequency Sounder</value>
+  </data>
+  <data name="PadStrobe" xml:space="preserve">
+    <value>Strobe &amp; Vibrating Pad</value>
+  </data>
+  <data name="SmokeAlarm" xml:space="preserve">
+    <value>Smoke Alarm</value>
+  </data>
+  <data name="InterfaceGateway" xml:space="preserve">
+    <value>Interface Gateway</value>
+  </data>
+  <data name="ACHeatAlarmDetails" xml:space="preserve">
+    <value>230V powered - 10 year battery back-up</value>
+  </data>
+  <data name="ACSmokeAlarmDetails" xml:space="preserve">
+    <value>230V powered - 10 year battery back-up</value>
+  </data>
+  <data name="COAlarmDetails" xml:space="preserve">
+    <value>Battery powered - 10 year</value>
+  </data>
+  <data name="ColdAlarmDetails" xml:space="preserve">
+    <value>Battery powered - 10 year</value>
+  </data>
+  <data name="HeatAlarmDetails" xml:space="preserve">
+    <value>Battery powered - 10 year</value>
+  </data>
+  <data name="LowFreqSounderDetails" xml:space="preserve">
+    <value>230V powered</value>
+  </data>
+  <data name="PadStrobeDetails" xml:space="preserve">
+    <value>230V powered</value>
+  </data>
+  <data name="SmokeAlarmDetails" xml:space="preserve">
+    <value>Battery powered - 10 year</value>
+  </data>
+  <data name="GatewayDetails" xml:space="preserve">
+    <value>230V powered</value>
+  </data>
+  <data name="SelectZone" xml:space="preserve">
+    <value>Select Zone</value>
+  </data>
+  <data name="ACHeatAlarmType" xml:space="preserve">
+    <value>WHM-F-1EU</value>
+  </data>
+  <data name="ACSmokeAlarmType" xml:space="preserve">
+    <value>WSM-F-1EU</value>
+  </data>
+  <data name="COAlarmType" xml:space="preserve">
+    <value>W2-CO-10X</value>
+  </data>
+  <data name="ColdAlarmType" xml:space="preserve">
+    <value>WETA-10X</value>
+  </data>
+  <data name="GatewayDeviceType" xml:space="preserve">
+    <value>WG-1</value>
+  </data>
+  <data name="HeatAlarmType" xml:space="preserve">
+    <value>WHT-630</value>
+  </data>
+  <data name="LowFreqSounderType" xml:space="preserve">
+    <value>W2-LFS-630</value>
+  </data>
+  <data name="PadStrobeType" xml:space="preserve">
+    <value>W2-SVP-630</value>
+  </data>
+  <data name="SmokeAlarmType" xml:space="preserve">
+    <value>WST-630</value>
+  </data>
+  <data name="RiskLevelHigh" xml:space="preserve">
+    <value>High Risk</value>
+  </data>
+  <data name="RiskLevelLabel" xml:space="preserve">
+    <value>Risk Level</value>
+  </data>
+  <data name="RiskLevelLow" xml:space="preserve">
+    <value>Low Risk</value>
+  </data>
+  <data name="RiskLevelMedium" xml:space="preserve">
+    <value>Medium Risk</value>
+  </data>
+  <data name="AlarmControlUnit" xml:space="preserve">
+    <value>Alarm Control Unit</value>
+  </data>
+  <data name="AlarmControlUnitDetails" xml:space="preserve">
+    <value>Battery powered - 10 year</value>
+  </data>
+  <data name="AlarmControlUnitType" xml:space="preserve">
+    <value>WTSL-F-1EU</value>
+  </data>
+  <data name="InterfaceGatewayDetails" xml:space="preserve">
+    <value>Self-contained electronic module</value>
+  </data>
+  <data name="InterfaceGatewayType" xml:space="preserve">
+    <value>IFG100</value>
+  </data>
+  <data name="InterfaceGateway200Type" xml:space="preserve">
+    <value>IFG200</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status&lt;br&gt;</value>
+  </data>
+  <data name="Zones" xml:space="preserve">
+    <value>Zones&lt;br&gt;</value>
+  </data>
+  <data name="UnknownDetails" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="InterfaceGateway200" xml:space="preserve">
+    <value>Interface Gateway 200</value>
+  </data>
+</root>

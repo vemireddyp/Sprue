@@ -1,0 +1,39 @@
+﻿<%@ Master Language="VB" Inherits="SprueAdmin.Site" CodeBehind="Site.master.vb" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <asp:PlaceHolder runat="server">
+        <%: Styles.Render("~/Content/Global") %>
+    </asp:PlaceHolder>
+
+    <asp:ContentPlaceHolder ID="siteHeadContent" runat="server" />
+
+</head>
+<body runat="server" id="bodyElement">
+    <form runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true" EnablePartialRendering="true" EnableCdn="false" EnableCdnFallback="true"  >
+            <Scripts>
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="jqueryui" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" />
+                <asp:ScriptReference Name="postcodeanywhere" />
+            </Scripts>
+        </asp:ScriptManager>
+
+        <div id="siteContent" class="content">
+            <!-- header starts here -->
+                <asp:ContentPlaceHolder ID="siteContentHeader" runat="server"></asp:ContentPlaceHolder>
+            
+        </div>
+        <asp:ContentPlaceHolder ID="siteBodyContent" runat="server"></asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

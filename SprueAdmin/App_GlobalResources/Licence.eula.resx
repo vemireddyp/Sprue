@@ -1,0 +1,1493 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AgreementKeys" xml:space="preserve">
+    <value>ChkAppLicence</value>
+  </data>
+  <data name="AgreementsMode" xml:space="preserve">
+    <value>individual</value>
+  </data>
+  <data name="ChkAppLicence" xml:space="preserve">
+    <value>"I confirm (for and on behalf of myself or the entity I represent, as the case may be) that I have read, understood and agree to be bound by and comply with the terms of End User Licence Agreement."</value>
+  </data>
+  <data name="EndUserLicenceAgreement" xml:space="preserve">
+    <value>&lt;html&gt;
+
+&lt;head&gt;
+&lt;meta http-equiv=Content-Type content="text/html; charset=windows-1252"&gt;
+&lt;style&gt;
+&lt;!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Grotesque MT";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Arial Bold";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+h1
+	{mso-style-name:"Heading 1\,h1\,A MAJOR\/BOLD\,Schedheading\,Heading 1\(Report Only\)\,h1 chapter heading\,Section Heading\,H1\,Attribute Heading 1\,Roman 14 B Heading\,Roman 14 B Heading1\,Roman 14 B Heading2\,Roman 14 B Heading11\,new page\/chapter\,1st level\,\(Alt+1\)\,Part\,Level 1\,1\,o";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.55pt;
+	text-align:justify;
+	text-indent:-42.55pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+h2
+	{mso-style-name:"Heading 2\,PARA2\,H2\,2\,Level 2\,Reset numbering\,Lev 2\,head2nd\,ctf345-2\,H21\,H22\,H23\,H24\,H25\,H26\,H27\,H28\,H29\,Major\,hd2\,PA Major Section\,h2\,l2\,level 2 no toc\,level2\,Titre 2\,ICL\,h 3\,Heading 2subnumbered\,Chapter Title\,Response Code\,Section Title\,Project 2\,m";
+	mso-style-link:"Heading 2 Char\,PARA2 Char\,H2 Char\,2 Char\,Level 2 Char\,Reset numbering Char\,Lev 2 Char\,head2nd Char\,ctf345-2 Char\,H21 Char\,H22 Char\,H23 Char\,H24 Char\,H25 Char\,H26 Char\,H27 Char\,H28 Char\,H29 Char\,Major Char\,hd2 Char\,PA Major Section Char\,h2 Char\,l2 Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.55pt;
+	text-align:justify;
+	text-indent:-42.55pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:normal;}
+h3
+	{mso-style-name:"Heading 3\,Level 1 - 2\,h3\,C Sub-Sub\/Italic\,h3 sub heading\,Head 31\,Head 32\,C Sub-Sub\/Italic1\,h3 sub heading1\,H3\,3m\,Level 1 - 1\,GPH Heading 3\,Sub-section\,H31\,\(Alt+3\)\,3\,Sub2Para\,Numbered - 3\,HeadC\,Minor1\,Para Heading 3\,Para Heading 31\,h31\,Minor\,H32\,H33";
+	mso-style-link:"Heading 3 Char\,Level 1 - 2 Char\,h3 Char\,C Sub-Sub\/Italic Char\,h3 sub heading Char\,Head 31 Char\,Head 32 Char\,C Sub-Sub\/Italic1 Char\,h3 sub heading1 Char\,H3 Char\,3m Char\,Level 1 - 1 Char\,GPH Heading 3 Char\,Sub-section Char\,H31 Char\,\(Alt+3\) Char\,3 Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:92.15pt;
+	text-align:justify;
+	text-indent:-49.6pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:normal;}
+h4
+	{mso-style-name:"Heading 4\,\(Alt+4\)\,H41\,\(Alt+4\)1\,H42\,\(Alt+4\)2\,H43\,\(Alt+4\)3\,H44\,\(Alt+4\)4\,H45\,\(Alt+4\)5\,H411\,\(Alt+4\)11\,H421\,\(Alt+4\)21\,H431\,\(Alt+4\)31";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:155.95pt;
+	text-align:justify;
+	text-indent:-63.8pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:normal;}
+h5
+	{mso-style-name:"Heading 5\,Heading 5*\,Heading\,Heading 5\(unused\)\,Level 3 - \(i\)\,Third Level Heading\,h5\,Response Type\,Response Type1\,Response Type2\,Response Type3\,Response Type4\,Response Type5\,Response Type6\,Response Type7\,Appendix A to X\,Heading 5   Appendix A to X\,H5\,l";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:191.35pt;
+	text-align:justify;
+	text-indent:-35.4pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:normal;}
+h6
+	{mso-style-name:"Heading 6\,Heading 6\(unused\)\,Legal Level 1\.\,L1 PIP\,Heading 6  Appendix Y &amp; Z\,Lev 6\,H6 DO NOT USE\,Bullet list\,PA Appendix\,H6\,H61\,PR14";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:8.0cm;
+	text-align:justify;
+	text-indent:-35.45pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:normal;
+	font-style:italic;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-name:"Heading 7\,Heading 7\(unused\)\,Legal Level 1\.1\.\,L2 PIP\,Lev 7\,H7DO NOT USE\,PA Appendix Major";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:262.25pt;
+	text-align:justify;
+	text-indent:-35.45pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-name:"Heading 8\,Legal Level 1\.1\.1\.\,Lev 8\,h8 DO NOT USE\,PA Appendix Minor";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:297.7pt;
+	text-align:justify;
+	text-indent:-35.45pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-style:italic;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-name:"Heading 9\,Heading 9 \(defunct\)\,Legal Level 1\.1\.1\.1\.\,Lev 9\,h9 DO NOT USE\,App Heading\,Titre 10\,App1";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:333.1pt;
+	text-align:justify;
+	text-indent:-35.4pt;
+	font-size:9.0pt;
+	font-family:"Arial","sans-serif";
+	font-style:italic;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:150%;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:150%;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:27.5pt;
+	margin-bottom:.0001pt;
+	line-height:150%;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	line-height:150%;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-link:"Comment Text Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-name:"Footer\,BAFooter";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:center;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:center;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.MsoSignature, li.MsoSignature, div.MsoSignature
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:212.6pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{mso-style-link:"Body Text Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent
+	{mso-style-link:"Body Text Indent Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:36.0pt;
+	text-align:justify;
+	text-indent:-36.0pt;
+	font-size:10.0pt;
+	font-family:"Grotesque MT","serif";}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoSalutation, li.MsoSalutation, div.MsoSalutation
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.MsoBodyText2, li.MsoBodyText2, div.MsoBodyText2
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:74.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:30.0pt;
+	font-family:"Grotesque MT","serif";
+	color:black;}
+p.MsoBodyText3, li.MsoBodyText3, div.MsoBodyText3
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoBodyTextIndent2, li.MsoBodyTextIndent2, div.MsoBodyTextIndent2
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:18.0pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoBodyTextIndent3, li.MsoBodyTextIndent3, div.MsoBodyTextIndent3
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:36.0pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-link:"Comment Subject Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+p.afterhead1, li.afterhead1, div.afterhead1
+	{mso-style-name:afterhead1;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.55pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.afterhead2, li.afterhead2, div.afterhead2
+	{mso-style-name:afterhead2;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.55pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.afterhead3, li.afterhead3, div.afterhead3
+	{mso-style-name:afterhead3;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:3.0cm;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.afterhead4, li.afterhead4, div.afterhead4
+	{mso-style-name:afterhead4;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:127.6pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.afterhead5, li.afterhead5, div.afterhead5
+	{mso-style-name:afterhead5;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:180.0pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.BaParagraphs, li.BaParagraphs, div.BaParagraphs
+	{mso-style-name:BaParagraphs;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:17.85pt;
+	text-align:justify;
+	text-indent:-17.85pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.CentredHeadingLCBold, li.CentredHeadingLCBold, div.CentredHeadingLCBold
+	{mso-style-name:"Centred Heading L\/C Bold";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:center;
+	line-height:150%;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.General1, li.General1, div.General1
+	{mso-style-name:"General 1";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:36.0pt;
+	text-align:justify;
+	text-indent:-36.0pt;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.Outline1, li.Outline1, div.Outline1
+	{mso-style-name:"Outline 1";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.55pt;
+	text-align:justify;
+	text-indent:-42.55pt;
+	page-break-after:avoid;
+	font-size:11.5pt;
+	font-family:"Times New Roman","serif";
+	text-transform:uppercase;
+	font-weight:bold;}
+p.Outline2, li.Outline2, div.Outline2
+	{mso-style-name:"Outline 2";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.55pt;
+	text-align:justify;
+	text-indent:-42.55pt;
+	font-size:11.5pt;
+	font-family:"Times New Roman","serif";}
+p.Outline3, li.Outline3, div.Outline3
+	{mso-style-name:"Outline 3";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:85.1pt;
+	text-align:justify;
+	text-indent:-42.55pt;
+	font-size:11.5pt;
+	font-family:"Times New Roman","serif";}
+p.CentredHeadingLCText, li.CentredHeadingLCText, div.CentredHeadingLCText
+	{mso-style-name:"Centred Heading L\/C Text";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:18.0pt;
+	text-align:center;
+	text-indent:-18.0pt;
+	font-size:9.0pt;
+	font-family:"Arial","sans-serif";
+	letter-spacing:-.15pt;}
+p.Parties, li.Parties, div.Parties
+	{mso-style-name:Parties;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.55pt;
+	text-align:justify;
+	text-indent:-42.55pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.Recitals, li.Recitals, div.Recitals
+	{mso-style-name:Recitals;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.55pt;
+	text-align:justify;
+	text-indent:-42.55pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.CoverSheetTitle, li.CoverSheetTitle, div.CoverSheetTitle
+	{mso-style-name:CoverSheetTitle;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.CoverSheetParties, li.CoverSheetParties, div.CoverSheetParties
+	{mso-style-name:CoverSheetParties;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Arial Bold","serif";
+	text-transform:uppercase;
+	font-weight:bold;}
+p.CoverSheetMainTitle, li.CoverSheetMainTitle, div.CoverSheetMainTitle
+	{mso-style-name:CoverSheetMainTitle;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:11.0pt;
+	font-family:"Arial Bold","serif";
+	text-transform:uppercase;
+	letter-spacing:-.15pt;
+	font-weight:bold;}
+p.CoverSheetAddress, li.CoverSheetAddress, div.CoverSheetAddress
+	{mso-style-name:CoverSheetAddress;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:9.0pt;
+	font-family:"Arial","sans-serif";
+	color:navy;}
+p.Definition, li.Definition, div.Definition
+	{mso-style-name:Definition;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-indent:0cm;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.DefinitionSublevel1, li.DefinitionSublevel1, div.DefinitionSublevel1
+	{mso-style-name:"Definition Sublevel 1";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.55pt;
+	text-align:justify;
+	text-indent:-42.55pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.DefinitionSublevel2, li.DefinitionSublevel2, div.DefinitionSublevel2
+	{mso-style-name:"Definition Sublevel 2";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:3.0cm;
+	text-align:justify;
+	text-indent:-42.5pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.DefinedTerm, li.DefinedTerm, div.DefinedTerm
+	{mso-style-name:"Defined Term";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:38.55pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.SCHHeading1, li.SCHHeading1, div.SCHHeading1
+	{mso-style-name:"SCH Heading 1";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.55pt;
+	text-align:justify;
+	text-indent:-42.55pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.SCHHeading2, li.SCHHeading2, div.SCHHeading2
+	{mso-style-name:"SCH Heading 2";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.55pt;
+	text-align:justify;
+	text-indent:-42.55pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.SCHHeading3, li.SCHHeading3, div.SCHHeading3
+	{mso-style-name:"SCH Heading 3";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:92.15pt;
+	text-align:justify;
+	text-indent:-49.6pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.SCHHeading4, li.SCHHeading4, div.SCHHeading4
+	{mso-style-name:"SCH Heading 4";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:155.95pt;
+	text-align:justify;
+	text-indent:-63.8pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.SCHHeading1NoHead, li.SCHHeading1NoHead, div.SCHHeading1NoHead
+	{mso-style-name:"SCH Heading 1 NoHead";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.55pt;
+	text-align:justify;
+	text-indent:-42.55pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.SCHHeading2NoHead, li.SCHHeading2NoHead, div.SCHHeading2NoHead
+	{mso-style-name:"SCH Heading 2 NoHead";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.55pt;
+	text-align:justify;
+	text-indent:-42.55pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.SCHHeading3NoHead, li.SCHHeading3NoHead, div.SCHHeading3NoHead
+	{mso-style-name:"SCH Heading 3 NoHead";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:92.15pt;
+	text-align:justify;
+	text-indent:-49.6pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.ScheduleHeading, li.ScheduleHeading, div.ScheduleHeading
+	{mso-style-name:"Schedule Heading";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:center;
+	text-indent:0cm;
+	page-break-before:always;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Arial Bold","serif";
+	text-transform:uppercase;
+	font-weight:bold;}
+p.PartHeading, li.PartHeading, div.PartHeading
+	{mso-style-name:"Part Heading";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:center;
+	text-indent:0cm;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Arial Bold","serif";
+	text-transform:uppercase;
+	font-weight:bold;}
+p.AppendixHeading, li.AppendixHeading, div.AppendixHeading
+	{mso-style-name:"Appendix Heading";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:center;
+	text-indent:0cm;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.Bullet1, li.Bullet1, div.Bullet1
+	{mso-style-name:Bullet1;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:18.0pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	line-height:15.0pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.Bullet1continued, li.Bullet1continued, div.Bullet1continued
+	{mso-style-name:Bullet1continued;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:17.85pt;
+	text-align:justify;
+	line-height:15.0pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.Bullet2, li.Bullet2, div.Bullet2
+	{mso-style-name:Bullet2;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:53.85pt;
+	text-align:justify;
+	text-indent:-17.85pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.Bullet2continued, li.Bullet2continued, div.Bullet2continued
+	{mso-style-name:Bullet2continued;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:53.85pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.Bullet3, li.Bullet3, div.Bullet3
+	{mso-style-name:Bullet3;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:97.25pt;
+	text-align:justify;
+	text-indent:-17.85pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.Bullet3continued, li.Bullet3continued, div.Bullet3continued
+	{mso-style-name:Bullet3continued;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:97.25pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.Bullet4, li.Bullet4, div.Bullet4
+	{mso-style-name:Bullet4;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:133.8pt;
+	text-align:justify;
+	text-indent:-17.85pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.Bullet4continued, li.Bullet4continued, div.Bullet4continued
+	{mso-style-name:Bullet4continued;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:133.8pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.Bullet5, li.Bullet5, div.Bullet5
+	{mso-style-name:Bullet5;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:169.25pt;
+	text-align:justify;
+	text-indent:-17.85pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.Bullet5continued, li.Bullet5continued, div.Bullet5continued
+	{mso-style-name:Bullet5continued;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:169.25pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+span.CommentTextChar
+	{mso-style-name:"Comment Text Char";
+	mso-style-link:"Comment Text";
+	font-family:"Arial","sans-serif";}
+span.CommentSubjectChar
+	{mso-style-name:"Comment Subject Char";
+	mso-style-link:"Comment Subject";
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char\,PARA2 Char\,H2 Char\,2 Char\,Level 2 Char\,Reset numbering Char\,Lev 2 Char\,head2nd Char\,ctf345-2 Char\,H21 Char\,H22 Char\,H23 Char\,H24 Char\,H25 Char\,H26 Char\,H27 Char\,H28 Char\,H29 Char\,Major Char\,hd2 Char\,PA Major Section Char\,h2 Char\,l2 Char";
+	mso-style-link:"Heading 2\,PARA2\,H2\,2\,Level 2\,Reset numbering\,Lev 2\,head2nd\,ctf345-2\,H21\,H22\,H23\,H24\,H25\,H26\,H27\,H28\,H29\,Major\,hd2\,PA Major Section\,h2\,l2\,level 2 no toc\,level2\,Titre 2\,ICL\,h 3\,Heading 2subnumbered\,Chapter Title\,Response Code\,Section Title\,Project 2\,m";
+	font-family:"Arial","sans-serif";}
+span.BodyTextChar
+	{mso-style-name:"Body Text Char";
+	mso-style-link:"Body Text";
+	font-family:"Arial","sans-serif";}
+span.BodyTextIndentChar
+	{mso-style-name:"Body Text Indent Char";
+	mso-style-link:"Body Text Indent";
+	font-family:"Grotesque MT","serif";}
+span.example-meaning
+	{mso-style-name:example-meaning;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char\,Level 1 - 2 Char\,h3 Char\,C Sub-Sub\/Italic Char\,h3 sub heading Char\,Head 31 Char\,Head 32 Char\,C Sub-Sub\/Italic1 Char\,h3 sub heading1 Char\,H3 Char\,3m Char\,Level 1 - 1 Char\,GPH Heading 3 Char\,Sub-section Char\,H31 Char\,\(Alt+3\) Char\,3 Char";
+	mso-style-link:"Heading 3\,Level 1 - 2\,h3\,C Sub-Sub\/Italic\,h3 sub heading\,Head 31\,Head 32\,C Sub-Sub\/Italic1\,h3 sub heading1\,H3\,3m\,Level 1 - 1\,GPH Heading 3\,Sub-section\,H31\,\(Alt+3\)\,3\,Sub2Para\,Numbered - 3\,HeadC\,Minor1\,Para Heading 3\,Para Heading 31\,h31\,Minor\,H32\,H33";
+	font-family:"Arial","sans-serif";}
+span.msoIns
+	{mso-style-name:"";
+	text-decoration:underline;
+	color:teal;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:21.0cm 842.0pt;
+	margin:70.9pt 70.9pt 70.9pt 70.9pt;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:21.0cm 842.0pt;
+	margin:70.9pt 70.9pt 70.9pt 70.9pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:21.0cm 842.0pt;
+	margin:70.9pt 70.9pt 70.9pt 70.9pt;}
+div.WordSection3
+	{page:WordSection3;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--&gt;
+&lt;/style&gt;
+
+&lt;/head&gt;
+
+&lt;body lang=EN-GB link=blue vlink=purple&gt;
+
+&lt;div class=WordSection1&gt;
+
+&lt;div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm'&gt;
+
+&lt;p class=MsoNormal align=center style='text-align:center;border:none;
+padding:0cm'&gt;&lt;b&gt;FIRE ANGEL WI-SAFE GATEWAY - END USER LICENCE AGREEMENT&lt;/b&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p class=MsoNormal&gt;&lt;b&gt;THIS IS A LEGAL AGREEMENT. PLEASE READ THIS END USER
+LICENCE AGREEMENT (&amp;quot;EULA&amp;quot;) CAREFULLY BEFORE TICKING THE RELEVANT BOX
+AND PROCEEDING. &lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal&gt;&lt;b&gt;THIS EULA: &lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='margin-left:21.3pt;text-indent:-21.3pt'&gt;&lt;span
+style='font-family:Symbol'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;b&gt;TELLS YOU INFORMATION ABOUT US;&lt;/b&gt;&lt;/p&gt;
+
+&lt;ul style='margin-top:0cm' type=disc&gt;
+ &lt;li class=MsoNormal&gt;&lt;b&gt;TELLS YOU THE TERMS AND CONDITIONS RELATING TO THE FIRE
+     ANGEL WI-SAFE CONNECT SERVICE (&amp;quot;Service&amp;quot;) AND THE SOFTWARE THAT
+     IS EMBEDDED IN THE FIRE ANGEL WI-SAFE GATEWAY PRODUCT (&amp;quot;Product
+     Software&amp;quot; AND &amp;quot;Product&amp;quot; RESPECTIVELY);&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class=MsoNormal style='margin-left:21.3pt;text-indent:-21.3pt'&gt;&lt;span
+style='font-family:Symbol'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;b&gt;PLACES CERTAIN RESPONSIBILITIES ON YOU RELATING TO THE PRODUCT
+SOFTWARE. YOUR ATTENTION IS DRAWN PARTICULARLY TO CLAUSE 3, WHICH REQUIRES YOU
+TO PROVIDE COPIES OF OUR PRIVACY NOTICE TO PERSONS WHO ARE LIVING AT THE
+PREMISES WHERE THE PRODUCT IS INSTALLED. &lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal&gt;&lt;b&gt;BY USING THE PRODUCT, YOU ARE ACCEPTING AND AGREEING TO
+THE TERMS AND CONDITIONS SET OUT IN THIS EULA ON BEHALF OF YOURSELF OR THE
+ENTITY YOU REPRESENT IN CONNECTION WITH SUCH ACCESS. YOU REPRESENT AND WARRANT
+THAT YOU HAVE THE RIGHT, AUTHORITY AND CAPACITY TO ACCEPT AND AGREE TO THE
+TERMS AND CONDITIONS SET OUT ON THIS EULA ON BEHALF OF YOURSELF OR THE ENTITY
+YOU REPRESENT. &lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal&gt;&lt;b&gt;IF YOU DO NOT AGREE TO THE TERMS OF THIS EULA, YOU MAY
+NOT USE THE PRODUCT AND YOU SHOULD CEASE AND DESIST FROM USING THE PRODUCT AND
+YOU SHOULD UNINSTALL THE PRODUCT FROM YOUR PROPERTY/PREMISES.&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal&gt;In this EULA, &amp;quot;&lt;b&gt;we&lt;/b&gt;&amp;quot;&lt;b&gt; &lt;/b&gt;&amp;quot;&lt;b&gt;us&lt;/b&gt;&amp;quot;&lt;b&gt;
+&lt;/b&gt;and&lt;b&gt; &lt;/b&gt;&amp;quot;&lt;b&gt;our&lt;/b&gt;&amp;quot; means Fireangel Safety Technology Limited.
+We are a private limited company, registered under the laws of England and
+Wales, with company number 3641019 and whose registered address is Bridge
+House, 4 Borough Street, London Bridge, London, SE1 9QR, United Kingdom. &lt;/p&gt;
+
+&lt;p class=MsoNormal&gt;&lt;b&gt;AGREED TERMS:-&lt;/b&gt;&lt;/p&gt;
+
+&lt;h1&gt;1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;The Service and Product Software restrictions&lt;/h1&gt;
+
+&lt;h2&gt;1.1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;From the date of this EULA (i.e. the date on which you tick the relevant
+box, signifying your agreement to this EULA, when prompted to do so) unless and
+until the EULA is terminated by you or us in accordance with clause 5 (&amp;quot;&lt;b&gt;Term&lt;/b&gt;&amp;quot;), we will provide the Service. The Service will comprise:&lt;/h2&gt;
+
+&lt;h3&gt;1.1.1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;permitting the Product to be connected to our network and activating the
+Product and Product Software when that connection has been established;&lt;/h3&gt;
+
+&lt;h3&gt;1.1.2.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;(after the Product has been connected to the network and the Product and
+Product Software have been activated) receiving data from the Product via the
+Product Software and storing and hosting that data on our servers;&lt;/h3&gt;
+
+&lt;h3&gt;1.1.3.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;transferring that data to the entity that installed the Product in your
+premises (&amp;quot;&lt;b&gt;Contract Service Provider&lt;/b&gt;&amp;quot;).  &lt;/h3&gt;
+
+&lt;h2&gt;1.2.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;You may use the Product Software only together with and for the purposes
+of using of the Product. Save as provided in this EULA, or the terms of any
+open source software licence (in respect of any open source software contained
+in the Product Software), you shall not (and you shall not procure, enable,
+instruct, encourage or otherwise allow other persons to):&lt;/h2&gt;
+
+&lt;h3&gt;1.2.1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;use the Product Software (or any part thereof) on any device or computer
+other than the Product that you own or control;&lt;/h3&gt;
+
+&lt;h3&gt;1.2.2.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;copy, adapt, reverse engineer, decompile, disassemble, modify,
+translate, duplicate, create derivative works from, frame, mirror, republish,
+transmit, distribute, merge or make error corrections to the Product Software
+in whole or in part, except as permitted by statute or regulation for the
+purposes of interoperability;&lt;/h3&gt;
+
+&lt;h3&gt;1.2.3.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;remove, amend or hide any proprietary or other notices of Fireangel Safety
+Technology Limited that are contained in the Product Software;&lt;/h3&gt;
+
+&lt;h3&gt;1.2.4.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;rent, lease, dispose of, sub-licence or loan the Product Software (in
+whole or part);&lt;/h3&gt;
+
+&lt;h3&gt;1.2.5.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;provide, or otherwise make available, the Product Software in any form,
+in whole or in part to any person. &lt;/h3&gt;
+
+&lt;h1&gt;2.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;Product Software Updates&lt;/h1&gt;
+
+&lt;h2 style='text-indent:0cm'&gt;From time to time, we may develop patches, bug
+fixes, updates and other modifications to improve the performance of the
+Product Software (&amp;quot;&lt;b&gt;Updates&lt;/b&gt;&amp;quot;). Updates may be remotely and
+automatically downloaded and installed onto the Product without providing any
+notice to you or obtaining any additional consent from you and you hereby
+consent to the automatic download and installation onto the Product of such
+Updates. If you do not consent to such Updates, you should cease and desist from
+using the Product Software (which will prevent you from being able to use the
+Product). &lt;/h2&gt;
+
+&lt;h1&gt;3.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;Data Protection compliance - YOUR ATTENTION IS DRAWN PARTICULARLY TO
+THIS CLAUSE&lt;/h1&gt;
+
+&lt;h2&gt;3.1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;If you are not the person living at the premises at which the Product
+will be installed (for example, if you lease the property in which the Product
+is installed to a third party), you shall:&lt;/h2&gt;
+
+&lt;h3&gt;3.1.1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt; (within one month of their taking up residence at / occupation of the
+premises in question) provide all such persons with a copy of the Privacy Notice
+attached to this EULA, in order that we may lawfully collect, hold, process and
+transfer the personal data of that person (as described in our
+&lt;i&gt;Privacy Notice&lt;/i&gt;
+and within the meaning of article 4 of the General Data Protection Regulation
+(EU 2016/679) (&amp;quot;GDPR&amp;quot;)) in the manner and for the purposes described our
+&lt;i&gt;Privacy Notice&lt;/i&gt;.Upon request, you shall promptly (and in any event
+within 5 working days of our request) provide us with documentary evidence,
+demonstrating your compliance with your obligations under this clause. You
+hereby indemnify us and hold us harmless in respect of all damages, losses,
+penalties, fines, costs and/or expenses incurred by us (in each case, whether
+direct, indirect, consequential or special) as a result of your failure to
+comply with this clause. For the avoidance of doubt, breach of this clause will
+constitute a material breach of this EULA.&lt;/h3&gt;
+
+&lt;h3&gt;3.1.2.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;inform us immediately if any person living at the premises at which the
+Product will be/has been installed objects to the collection and/or use of
+their personal data as described in the said Privacy Notice and you shall
+follow any lawful instructions and/or directions we give to you in addressing
+that objection (including, without limitation, turning the Product off until
+further notice).&lt;/h3&gt;
+
+&lt;h1&gt;4.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;Limitations of the Product, Product Software and the Service&lt;/h1&gt;
+
+&lt;h2&gt;4.1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;You acknowledge and accept that we will not (and we give no warranty,
+representation, undertaking or assurance that we will): &lt;/h2&gt;
+
+&lt;h3&gt;&lt;span lang=EN-US&gt;4.1.1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=EN-US&gt;notify any emergency service in the event that
+the alarm in your Product is triggered;&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;span lang=EN-US&gt;4.1.2.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=EN-US&gt;notify you in the event that we receive data
+from the Product, that does or may indicate that the Product/Product Software
+is faulty or operating outside its normal parameters. &lt;/span&gt;&lt;/h3&gt;
+
+&lt;h2&gt;4.2.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;You shall be solely responsible for procuring and maintaining in good
+order your own network connections and telecommunications links from your
+systems to ours. You recognise that for as long as you fail to comply with the
+requirements of this clause 4.2, then we have no obligation to (and no
+liability for failing to) provide the Service.&lt;/h2&gt;
+
+&lt;h2&gt;4.3.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;Any delay or failure of the Service arising from or relating to your
+network connections or telecommunications links or caused by the Internet shall
+not be our responsibility and we shall have no liability for the same. &lt;/h2&gt;
+
+&lt;h1&gt;5.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;Termination&lt;/h1&gt;
+
+&lt;h2&gt;5.1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;You may terminate this EULA and the Service at any time and with
+immediate effect by permanently disconnecting the Product from the Internet and
+uninstalling the Product.&lt;/h2&gt;
+
+&lt;h2&gt;5.2.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;Without affecting any other right or remedy available, either party may
+terminate this EULA and the Service with immediate effect by giving written
+notice to the other party if:&lt;/h2&gt;
+
+&lt;h3&gt;&lt;span lang=EN-US&gt;5.2.1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=EN-US&gt;the other party commits a material breach of any
+term of this EULA which breach is irremediable or (if such breach is
+remediable) fails to remedy that breach within a period of 14 days after being
+notified in writing to do so;&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;span lang=EN-US&gt;5.2.2.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=EN-US&gt;the other party repeatedly breaches the terms of
+this EULA in such a manner as to reasonably justify the opinion that its
+conduct is inconsistent with it having the intention or ability to give effect
+to the terms of this EULA;&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;span lang=EN-US&gt;5.2.3.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=EN-US&gt;the other party suspends or ceases, or threatens
+to suspend or cease, carrying on all or a substantial part of its business.&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;span lang=EN-US&gt;5.2.4.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=EN-US&gt;the other party applies for, consents to, or
+becomes subject to, the appointment of a receiver, manager or administrative
+receiver over any of its property or assets;&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;span lang=EN-US&gt;5.2.5.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=EN-US&gt;the other party becomes unable, or admits in
+writing its inability, to pay its debts as they fall due;&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;span lang=EN-US&gt;5.2.6.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=EN-US&gt;the other party makes &lt;/span&gt;any voluntary
+arrangement with its creditors or becomes subject to an administration order or
+an administrator is appointed or documents are filed at court for the
+appointment of an administrator of that other party, or notice of intention to
+appoint an administrator is given by that other party; or&lt;/h3&gt;
+
+&lt;h3&gt;&lt;span lang=EN-US&gt;5.2.7.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=EN-US&gt;the other party goes into liquidation or an
+order is made or a resolution is passed for the winding-up of that other party&lt;/span&gt;&lt;span
+lang=EN-US&gt;.&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p class=afterhead3&gt;&lt;span lang=EN-US&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2&gt;5.3.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;We may terminate the EULA and the Service at any time 12 months or more after
+your Service has been first activated in respect of the Product, by giving you written
+notice of the same. You recognise and agree that this is reasonable because the
+price of the Product is calculated on the basis that the Service will only be
+provided for a limited period of time. &lt;/h2&gt;
+
+&lt;h2&gt;5.4.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;Termination or expiry of this EULA and the Service shall not affect any
+rights, remedies, obligations or liabilities of the parties that have accrued
+up to the date of termination or expiry, including the right to claim damages
+in respect of any breach of the EULA which existed at or before the date of
+termination.&lt;/h2&gt;
+
+&lt;h2&gt;5.5.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;On termination of this EULA and the Service for any reason:&lt;/h2&gt;
+
+&lt;h3&gt;&lt;span lang=EN-US&gt;5.5.1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=EN-US&gt;all rights granted to you under this EULA shall
+cease;&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;span lang=EN-US&gt;5.5.2.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=EN-US&gt;you shall cease all activities &lt;/span&gt;authorised&lt;span
+lang=EN-US&gt; by this EULA,&lt;/span&gt;&lt;span lang=EN-US&gt; &lt;/span&gt;&lt;span lang=EN-US&gt;including
+your use of the Service&lt;/span&gt;&lt;span lang=EN-US&gt; ;&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;span lang=EN-US&gt;5.5.3.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=EN-US&gt;you shall immediately and permanently disconnect
+and uninstall the Product and certify to us (at our request) that you have done
+so.&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h1&gt;6.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;Limitation of Liability&lt;/h1&gt;
+
+&lt;h2&gt;6.1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;This paragraph 6 sets out the entire liability of each party (and
+that of each party's officers, employees, agents and/or servants) to the other
+in respect of and/or relating to and/or in connection with:&lt;/h2&gt;
+
+&lt;h2 style='margin-left:0cm;text-indent:0cm'&gt;&amp;nbsp;&lt;/h2&gt;
+
+&lt;h3&gt;&lt;span lang=EN-US&gt;6.1.1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=EN-US&gt;any breach of this EULA, howsoever arising;&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;span lang=EN-US&gt;6.1.2.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=EN-US&gt;the Service, including any use made of it;&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;span lang=EN-US&gt;6.1.3.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=EN-US&gt;any representation, statement or tortious act or
+omission (including negligence) arising under or in connection with this EULA
+and/or the Service; and&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;span lang=EN-US&gt;6.1.4.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=EN-US&gt;any other liability (including non-contractual)
+howsoever arising under any legal theory whatsoever, arising under or in
+connection with this EULA and/or the Service.&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h2&gt;6.2.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;Nothing in this EULA shall exclude or limit either party's liability
+for:&lt;/h2&gt;
+
+&lt;h3&gt;&lt;span lang=EN-US&gt;6.2.1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=EN-US&gt;death or personal injury resulting from
+negligence; or&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;span lang=EN-US&gt;6.2.2.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=EN-US&gt;fraud or fraudulent misrepresentation or willful
+default; or&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;span lang=EN-US&gt;6.2.3.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=EN-US&gt;for any other matter for which it would be
+unlawful for either party to exclude or limit or attempt to exclude or limit
+its liability.&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h2&gt;6.3.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;span lang=EN-US&gt;Subject to clauses &lt;/span&gt;&lt;span
+lang=EN-US&gt;3.1&lt;/span&gt;&lt;span lang=EN-US&gt; and &lt;/span&gt;&lt;span
+lang=EN-US&gt;6.2&lt;/span&gt;&lt;span lang=EN-US&gt;, and save in respect of claims that you
+have infringed any intellectual property rights in the Product and/or the
+Product Software, neither party&lt;/span&gt; shall under any circumstances whatsoever
+be liable to the other party, whether in contract, tort (including negligence)
+or restitution, or for breach of statutory duty or misrepresentation, and/or
+otherwise howsoever arising under any legal theory whatsoever, for any of the
+following losses (in each case, whether direct or indirect):&lt;/h2&gt;
+
+&lt;h3&gt;&lt;span lang=EN-US&gt;6.3.1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=EN-US&gt;loss of profit or revenue;&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;span lang=EN-US&gt;6.3.2.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=EN-US&gt;loss of reputation or depletion of goodwill;&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h3&gt;6.3.3.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;loss of business;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;span lang=EN-US&gt;6.3.4.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=EN-US&gt;loss of contracts or loss of business
+opportunity;&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h3&gt;6.3.5.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;loss of anticipated saving;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;span lang=EN-US&gt;6.3.6.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=EN-US&gt;payments (e.g. penalties) due to be paid/paid to
+any third party under any contract or arrangement;&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;span lang=EN-US&gt;6.3.7.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=EN-US&gt;wasted management and/or staff time and/or
+office time;&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;span lang=EN-US&gt;6.3.8.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=EN-US&gt;loss or corruption of data, information or
+software;&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;span lang=EN-US&gt;6.3.9.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span lang=EN-US&gt;damage to property (e.g. buildings, &lt;/span&gt;&lt;span
+lang=EN-US&gt;IT or telecommunications systems/networks &lt;/span&gt;&lt;span lang=EN-US&gt;and/or
+possessions), &lt;/span&gt;&lt;/h3&gt;
+
+&lt;p class=afterhead3 style='margin-left:42.55pt'&gt;nor any special, indirect, or
+consequential loss. &lt;/p&gt;
+
+&lt;h2&gt;6.4.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;span lang=EN-US&gt;Subject to clauses &lt;/span&gt;&lt;span
+lang=EN-US&gt;3.1&lt;/span&gt;&lt;span lang=EN-US&gt; and &lt;/span&gt;&lt;span
+lang=EN-US&gt;6.2&lt;/span&gt;&lt;span lang=EN-US&gt;, and save in respect of claims that you
+have infringed any intellectual property rights in the Product and/or the
+Product Software,&lt;/span&gt;&lt;span lang=EN-US&gt; &lt;/span&gt;each party's total liability to
+the other party, whether in contract, tort (including negligence) or
+restitution, or for breach of statutory duty or for misrepresentation and/or
+otherwise howsoever arising under any legal theory whatsoever, shall be limited
+to GBP £500 (five hundred pounds sterling).&lt;/h2&gt;
+
+&lt;h1&gt;7.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;Intellectual property rights&lt;/h1&gt;
+
+&lt;h2&gt;7.1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;You acknowledge that all intellectual property rights in the Product and
+the Product Software belong to us or our licensors, and you shall have no
+rights in or in respect of the Product or the Product Software other than the
+right to use them in accordance with their normal use and the terms of this EULA.&lt;/h2&gt;
+
+&lt;h1&gt;8.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;Interpretation of this EULA&lt;/h1&gt;
+
+&lt;h2&gt;8.1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;A reference in this EULA to a &lt;b&gt;person&lt;/b&gt; includes a natural person,
+corporate or unincorporated body (whether or not having separate legal
+personality) and that person's personal representatives, successors and
+permitted assigns.&lt;/h2&gt;
+
+&lt;h2&gt;8.2.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;References in this EULA to clauses are to the clauses of this EULA.
+Clause headings shall not affect the interpretation of this EULA&lt;/h2&gt;
+
+&lt;h2&gt;8.3.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;In this EULA, a reference to a statute or statutory provision is a
+reference to it as amended, extended or re-enacted from time to time, provided
+that, as between the parties, no such amendment, extension or re-enactment
+shall apply for the purposes of this agreement to the extent that it would
+impose any new or extended obligation, liability or restriction on, or
+otherwise adversely affect the rights of, any party. A reference to a statute
+or statutory provision includes any subordinate legislation made under that
+statute or statutory provision, as amended or re-enacted.&lt;/h2&gt;
+
+&lt;h2&gt;8.4.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;Any obligation in this EULA on a party not to do something includes an
+obligation not to allow that thing to be done.&lt;/h2&gt;
+
+&lt;h2&gt;8.5.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;In this EULA: &lt;/h2&gt;
+
+&lt;h3&gt;8.5.1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;words in the singular shall include the plural and vice versa;&lt;/h3&gt;
+
+&lt;h3&gt;8.5.2.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;reference to &lt;b&gt;writing&lt;/b&gt; or &lt;b&gt;written&lt;/b&gt; includes e-mail; and&lt;/h3&gt;
+
+&lt;h3&gt;8.5.3.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;any words following the terms &lt;b&gt;including&lt;/b&gt;, &lt;b&gt;include&lt;/b&gt;, &lt;b&gt;in
+particular&lt;/b&gt;, &lt;b&gt;for example&lt;/b&gt; or any similar expression shall be construed
+as illustrative and shall not limit the sense of the words, description,
+definition, phrase or term preceding those terms.&lt;/h3&gt;
+
+&lt;h1&gt;9.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;Force Majeure&lt;/h1&gt;
+
+&lt;h2&gt;9.1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;A party shall not be in breach of this EULA, nor liable for any failure
+or delay in performance of any obligations under this EULA (and the time for
+performance of the obligations shall be extended accordingly) arising from or
+attributable to acts, events, omissions or accidents beyond its reasonable
+control (&amp;quot;&lt;b&gt;Force Majeure Event&lt;/b&gt;&amp;quot;), including but not limited to
+any of the following:  &lt;/h2&gt;
+
+&lt;h3 style='margin-left:94.6pt'&gt;9.1.1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;acts of God, including but not limited to fire, flood, earthquake,
+windstorm or other natural disaster;&lt;/h3&gt;
+
+&lt;h3 style='margin-left:94.6pt'&gt;9.1.2.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;war, threat of or preparation for war, armed conflict, imposition of
+sanctions, embargo, breaking off of diplomatic relations or similar actions;&lt;/h3&gt;
+
+&lt;h3 style='margin-left:94.6pt'&gt;9.1.3.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;terrorist attack, civil war, civil commotion or riots;&lt;/h3&gt;
+
+&lt;h3 style='margin-left:94.6pt'&gt;9.1.4.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;nuclear, chemical or biological contamination or sonic boom;&lt;/h3&gt;
+
+&lt;h3 style='margin-left:94.6pt'&gt;9.1.5.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;fire, explosion or accidental damage;&lt;/h3&gt;
+
+&lt;h3 style='margin-left:94.6pt'&gt;9.1.6.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;adverse weather conditions; &lt;/h3&gt;
+
+&lt;h3 style='margin-left:94.6pt'&gt;9.1.7.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;collapse of building structures, failure of computers or vehicles;&lt;/h3&gt;
+
+&lt;h3 style='margin-left:94.6pt'&gt;9.1.8.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;any labour dispute, including but not limited to strikes, industrial
+action or lockouts;&lt;/h3&gt;
+
+&lt;h3 style='margin-left:94.6pt'&gt;9.1.9.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;non-performance by suppliers or subcontractors (other than by companies
+in the same group as the party seeking to rely on this sub-clause); and&lt;/h3&gt;
+
+&lt;h3 style='margin-left:94.6pt'&gt;9.1.10.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;interruption or failure of utility service, including but not limited to
+electric power, telecommunications, including the Internet, gas or water.&lt;/h3&gt;
+
+&lt;h2&gt;9.2.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;If the Force Majeure Event prevails for a continuous period of more than
+3 months, either party may terminate the EULA by giving 30 days' written notice
+to the other party. On the expiry of this notice period, this EULA will
+terminate. Such termination shall be without prejudice to the rights of the
+parties in respect of any breach of this EULA occurring prior to such
+termination.&lt;/h2&gt;
+
+&lt;h1&gt;&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;Notices&lt;/h1&gt;
+
+&lt;h2&gt;10.1.&lt;span
+style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;Any notice given to a party under or in connection with this EULA shall
+be in writing and shall be delivered by hand or by pre-paid first class post or
+other next working day delivery service, addressed to its registered office or
+its principal place of business or: &lt;/h2&gt;
+
+&lt;h3&gt;10.1.1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;by email to us at &lt;a href="mailto:support@wi-safeconnect.com"&gt;&lt;span
+style='color:windowtext'&gt;support@wi-safeconnect.com&lt;/span&gt;&lt;/a&gt;;&lt;/h3&gt;
+
+&lt;h3&gt;10.1.2.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;by email to you at the email address to us at the time when the Product
+was connected to our network.&lt;/h3&gt;
+
+&lt;h2&gt;10.2.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;Any notice shall be deemed to have been received:&lt;/h2&gt;
+
+&lt;h3&gt;10.2.1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;if delivered by hand, on signature of a delivery receipt;&lt;/h3&gt;
+
+&lt;h3&gt;10.2.2.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;if sent by email, the date the email is sent, provided that the sending
+party can produce evidence that the email was correctly addressed and that it
+left its systems; or&lt;/h3&gt;
+
+&lt;h3&gt;10.2.3.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;if sent by pre-paid first class post or other next working day delivery
+service at 9.00 am on the second business day after posting or at the time
+recorded by the delivery service.&lt;/h3&gt;
+
+&lt;h2&gt;10.3.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;This clause does not apply to the service of any proceedings or any
+other documents in any legal action.&lt;/h2&gt;
+
+&lt;h1&gt;11.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;General&lt;/h1&gt;
+
+&lt;h2&gt;11.1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;b&gt;Entire Agreement. &lt;/b&gt;This EULA constitutes the entire agreement
+between us relating to its subject matter and supersedes and extinguishes all
+previous agreements, promises, assurances, warranties, representations and
+understandings between us, whether written or oral, relating to its subject
+matter.&lt;/h2&gt;
+
+&lt;h2&gt;11.2.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;b&gt;Non-Reliance. &lt;/b&gt;Each party agrees that it shall have no remedies in
+respect of any statement, representation, assurance or warranty (whether made
+innocently or negligently) that is not set out in this EULA. Each party agrees
+that it shall have no claim for innocent or negligent misrepresentation or
+negligent misstatement based on any statement in this EULA. Nothing in this document
+shall exclude or limit any liability for fraud.&lt;/h2&gt;
+
+&lt;h2&gt;11.3.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;b&gt;Variation. &lt;/b&gt;No amendment or variation of this EULA shall be
+effective unless it is in writing and signed by the parties (or their
+authorised representatives).&lt;/h2&gt;
+
+&lt;h2&gt;11.4.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;b&gt;Assignment and other dealings. &lt;/b&gt;You may not assign, transfer,
+mortgage, charge, subcontract, declare a trust over or deal in any other manner
+with any of your rights and obligations under this EULA without our prior written
+consent (which we may withhold at our absolute discretion).&lt;/h2&gt;
+
+&lt;h2&gt;11.5.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;b&gt;Waiver. &lt;/b&gt;No failure or delay by a party to exercise any right or
+remedy provided under this EULA or by law shall constitute a waiver of that or
+any other right or remedy, nor shall it preclude or restrict the further
+exercise of that or any other right or remedy. No single or partial exercise of
+such right or remedy shall preclude or restrict the further exercise of that or
+any other right or remedy.&lt;/h2&gt;
+
+&lt;h2&gt;11.6.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;b&gt;Severance &lt;/b&gt;If any provision or part-provision of this EULA is or
+becomes invalid, illegal or unenforceable, it shall be deemed modified to the
+minimum extent necessary to make it valid, legal and enforceable. If such
+modification is not possible, the relevant provision or part-provision shall be
+deemed deleted. Any modification to or deletion of a provision or
+part-provision under this clause shall not affect the validity and
+enforceability of the rest of this EULA.&lt;/h2&gt;
+
+&lt;h2&gt;11.7.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;b&gt;Third party rights. &lt;/b&gt;No person, other than a party to this EULA,
+shall have any rights under or in connection with this EULA. &lt;/h2&gt;
+
+&lt;h2&gt;11.8.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;b&gt;Governing law. &lt;/b&gt;This EULA and any dispute or claim arising out of
+or in connection with it or its subject matter or formation (including
+non-contractual disputes or claims) shall be governed by and construed in
+accordance with the law of England and Wales.&lt;/h2&gt;
+
+&lt;h2&gt;11.9.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;b&gt;Jurisdiction. &lt;/b&gt;Each party irrevocably agrees that the courts of
+England and Wales shall have exclusive jurisdiction to settle any dispute or
+claim arising out of or in connection with this EULA or its subject matter or
+formation (including non-contractual disputes or claims).&lt;/h2&gt;
+
+&lt;p class=MsoNormal style='line-height:115%'&gt;&lt;span style='line-height:115%'&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;/body&gt;</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+</root>

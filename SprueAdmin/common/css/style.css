@@ -1,0 +1,408 @@
+﻿html {
+    font-size: 10px;
+    font-family: sans-serif;
+    height: 100%;
+}
+
+#siteContent {
+width:95%;
+margin: 0 auto;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    margin: 0;
+    height: 100%;
+}
+
+form {
+    height: 100%;
+}
+
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, form, fieldset, p {
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+body, img, p, h1, h2, h3, h4, h5, h6, ul, ol {
+    border: medium none;
+    list-style: outside none none;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+    background-color: transparent;
+}
+/*
+    bootstrap overrides
+*/
+
+.btn-primary {
+    background: none repeat scroll 0 0 #5d99a3;
+    min-width: 8em;
+}
+
+.col-md-1, .col-sm-1, .col-md-1, .col-lg-1, .col-md-2, .col-sm-2, .col-md-2, .col-lg-2, .col-md-3, .col-sm-3, .col-md-3, .col-lg-3, .col-md-4, .col-sm-4, .col-md-4, .col-lg-4, .col-md-5, .col-sm-5, .col-md-5, .col-lg-5, .col-md-6, .col-sm-6, .col-md-6, .col-lg-6, .col-md-7, .col-sm-7, .col-md-7, .col-lg-7, .col-md-8, .col-sm-8, .col-md-8, .col-lg-8, .col-md-9, .col-sm-9, .col-md-9, .col-lg-9, .col-md-10, .col-sm-10, .col-md-10, .col-lg-10, .col-md-11, .col-sm-11, .col-md-11, .col-lg-11, .col-md-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    min-height: .1em;
+    padding-left: 0.1em;
+    padding-right: 0.2em;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+input {
+max-width:230px;
+}
+
+.form-control {
+    width: 97%;
+    float: left;
+    padding: 0.1em 0.5em;
+    height: 1.6em;
+    margin-bottom: 0.4em;
+}
+
+    .form-control select {
+        height:1.8em;
+    }
+
+/*
+    Classes
+*/
+
+.AccountDetailMenu {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+    .AccountDetailMenu a {
+        border-color: #5d99a3;
+        border-style: solid;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 15px;
+        border-width: 1px;
+        padding: 0 1em !important;
+    }
+
+    .AccountDetailMenu .selected {
+        background-color: #5d99a3;
+        color: white;
+        font-weight: bolder;
+    }
+
+    .AccountDetailMenu a {
+        color: #5d99a3;
+    }
+
+.accountEdit .form-control {
+    margin-bottom: 0.4em;
+}
+
+.accountEdit .RedNoticeText {
+    float: right;
+}
+
+.errorContent {
+    margin-left: 25%;
+}
+
+.btnStandardh3:hover {
+    background: url("../img/btn_general_hover.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.content {
+    margin: 0 auto;
+    min-width: 980px;
+    height: 100%;
+    width: 100%;
+    background-color:rgb(229, 242, 250)
+}
+
+.control-label {
+    margin-top: .2em;
+    font-size: small;
+}
+
+.pageSizer {
+    padding: 0.1em;
+}
+
+    .pageSizer .form-control {
+        font-size: smaller;
+        padding-top: .1em;
+        padding-left: .2em;
+        margin-top: .2em;
+        height: 1.8em;
+    }
+
+.cameraDiagItem {
+    margin-top:1px;
+    margin-bottom:1px;
+    margin-left: -1px;
+    border: 1px solid #5D99A3;
+}
+
+    /*.cameraDiagItem > div {
+        margin-bottom:.1em;
+    }*/
+
+.dataPager span {
+    background-color: #d9eaed;
+}
+
+.dataPager table {
+    width: auto;
+}
+
+.dataPager td {
+    padding-left: 2em;
+    padding-top:3px;
+}
+
+.detailButtons {
+    margin-top: 2em;
+}
+
+    .detailButtons .btn-sm {
+        line-height: 1;
+    }
+
+    .detailButtons div {
+        margin-bottom: .2em;
+    }
+
+    .detailButtons span {
+        padding-left: 3em;
+    }
+
+.grid-20 {
+    width: 20%;
+}
+
+.gridHeader {
+    font-size:small;
+
+}
+    .gridHeader .form-control {
+        line-height:1;
+        font-size:smaller;
+        margin:0;
+    }
+
+.header {
+    background-color: rgb(229, 242, 250);
+}
+
+.mainContent {
+    padding: 15px;
+    padding-left:0px;
+    padding-right:0px;
+}
+
+    .mainContent h3 {
+        font-size: large;
+        height: 2em;
+        padding-top:10px;
+        padding-left:13px;
+    }
+
+h3 .btn {
+    float: right;
+    width: 8em;
+    line-height: 0.9;
+}
+
+.status {
+    color: #FF0000;
+}
+
+.supportDetail textarea {
+    height:6em;
+}
+
+.RedNoticeText {
+    color: red;
+}
+.SubTitle {
+    font-size:smaller;
+    font-weight:bold;
+}
+
+.text-label {
+    font-size: small;
+}
+
+.topMenuItem {
+}
+
+    .topMenuItem a {
+        display: block;
+        height: 100%;
+        text-decoration: none;
+        display: block;
+    }
+
+.validators span {
+    margin-top: .5em;
+    color: #d9534f;
+    float: left;
+}
+
+.wrapper {
+    /*margin: 0 -.8em 0 1.3em;*/
+    padding:15px;
+}
+
+/*
+    Password strngth classes
+ */
+.cssPwdRed{color:#FA0617;}
+.cssPwdOrange{color:#FA3F06;}
+.cssPwdBlack{color: #CF8209;}
+.cssPwdLime{color:#A0DD3F;}
+.cssPwdGreen{color:#0FE71E;}
+
+.divUsername div, .divUsername span, .divUsername h3 {
+    margin-top:1em;
+}
+
+.loginPanel {
+    margin-top: 2em;
+}
+
+    .loginPanel .control-label {
+        padding-right: .5em;
+    }
+
+.searchPanel > div {
+    margin-bottom: 0.2em;
+}
+
+.searchPanel .form-control {
+    margin-bottom: 0.1em;
+}
+
+.sidebar {
+}
+
+    .sidebar img {
+        z-index: 1000;
+        top: -0.8em;
+        left: -1em;
+    }
+/*
+    Elements by ID
+*/
+
+#main-body {
+    /*position: absolute;*/
+    /*top: 4.5em;*/
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 980px;
+    background-color: rgb(229,242,250);
+
+}
+
+#siteContent .header {
+    /*padding: 1em 2em 0 2em;*/
+    /*min-height: 4.5em;*/
+    margin-left: 0;
+    padding-left:15px;
+    padding-top:15px;
+    padding-right:15px;
+    /*padding-bottom:10px;*/
+}
+
+    /*#siteContent .header h2 {
+        float: left;
+    }*/
+
+#topMenu {
+    /*height: 100%;*/
+    background-color: rgb(229,242,250);
+    /*padding: 3em 3em 0.7em 0;*/
+    padding-top:20px;
+    padding-bottom:10px;
+    text-align:center;
+}
+
+    #topMenu a, #topMenu a:visited {
+        background: none repeat scroll 0 0 #5d99a3;
+        color: #fff;
+        padding:10px;
+
+    }
+
+    #topMenu .current a, #topMenu .current a:hover, #topMenu .current a:visited {
+        background: url("../img/bg_menu_mix.jpg") repeat-x scroll center top #fff;
+        border-left: 1px solid #fff;
+        border-right: 1px solid #fff;
+        color: #294145;
+        padding:10px;
+    }
+
+/*
+    Popup classes
+*/
+.ModalPopupBG {
+    background-color: #666699;
+    opacity: 0.7;
+}
+
+.divPopupStatus {
+    position: relative;
+    background: none repeat scroll 0 0 white;
+    border-radius:10px;
+    height: 100%;
+}
+
+.popup_Titlebar {
+    height: 2em;
+    background-color: rgb(229,242,250);
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    padding-top: .2em;
+    padding-left:.7em;
+    margin-bottom: .4em;
+}
+
+.popup_Buttons {
+    /*position:absolute;*/
+    bottom:0;
+    margin-bottom:.3em;
+}
+
+
+/*.row {
+margin:0px!important;
+}*/
+
+#grdAccount td, #grdAccount th, #grdNotes td, #grdNotes th, #grdFirmwares td, #grdFirmwares th, #grdCameras td, #grdCameras th, #grdPanels td, #grdPanels th,#grdAudit td, #grdAudit th, #grdLogins td, #grdLogins th, #grdUsersAccount td, #grdUsersAccount th {
+padding-left:10px;
+border-left:1px solid #148F9F;
+border-right:1px solid #148F9F;
+
+padding-right:10px;
+}
+
+#grdSensors td, #grdSensors th, #grdRecentInfo td, #grdRecentInfo th {
+    padding-left:10px;
+border-left:1px solid #148F9F;
+padding-right:10px;
+border:1px solid #148F9F;
+
+}
+
+.margin-left-125 {
+    margin-left:12.5%;
+}

@@ -1,0 +1,1452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{434A366C-4CA9-420C-BBB0-C6FB60CD107F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SprueAdmin</RootNamespace>
+    <AssemblyName>SprueAdmin</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+    <TargetFrameworkProfile />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>SprueAdmin.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>SprueAdmin.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Staging|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>SprueAdmin.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'LocalRelease|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>SprueAdmin.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'LocalStaging|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>SprueAdmin.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'LocalSprueStaging|AnyCPU'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>SprueAdmin.xml</DocumentationFile>
+    <Optimize>false</Optimize>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'SprueStaging|AnyCPU'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>SprueAdmin.xml</DocumentationFile>
+    <Optimize>false</Optimize>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdminLogin.aspx" />
+    <Content Include="Admin\AccountDetail.aspx" />
+    <Content Include="Admin\AccountEdit.aspx" />
+    <Content Include="Admin\AccountSearch.aspx" />
+    <Content Include="Admin\AuditLogs.aspx" />
+    <Content Include="Admin\Contacts.aspx" />
+    <Content Include="Admin\AdminAccountEdit.aspx" />
+    <Content Include="Admin\EventLog.aspx" />
+    <Content Include="Admin\HubReset.aspx" />
+    <Content Include="Admin\ManageRiskLevel.aspx" />
+    <Content Include="Admin\ManageSensors.aspx" />
+    <Content Include="Admin\UserAccountSearch.aspx" />
+    <Content Include="Admin\DeviceStatus.aspx" />
+    <Content Include="Admin\GatewaySearch.aspx" />
+    <Content Include="Admin\HubFirmware.aspx" />
+    <Content Include="Admin\LoginAdd.aspx" />
+    <Content Include="Admin\LoginDetail.aspx" />
+    <Content Include="Admin\LoginSearch.aspx" />
+    <Content Include="Admin\NoteDetail.aspx" />
+    <Content Include="Admin\Notes.aspx" />
+    <Content Include="Admin\PasswordReset.aspx" />
+    <Content Include="Admin\Passwords.ascx" />
+    <Content Include="Admin\SupportDetail.aspx" />
+    <Content Include="Admin\SupportSearch.aspx" />
+    <Content Include="Admin\SwapPanel.aspx" />
+    <Content Include="common\css\Global\address-3.40.css" />
+    <Content Include="common\css\Global\bootstrap.css" />
+    <Content Include="common\css\Global\jquery-ui.smoothness.css" />
+    <Content Include="common\css\Global\jquery.ui.datepicker.css" />
+    <Content Include="common\css\Global\site.css" />
+    <Content Include="common\css\style.css" />
+    <Content Include="common\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="common\img\2.png" />
+    <Content Include="common\img\AccountEnquiry\devactivealert.png" />
+    <Content Include="common\img\AccountEnquiry\devalert.png" />
+    <Content Include="common\img\AccountEnquiry\devclear.png" />
+    <Content Include="common\img\AccountEnquiry\devfault.png" />
+    <Content Include="common\img\AccountEnquiry\devnumber.png" />
+    <Content Include="common\img\AccountEnquiry\devsearch.png" />
+    <Content Include="common\img\AccountEnquiry\devsupport.png" />
+    <Content Include="common\img\AccountEnquiry\devtest.png" />
+    <Content Include="common\img\admin-bg.png" />
+    <Content Include="common\img\alarm.png" />
+    <Content Include="common\img\aleart.png" />
+    <Content Include="common\img\AU.png" />
+    <Content Include="common\img\bg_menu_mix.jpg" />
+    <Content Include="common\img\btn_general.gif" />
+    <Content Include="common\img\btn_general_hover.gif" />
+    <Content Include="common\img\CA.png" />
+    <Content Include="common\img\DE.png" />
+    <Content Include="common\img\device1.png" />
+    <Content Include="common\img\device2.png" />
+    <Content Include="common\img\device3.png" />
+    <Content Include="common\img\device4.png" />
+    <Content Include="common\img\EmailTemplates\AccountID-RiskLevel.png" />
+    <Content Include="common\img\EmailTemplates\AccountID.png" />
+    <Content Include="common\img\EmailTemplates\AccountID_69x44.png" />
+    <Content Include="common\img\EmailTemplates\Device-RiskLevel.png" />
+    <Content Include="common\img\EmailTemplates\Device.png" />
+    <Content Include="common\img\EmailTemplates\Device_53x53.png" />
+    <Content Include="common\img\EmailTemplates\Footer - Copy.png" />
+    <Content Include="common\img\EmailTemplates\Footer.png" />
+    <Content Include="common\img\EmailTemplates\FooterTransparent.gif" />
+    <Content Include="common\img\EmailTemplates\Footer_1057x274.png" />
+    <Content Include="common\img\EmailTemplates\Header-Alert.png" />
+    <Content Include="common\img\EmailTemplates\Header.png" />
+    <Content Include="common\img\EmailTemplates\HeaderActiveNonRiskLevel.png" />
+    <Content Include="common\img\EmailTemplates\HeaderActiveRiskLevel.png" />
+    <Content Include="common\img\EmailTemplates\HeaderActiveRiskLevelMedium.png" />
+    <Content Include="common\img\EmailTemplates\Location-RiskLevel.png" />
+    <Content Include="common\img\EmailTemplates\Location.png" />
+    <Content Include="common\img\EmailTemplates\Location_32x52.png" />
+    <Content Include="common\img\EmailTemplates\Occurance_53x53.png" />
+    <Content Include="common\img\EmailTemplates\RiskLevel.png" />
+    <Content Include="common\img\EmailTemplates\RiskLevelHigh_53x53.png" />
+    <Content Include="common\img\EmailTemplates\RiskLevelMedium_53x53.png" />
+    <Content Include="common\img\excl.png" />
+    <Content Include="common\img\FireAngelWG1Image.jpg" />
+    <Content Include="common\img\FR.png" />
+    <Content Include="common\img\gateway.png" />
+    <Content Include="common\img\GB.png" />
+    <Content Include="common\img\header-bg.png" />
+    <Content Include="common\img\header-logo.png" />
+    <Content Include="common\img\installation_page.png" />
+    <Content Include="common\img\IT.png" />
+    <Content Include="common\img\login-bg.png" />
+    <Content Include="common\img\login-logo.png" />
+    <Content Include="common\img\login-wifi.png" />
+    <Content Include="common\img\NL.png" />
+    <Content Include="common\img\notes.png" />
+    <Content Include="common\img\sm-icon.png" />
+    <Content Include="common\img\tick.png" />
+    <Content Include="common\img\ticket.png" />
+    <Content Include="common\img\US.png" />
+    <Content Include="common\img\view.png" />
+    <Content Include="common\img\ZoneDevices\alarm-control-unit.png" />
+    <Content Include="common\img\ZoneDevices\co-sensor-dc.png" />
+    <Content Include="common\img\ZoneDevices\cold-sensor-dc.png" />
+    <Content Include="common\img\ZoneDevices\heat-sensor-ac.png" />
+    <Content Include="common\img\ZoneDevices\heat-sensor-dc.png" />
+    <Content Include="common\img\ZoneDevices\interface-gateway.png" />
+    <Content Include="common\img\ZoneDevices\low-frequency.png" />
+    <Content Include="common\img\ZoneDevices\nothing.gif" />
+    <Content Include="common\img\ZoneDevices\smoke-sensor-ac.png" />
+    <Content Include="common\img\ZoneDevices\smoke-sensor-dc.png" />
+    <Content Include="common\img\ZoneDevices\strobe-pad.png" />
+    <Content Include="common\img\ZoneDevices\subLine.gif" />
+    <Content Include="common\img\ZoneDevices\Unknown.png" />
+    <Content Include="common\js\address-3.40.js" />
+    <Content Include="common\js\address-3.40.min.js" />
+    <Content Include="common\js\bootstrap-3.3.6.js" />
+    <Content Include="common\js\bootstrap-3.3.6.min.js" />
+    <Content Include="common\js\jquery-1.11.3.js" />
+    <Content Include="common\js\jquery-1.11.3.min.js" />
+    <Content Include="common\js\jquery-ui-1.11.3.js" />
+    <Content Include="common\js\jquery-ui-1.11.3.min.js" />
+    <Content Include="Content\themes\base\accordion.css" />
+    <Content Include="Content\themes\base\all.css" />
+    <Content Include="Content\themes\base\autocomplete.css" />
+    <Content Include="Content\themes\base\base.css" />
+    <Content Include="Content\themes\base\button.css" />
+    <Content Include="Content\themes\base\core.css" />
+    <Content Include="Content\themes\base\datepicker.css" />
+    <Content Include="Content\themes\base\dialog.css" />
+    <Content Include="Content\themes\base\draggable.css" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\menu.css" />
+    <Content Include="Content\themes\base\progressbar.css" />
+    <Content Include="Content\themes\base\resizable.css" />
+    <Content Include="Content\themes\base\selectable.css" />
+    <Content Include="Content\themes\base\selectmenu.css" />
+    <Content Include="Content\themes\base\slider.css" />
+    <Content Include="Content\themes\base\sortable.css" />
+    <Content Include="Content\themes\base\spinner.css" />
+    <Content Include="Content\themes\base\tabs.css" />
+    <Content Include="Content\themes\base\theme.css" />
+    <Content Include="Content\themes\base\tooltip.css" />
+    <Content Include="ErrorPage.aspx" />
+    <Content Include="ForgotDetails\ForgotPassword.aspx" />
+    <Content Include="ForgotDetails\ForgotUsername.aspx" />
+    <Content Include="Global.asax" />
+    <None Include="libs\AjaxControlToolkit.dll" />
+    <None Include="libs\ControlG2Panel.dll" />
+    <None Include="libs\IntaDBConnector.dll" />
+    <None Include="libs\IntaFunctions.dll" />
+    <None Include="libs\IntamacBusinessLogic.dll" />
+    <None Include="libs\Intamac_Utilities.dll" />
+    <None Include="libs\Microsoft.AspNet.Web.Optimization.WebForms.dll" />
+    <Content Include="common\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="common\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="common\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="common\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Admin\App_LocalResources\Contacts.aspx.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Admin\App_LocalResources\HubFirmware.aspx.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Admin\App_LocalResources\AdminAccountEdit.aspx.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Admin\App_LocalResources\HubReset.aspx.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Admin\App_LocalResources\ManageRiskLevel.aspx.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_GlobalResources\PageGlobalResources.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>PageGlobalResources.designer.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ForgotDetails\App_LocalResources\ForgotPassword.aspx.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ForgotDetails\App_LocalResources\ForgotUsername.aspx.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_GlobalResources\LanguageResources.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>LanguageResources.designer.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="My Project\Resources.resx" />
+    <Content Include="ForgotDetails\SiteNormalContent.master" />
+    <Content Include="Resources\Admin\AppLocalResources\AccountDetail.aspx.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\AccountDetail.aspx.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\AccountDetail.aspx.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\AccountDetail.aspx.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\AccountEdit.aspx.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\AccountEdit.aspx.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\AccountEdit.aspx.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\AccountEdit.aspx.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\AccountSearch.aspx.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\AccountSearch.aspx.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\AccountSearch.aspx.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\AccountSearch.aspx.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\AdminAccountEdit.aspx.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\AdminAccountEdit.aspx.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\AdminAccountEdit.aspx.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\AdminAccountEdit.aspx.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\AuditLogs.aspx.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\AuditLogs.aspx.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\AuditLogs.aspx.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\AuditLogs.aspx.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\Contacts.aspx.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\Contacts.aspx.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\Contacts.aspx.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\EventLog.aspx.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\EventLog.aspx.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\EventLog.aspx.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\EventLog.aspx.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\GatewaySearch.aspx.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\GatewaySearch.aspx.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\GatewaySearch.aspx.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\GatewaySearch.aspx.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\HubFirmware.aspx.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\HubFirmware.aspx.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\HubFirmware.aspx.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\HubFirmware.aspx.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\HubReset.aspx.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\HubReset.aspx.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\HubReset.aspx.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\HubReset.aspx.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\LoginAdd.aspx.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\LoginAdd.aspx.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\LoginAdd.aspx.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\LoginAdd.aspx.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\LoginDetail.aspx.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\LoginDetail.aspx.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\LoginDetail.aspx.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\LoginDetail.aspx.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\LoginSearch.aspx.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\LoginSearch.aspx.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\LoginSearch.aspx.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\LoginSearch.aspx.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\ManageRiskLevel.aspx.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\ManageRiskLevel.aspx.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\ManageRiskLevel.aspx.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\ManageRiskLevel.aspx.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\ManageSensors.aspx.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\ManageSensors.aspx.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\ManageSensors.aspx.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\ManageSensors.aspx.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\NoteDetail.aspx.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\NoteDetail.aspx.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\NoteDetail.aspx.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\NoteDetail.aspx.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\Notes.aspx.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\Notes.aspx.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\Notes.aspx.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\Notes.aspx.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\PasswordReset.aspx.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\PasswordReset.aspx.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\PasswordReset.aspx.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\PasswordReset.aspx.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\SupportDetail.aspx.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\SupportDetail.aspx.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\SupportDetail.aspx.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\SupportDetail.aspx.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\SupportSearch.aspx.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\SupportSearch.aspx.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\SupportSearch.aspx.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\SupportSearch.aspx.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\SwapPanel.aspx.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\SwapPanel.aspx.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\SwapPanel.aspx.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\SwapPanel.aspx.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\UserAccountSearch.aspx.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\UserAccountSearch.aspx.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\UserAccountSearch.aspx.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Admin\AppLocalResources\UserAccountSearch.aspx.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\AuditTypeResources.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\AuditTypeResources.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\AuditTypeResources.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\AuditTypeResources.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\DevicePropertyResources.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\DevicePropertyResources.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\DevicePropertyResources.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\DevicePropertyResources.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\MenuResources.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\MenuResources.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\MenuResources.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\MenuResources.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\PageGlobalResources.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\PageGlobalResources.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\PageGlobalResources.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\PageGlobalResources.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\PropertyStatusResources.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\PropertyStatusResources.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\PropertyStatusResources.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\PropertyStatusResources.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\StatusResources.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\StatusResources.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\StatusResources.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\StatusResources.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\ValidationCtlResources.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\ValidationCtlResources.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\ValidationCtlResources.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\ValidationCtlResources.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppLocalResources\AdminLogin.aspx.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppLocalResources\AdminLogin.aspx.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppLocalResources\AdminLogin.aspx.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppLocalResources\AdminLogin.aspx.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppLocalResources\ErrorPage.aspx.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppLocalResources\ErrorPage.aspx.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppLocalResources\ErrorPage.aspx.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppLocalResources\ErrorPage.aspx.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\ForgotDetails\AppLocalResources\ForgotPassword.aspx.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\ForgotDetails\AppLocalResources\ForgotPassword.aspx.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\ForgotDetails\AppLocalResources\ForgotPassword.aspx.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\ForgotDetails\AppLocalResources\ForgotPassword.aspx.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\ForgotDetails\AppLocalResources\ForgotUsername.aspx.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\ForgotDetails\AppLocalResources\ForgotUsername.aspx.en-GB.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\ForgotDetails\AppLocalResources\ForgotUsername.aspx.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\ForgotDetails\AppLocalResources\ForgotUsername.aspx.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_GlobalResources\Licence.eula.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_GlobalResources\Privacy.eula.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_GlobalResources\AppLicence.eula.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TermAndConditions\App_LocalResources\TermAndConditions.aspx.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_GlobalResources\AdminUser.eula.resx" />
+    <Content Include="Resources\TermAndConditions\AppLocalResources\TermAndConditions.aspx.de-DE.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TermAndConditions\AppLocalResources\TermAndConditions.aspx.nl-NL.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TermAndConditions\AppLocalResources\TermAndConditions.aspx.fr-FR.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\AdminUser.eula.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\AdminUser.eula.nl-NL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\AdminUser.eula.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\AppLicence.eula.de-DE.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\Licence.eula.de-DE.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\Privacy.eula.de-DE.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\Privacy.eula.fr-FR.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\Privacy.eula.nl-NL.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\Licence.eula.nl-NL.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\Licence.eula.fr-FR.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\AppLicence.eula.fr-FR.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AppGlobalResources\AppLicence.eula.nl-NL.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="My Project\PublishProfiles\Release.pubxml" />
+    <None Include="libs\System.Web.Optimization.dll" />
+    <None Include="libs\Telerik.Web.UI.dll" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.0.0.js" />
+    <Content Include="Scripts\jquery-3.0.0.min.js" />
+    <Content Include="Scripts\jquery-3.0.0.slim.js" />
+    <Content Include="Scripts\jquery-3.0.0.slim.min.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="TelerikCtlSite.master" />
+    <Content Include="TelerikCtlContent.master" />
+    <Content Include="PanelledContent.Master" />
+    <None Include="Web.LocalRelease.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.LocalSprueStaging.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.LocalStaging.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Resource Include="common\img\CloseIcon.png" />
+    <Resource Include="common\img\OpenIcon.png" />
+    <Content Include="TermAndConditions\TermAndConditions.aspx" />
+    <Content Include="UserControls\Dashboard.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminLogin.aspx.designer.vb">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AccountDetail.aspx.designer.vb">
+      <DependentUpon>AccountDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AccountEdit.aspx.designer.vb">
+      <DependentUpon>AccountEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AccountSearch.aspx.designer.vb">
+      <DependentUpon>AccountSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AuditLogs.aspx.designer.vb">
+      <DependentUpon>AuditLogs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Contacts.aspx.designer.vb">
+      <DependentUpon>Contacts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Contacts.aspx.vb">
+      <DependentUpon>Contacts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminAccountEdit.aspx.designer.vb">
+      <DependentUpon>AdminAccountEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminAccountEdit.aspx.vb">
+      <DependentUpon>AdminAccountEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\EventLog.aspx.designer.vb">
+      <DependentUpon>EventLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EventLog.aspx.vb">
+      <DependentUpon>EventLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\HubReset.aspx.designer.vb">
+      <DependentUpon>HubReset.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\HubReset.aspx.vb">
+      <DependentUpon>HubReset.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ManageRiskLevel.aspx.designer.vb">
+      <DependentUpon>ManageRiskLevel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ManageRiskLevel.aspx.vb">
+      <DependentUpon>ManageRiskLevel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ManageSensors.aspx.designer.vb">
+      <DependentUpon>ManageSensors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ManageSensors.aspx.vb">
+      <DependentUpon>ManageSensors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserAccountSearch.aspx.designer.vb">
+      <DependentUpon>UserAccountSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserAccountSearch.aspx.vb">
+      <DependentUpon>UserAccountSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\DeviceStatus.aspx.designer.vb">
+      <DependentUpon>DeviceStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DeviceStatus.aspx.vb">
+      <DependentUpon>DeviceStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\GatewaySearch.aspx.designer.vb">
+      <DependentUpon>GatewaySearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\GatewaySearch.aspx.vb">
+      <DependentUpon>GatewaySearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\HubFirmware.aspx.designer.vb">
+      <DependentUpon>HubFirmware.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\HubFirmware.aspx.vb">
+      <DependentUpon>HubFirmware.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\LoginAdd.aspx.designer.vb">
+      <DependentUpon>LoginAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\LoginDetail.aspx.designer.vb">
+      <DependentUpon>LoginDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\LoginSearch.aspx.designer.vb">
+      <DependentUpon>LoginSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\NoteDetail.aspx.designer.vb">
+      <DependentUpon>NoteDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Notes.aspx.designer.vb">
+      <DependentUpon>Notes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\PasswordReset.aspx.designer.vb">
+      <DependentUpon>PasswordReset.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\PasswordReset.aspx.vb">
+      <DependentUpon>PasswordReset.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Passwords.ascx.designer.vb">
+      <DependentUpon>Passwords.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Passwords.ascx.vb">
+      <DependentUpon>Passwords.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SupportDetail.aspx.designer.vb">
+      <DependentUpon>SupportDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SupportSearch.aspx.designer.vb">
+      <DependentUpon>SupportSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SwapPanel.aspx.designer.vb">
+      <DependentUpon>SwapPanel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SwapPanel.aspx.vb">
+      <DependentUpon>SwapPanel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_GlobalResources\AuditTypeResources.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AuditTypeResources.resx</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="App_GlobalResources\DevicePropertyResources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DevicePropertyResources.resx</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="App_GlobalResources\LanguageResources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LanguageResources.resx</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="App_GlobalResources\MenuResources.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MenuResources.resx</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="App_GlobalResources\PageGlobalResources.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PageGlobalResources.resx</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="App_GlobalResources\PropertyStatusResources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PropertyStatusResources.resx</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="App_GlobalResources\StatusResources.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StatusResources.resx</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="App_GlobalResources\ValidationCtlResources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ValidationCtlResources.resx</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="App_Start\BundleConfig.vb" />
+    <Compile Include="Content.master.designer.vb">
+      <DependentUpon>Content.master</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotDetails\ForgotPassword.aspx.designer.vb">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotDetails\ForgotPassword.aspx.vb">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgotDetails\ForgotUsername.aspx.designer.vb">
+      <DependentUpon>ForgotUsername.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotDetails\ForgotUsername.aspx.vb">
+      <DependentUpon>ForgotUsername.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgotDetails\SiteNormalContent.master.designer.vb">
+      <DependentUpon>SiteNormalContent.master</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotDetails\SiteNormalContent.master.vb">
+      <DependentUpon>SiteNormalContent.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Old_App_Code\vb\GridPage.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Old_App_Code\vb\IGridPage.vb" />
+    <Compile Include="Old_App_Code\vb\UpdatableResXResourceProviderFactory.vb" />
+    <Compile Include="TelerikCtlContent.master.designer.vb">
+      <DependentUpon>TelerikCtlContent.master</DependentUpon>
+    </Compile>
+    <Compile Include="TelerikCtlContent.master.vb">
+      <DependentUpon>TelerikCtlContent.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TelerikCtlSite.master.designer.vb">
+      <DependentUpon>TelerikCtlSite.master</DependentUpon>
+    </Compile>
+    <Compile Include="TelerikCtlSite.master.vb">
+      <DependentUpon>TelerikCtlSite.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.designer.vb">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb" />
+    <Compile Include="Old_App_Code\vb\ThermostatsGetter.vb" />
+    <Compile Include="PanelledContent.Master.designer.vb">
+      <DependentUpon>PanelledContent.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PanelledContent.Master.vb">
+      <DependentUpon>PanelledContent.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.master.designer.vb">
+      <DependentUpon>Site.master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.master.vb">
+      <DependentUpon>Site.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Old_App_Code\vb\AuditLogGetter.vb" />
+    <Compile Include="Old_App_Code\vb\CultureBaseClass.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Old_App_Code\vb\ICommonVars.vb" />
+    <Compile Include="Old_App_Code\vb\miscFunctions.vb" />
+    <Compile Include="AdminLogin.aspx.vb">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AccountDetail.aspx.vb">
+      <DependentUpon>AccountDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AccountEdit.aspx.vb">
+      <DependentUpon>AccountEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AccountSearch.aspx.vb">
+      <DependentUpon>AccountSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AuditLogs.aspx.vb">
+      <DependentUpon>AuditLogs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\LoginAdd.aspx.vb">
+      <DependentUpon>LoginAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\LoginDetail.aspx.vb">
+      <DependentUpon>LoginDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\LoginSearch.aspx.vb">
+      <DependentUpon>LoginSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\NoteDetail.aspx.vb">
+      <DependentUpon>NoteDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Notes.aspx.vb">
+      <DependentUpon>Notes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SupportDetail.aspx.vb">
+      <DependentUpon>SupportDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SupportSearch.aspx.vb">
+      <DependentUpon>SupportSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content.master.vb">
+      <DependentUpon>Content.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.vb">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="TermAndConditions\TermAndConditions.aspx.designer.vb">
+      <DependentUpon>TermAndConditions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TermAndConditions\TermAndConditions.aspx.vb">
+      <DependentUpon>TermAndConditions.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Dashboard.ascx.designer.vb">
+      <DependentUpon>Dashboard.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard.ascx.vb">
+      <DependentUpon>Dashboard.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\LanguageSelector.ascx.designer.vb">
+      <DependentUpon>LanguageSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\LanguageSelector.ascx.vb">
+      <DependentUpon>LanguageSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\App_LocalResources\AccountDetail.aspx.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Admin\App_LocalResources\AccountEdit.aspx.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Admin\App_LocalResources\AccountSearch.aspx.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Admin\App_LocalResources\AuditLogs.aspx.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Admin\App_LocalResources\LoginAdd.aspx.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Admin\App_LocalResources\LoginDetail.aspx.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Admin\App_LocalResources\LoginSearch.aspx.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Admin\App_LocalResources\NoteDetail.aspx.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Admin\App_LocalResources\Notes.aspx.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Admin\App_LocalResources\SupportDetail.aspx.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Admin\App_LocalResources\SupportSearch.aspx.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_GlobalResources\AuditTypeResources.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>AuditTypeResources.designer.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_GlobalResources\MenuResources.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>MenuResources.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_LocalResources\AdminLogin.aspx.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_LocalResources\ErrorPage.aspx.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Admin\App_LocalResources\SwapPanel.aspx.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Admin\App_LocalResources\PasswordReset.aspx.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Admin\App_LocalResources\GatewaySearch.aspx.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_GlobalResources\PropertyStatusResources.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>PropertyStatusResources.Designer.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Admin\App_LocalResources\UserAccountSearch.aspx.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_GlobalResources\StatusResources.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>StatusResources.designer.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_GlobalResources\ValidationCtlResources.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>ValidationCtlResources.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Admin\App_LocalResources\EventLog.aspx.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_GlobalResources\DevicePropertyResources.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>DevicePropertyResources.Designer.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Admin\App_LocalResources\ManageSensors.aspx.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content.master" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Site.master" />
+    <Content Include="UserControls\LanguageSelector.ascx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Scripts\jquery-3.0.0.slim.min.map" />
+    <Content Include="Scripts\jquery-3.0.0.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.SprueStaging.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Staging.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>libs\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ControlG2Panel">
+      <HintPath>libs\ControlG2Panel.dll</HintPath>
+    </Reference>
+    <Reference Include="IntaDBConnector">
+      <HintPath>libs\IntaDBConnector.dll</HintPath>
+    </Reference>
+    <Reference Include="IntaFunctions">
+      <HintPath>libs\IntaFunctions.dll</HintPath>
+    </Reference>
+    <Reference Include="IntamacBusinessLogic">
+      <HintPath>libs\IntamacBusinessLogic.dll</HintPath>
+    </Reference>
+    <Reference Include="Intamac_Utilities">
+      <HintPath>libs\Intamac_Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms">
+      <HintPath>libs\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Telerik.Web.UI">
+      <HintPath>libs\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\COMP_BusinessLogic\Sprue\IntamacBL_SPR\IntamacBL_SPR.vbproj">
+      <Project>{a35df9c3-9f34-42c8-b7c6-c1b79445d0ca}</Project>
+      <Name>IntamacBL_SPR</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\COMP_ClassLibraryInterface\Sprue\ClassLibrary_Interface\ClassLibrary_Interface.vbproj">
+      <Project>{48509252-21c7-4f27-9108-ebc7b7fa937c}</Project>
+      <Name>ClassLibrary_Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\COMP_DataAccessLayer\SprueIoT\IntamacIoTDAL\IntamacIoTDAL.csproj">
+      <Project>{68b0f6af-365d-49ab-8e15-5824986184f8}</Project>
+      <Name>IntamacIoTDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\COMP_DataAccessLayer\Sprue\IntamacDAL_SPR\IntamacDAL_SPR.vbproj">
+      <Project>{0cd788b0-a7ec-4018-a5ea-e2afba417f65}</Project>
+      <Name>IntamacDAL_SPR</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\COMP_Shared\Sprue\IntamacShared_SPR\IntamacShared_SPR.vbproj">
+      <Project>{f4b838f2-3219-4f37-8dfb-71f44f9d158d}</Project>
+      <Name>IntamacShared_SPR</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Label="SlowCheetah">
+    <SlowCheetahToolsPath>$([System.IO.Path]::GetFullPath( $(MSBuildProjectDirectory)\..\..\..\packages\SlowCheetah.2.5.15\tools\))</SlowCheetahToolsPath>
+    <SlowCheetah_EnableImportFromNuGet Condition=" '$(SlowCheetah_EnableImportFromNuGet)'=='' ">true</SlowCheetah_EnableImportFromNuGet>
+    <SlowCheetah_NuGetImportPath Condition=" '$(SlowCheetah_NuGetImportPath)'=='' ">$([System.IO.Path]::GetFullPath( $(MSBuildProjectDirectory)\Properties\SlowCheetah\SlowCheetah.Transforms.targets ))</SlowCheetah_NuGetImportPath>
+    <SlowCheetahTargets Condition=" '$(SlowCheetah_EnableImportFromNuGet)'=='true' and Exists('$(SlowCheetah_NuGetImportPath)') ">$(SlowCheetah_NuGetImportPath)</SlowCheetahTargets>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>61805</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:61805/</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://localhost:61805/adminlogin.aspx</IISAppRootUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(SlowCheetahTargets)" Condition="Exists('$(SlowCheetahTargets)')" Label="SlowCheetah" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v14.0\WebApplications\Microsoft.WebApplication.targets" />
+  <Target Name="BeforeBuild">
+    <TransformXml Source="Web.config" Transform="Web.$(Configuration).config" Destination="Web.config" />
+  </Target>
+  <Import Project="..\..\..\packages\SlowCheetah.2.5.48\build\SlowCheetah.targets" Condition="Exists('..\..\..\packages\SlowCheetah.2.5.48\build\SlowCheetah.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\..\packages\SlowCheetah.2.5.48\build\SlowCheetah.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\packages\SlowCheetah.2.5.48\build\SlowCheetah.targets'))" />
+  </Target>
+</Project>

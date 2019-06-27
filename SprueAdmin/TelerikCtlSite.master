@@ -1,0 +1,54 @@
+﻿<%@ Master Language="VB" Inherits="SprueAdmin.TelerikCtlSite" CodeBehind="TelerikCtlSite.master.vb" %>
+
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+<!DOCTYPE html>
+<html>
+<head id="Head1" runat="server">
+    <title></title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="/common/css/global/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/common/css/global/site.css" />
+    <link rel="stylesheet" type="text/css" href="/common/css/global/address-3.40.css" />
+    <asp:ContentPlaceHolder ID="siteHeadContent" runat="server" />
+
+</head>
+<body runat="server" id="bodyElement">
+    <form id="formElement" runat="server">
+        <telerik:RadScriptManager ID="ScriptManager1" runat="server" EnableCdn="false">
+            <Scripts>
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js"></asp:ScriptReference>
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js"></asp:ScriptReference>
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js"></asp:ScriptReference>
+                <asp:ScriptReference Path="~/common/js/bootstrap-3.3.6.min.js" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+                <asp:ScriptReference Name="postcodeanywhere" />
+            </Scripts>
+        </telerik:RadScriptManager>
+
+        <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+        </telerik:RadAjaxManager>
+
+        <script type="text/javascript">
+            window.$ = $telerik.$;
+            <%-- Allows an event handler to be added only if it's not already there.
+                 This can be used when attaching even thandlers in Sys.Application.add_load
+                 when an update panel is used. --%>
+            $.fn.onIfNotPresent = function (eventName, eventId, callback) {
+                var alreadyPresent = eventId + "Set";
+                return this.not("." + alreadyPresent).on(eventName, callback).addClass(alreadyPresent);
+            };
+        </script>
+
+            <!-- header starts here -->
+          <div id="siteContent" class="content">
+            <!-- header starts here -->
+                <asp:ContentPlaceHolder ID="siteContentHeader" runat="server"></asp:ContentPlaceHolder>
+            
+        </div>
+            <asp:ContentPlaceHolder ID="siteBodyContent" runat="server"></asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

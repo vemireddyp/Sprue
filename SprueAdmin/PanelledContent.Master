@@ -1,0 +1,36 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" MasterPageFile="~/TelerikCtlContent.master" CodeBehind="PanelledContent.master.vb" Inherits="SprueAdmin.PanelledContent" %>
+
+<asp:Content ContentPlaceHolderID="ContentBody" runat="Server">
+    <script type="text/javascript">
+        var collapseOpenIcon = '/common/img/OpenIcon.png', collapseCloseIcon = '/common/img/CloseIcon.png';
+        var collapseOpenText = '<%=p_collapserOpenText %>', collapesCloseText = '<%=p_collapserCloseText%>';
+        var collapserClass = 'collapse-target';
+
+        $(document).ready(function () {
+            setupCollapsers();
+        });
+
+        function setupCollapsers() {
+            $('div.' + collapserClass).each(function () {
+                $(this).on('hidden.bs.collapse', function (e) {
+                    performCollapse(e.target, collapseOpenText, collapseOpenIcon)
+                });
+
+                $(this).on('shown.bs.collapse', function (e) {
+                    performCollapse(e.target, collapesCloseText, collapseCloseIcon)
+                });
+            });
+        }
+
+        function performCollapse(target, text, icon) {
+                    $('span.' + $(target).attr("id")).text(text);
+                    $('img.' + $(target).attr("id")).attr('src', icon);
+                    $('html, body').animate({ scrollTop: $(target).parent().offset().top }, 0);
+
+        }
+
+        </script>
+         <asp:ContentPlaceHolder ID="panelContentBody" runat="server">
+        </asp:ContentPlaceHolder>
+   </asp:Content>
+

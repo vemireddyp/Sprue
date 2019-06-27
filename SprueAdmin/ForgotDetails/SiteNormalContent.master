@@ -1,0 +1,121 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/site.Master" AutoEventWireup="false" CodeBehind="SiteNormalContent.master.vb" Inherits="SprueAdmin.SiteNormalContent" %>
+<%@ Register Src="~/UserControls/LanguageSelector.ascx" TagName="LanguageSelector" TagPrefix="uc1" %>
+
+<asp:Content ID="ContentHead" ContentPlaceHolderID="siteHeadContent" runat="Server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="ContentMenu" ContentPlaceHolderID="siteContentHeader" runat="Server">
+    <%--    <div class="container-fluid masHeaderbg rwPadLR0" runat="server" id="divSiteHeader">
+        <div class="container rwHeader rwPadLR0">
+            <div class="row">
+                <div class="col-md-8">
+                    <span class="lblHeader">
+                        <asp:Literal ID="Literal1" runat="server" Text="<%$Resources:PageGlobalResources,AdministrationSystemTitle %>" /></span>
+                    <div class="btn-group pull-right">
+                        <button type="button" class="btn btn-default">
+                            <img src="../common/img/sm-icon.png" />
+                        </button>
+                        <button type="button" class="btn btn-default dropdown-toggle loginddl" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <span class="caret"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li role="presentation"><a href="#" tabindex="-1" role="menuitem">
+                                <img src="../common/img/sm-icon.png" />
+                            </a></li>
+                            <li role="presentation"><a href="#" tabindex="-1" role="menuitem">
+                                <img src="../common/img/sm-icon.png" />
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="pull-right">
+                        <asp:Image ID="Image1" runat="server" ImageUrl="~/common/img/header-logo.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="row rwPadLR0" style="margin-top: 30px;">
+                <div class="col-md-3 padL0">
+                    <div class="col-md-8 colPadR5 padL0">
+                        <div class="left-inner-addon">
+                            <i class="glyphicon glyphicon-user"></i>
+                            <asp:Label ID="lblUserName" runat="server" CssClass="form-control" />
+                        </div>
+                    </div>
+                    <div class="pull-right">
+                        <asp:LinkButton ID="lnkLogoff" runat="server" Text="Log Off" CssClass="btn btn-warning btnLogOff" CausesValidation="false"></asp:LinkButton>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bgorange">
+        </div>
+    </div>--%>
+
+    <div class="container-fluid masHeaderbg rwPadLR0" runat="server" id="divSiteHeader">
+        <div class="container rwHeader rwPadLR0">
+            <div class="col-md-12 rwPadLR0">
+                <div class="col-md-5 rwPadLR0">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/common/img/header-logo.png" />
+                </div>
+                <div runat="server" id="divCulture">
+                    <uc1:LanguageSelector id="lngSelector" runat="server" />
+                </div>
+            </div>
+            <div class="col-md-12 rwPadLR0">
+                <div class="col-md-8 rwPadLR0">
+                    <span class="lblHeader">
+                        <asp:Label ID="lblTitle" runat="server" Font-Bold="true" Text="<%$Resources:PageGlobalResources,AdministrationSystemTitle %>" /></span>
+                </div>
+            </div>
+        </div>
+        <div class="bgorange" style="margin-top: 0px;">
+        </div>
+    </div>
+
+
+</asp:Content>
+<asp:Content ID="ContentBody" ContentPlaceHolderID="siteBodyContent" runat="Server">
+    <script type="text/javascript">
+
+        function setupValidConfirm() {
+            $('.validateAll').click(function (e) {
+                return ValidateAllValidationGroups(true);
+            });
+            $('.validateAllNoMsg').click(function (e) {
+                return ValidateAllValidationGroups(false);
+            });
+
+        }
+
+        $(document).ready(function () {
+            setupValidConfirm();
+        });
+
+        function ValidateAllValidationGroups(showConfirm) {
+            if (Page_ClientValidate()) {
+                if (showConfirm) {
+                    return confirm($("[id$='hdnConfirmPrompt']").val());
+                }
+                else {
+                    return true;
+                }
+            }
+            else {
+                return false;
+            }
+        }
+
+    </script>
+    <div class="container rwPLR45 rwPadLR0">
+
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+</asp:Content>
+

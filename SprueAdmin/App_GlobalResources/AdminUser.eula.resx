@@ -1,0 +1,1927 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AgreementKeys" xml:space="preserve">
+    <value>ChkEndUserLicenceAgreement</value>
+  </data>
+  <data name="AgreementsMode" xml:space="preserve">
+    <value>individual</value>
+  </data>
+  <data name="ChkEndUserLicenceAgreement" xml:space="preserve">
+    <value>&lt;strong&gt;"I confirm (for and on behalf of myself or the entity I represent, as the case may be) that I have read, understood and agree to be bound by and comply with the Terms of Service."&lt;/strong&gt;</value>
+  </data>
+  <data name="EndUserLicenceAgreement" xml:space="preserve">
+    <value>&lt;head&gt;
+&lt;meta http-equiv=Content-Type content="text/html; charset=windows-1252"&gt;
+&lt;style&gt;
+&lt;!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Arial Bold";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+h1
+	{mso-style-link:"Heading 1 Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.55pt;
+	text-align:justify;
+	text-indent:-42.55pt;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:normal;}
+h2
+	{mso-style-link:"Heading 2 Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.55pt;
+	text-align:justify;
+	text-indent:-42.55pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:normal;}
+h3
+	{mso-style-link:"Heading 3 Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:92.15pt;
+	text-align:justify;
+	text-indent:-49.6pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:normal;}
+h4
+	{mso-style-link:"Heading 4 Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:155.95pt;
+	text-align:justify;
+	text-indent:-63.8pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:normal;}
+h5
+	{mso-style-link:"Heading 5 Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:8.0cm;
+	text-align:justify;
+	text-indent:-70.85pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:normal;}
+h6
+	{mso-style-link:"Heading 6 Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:normal;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-link:"Heading 7 Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-link:"Heading 8 Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-link:"Heading 9 Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin-top:3.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:32.9pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:22.0pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoToc4, li.MsoToc4, div.MsoToc4
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:33.0pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoToc5, li.MsoToc5, div.MsoToc5
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:44.0pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoToc6, li.MsoToc6, div.MsoToc6
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:55.0pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoToc7, li.MsoToc7, div.MsoToc7
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:66.0pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoToc8, li.MsoToc8, div.MsoToc8
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:77.0pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoToc9, li.MsoToc9, div.MsoToc9
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:88.0pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-link:"Comment Text Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"Header Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Footer Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListBullet, li.MsoListBullet, div.MsoListBullet
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:18.0pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListBulletCxSpFirst, li.MsoListBulletCxSpFirst, div.MsoListBulletCxSpFirst
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:18.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListBulletCxSpMiddle, li.MsoListBulletCxSpMiddle, div.MsoListBulletCxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:18.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListBulletCxSpLast, li.MsoListBulletCxSpLast, div.MsoListBulletCxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:18.0pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListBullet2, li.MsoListBullet2, div.MsoListBullet2
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:36.0pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListBullet2CxSpFirst, li.MsoListBullet2CxSpFirst, div.MsoListBullet2CxSpFirst
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListBullet2CxSpMiddle, li.MsoListBullet2CxSpMiddle, div.MsoListBullet2CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListBullet2CxSpLast, li.MsoListBullet2CxSpLast, div.MsoListBullet2CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:36.0pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListBullet3, li.MsoListBullet3, div.MsoListBullet3
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:54.0pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListBullet3CxSpFirst, li.MsoListBullet3CxSpFirst, div.MsoListBullet3CxSpFirst
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:54.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListBullet3CxSpMiddle, li.MsoListBullet3CxSpMiddle, div.MsoListBullet3CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:54.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListBullet3CxSpLast, li.MsoListBullet3CxSpLast, div.MsoListBullet3CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:54.0pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListBullet4, li.MsoListBullet4, div.MsoListBullet4
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:72.0pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListBullet4CxSpFirst, li.MsoListBullet4CxSpFirst, div.MsoListBullet4CxSpFirst
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:72.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListBullet4CxSpMiddle, li.MsoListBullet4CxSpMiddle, div.MsoListBullet4CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:72.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListBullet4CxSpLast, li.MsoListBullet4CxSpLast, div.MsoListBullet4CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:72.0pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListBullet5, li.MsoListBullet5, div.MsoListBullet5
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:90.0pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListBullet5CxSpFirst, li.MsoListBullet5CxSpFirst, div.MsoListBullet5CxSpFirst
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:90.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListBullet5CxSpMiddle, li.MsoListBullet5CxSpMiddle, div.MsoListBullet5CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:90.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListBullet5CxSpLast, li.MsoListBullet5CxSpLast, div.MsoListBullet5CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:90.0pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{mso-style-link:"Body Text Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	text-align:left;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{mso-style-link:"Document Map Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	background:navy;
+	font-size:11.0pt;
+	font-family:"Tahoma","sans-serif";}
+p
+	{margin-right:0cm;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-link:"Comment Subject Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:36.0pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.afterhead1, li.afterhead1, div.afterhead1
+	{mso-style-name:afterhead1;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.55pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.afterhead2, li.afterhead2, div.afterhead2
+	{mso-style-name:afterhead2;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.55pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.afterhead3, li.afterhead3, div.afterhead3
+	{mso-style-name:afterhead3;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:92.15pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.afterhead4, li.afterhead4, div.afterhead4
+	{mso-style-name:afterhead4;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:155.95pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.afterhead5, li.afterhead5, div.afterhead5
+	{mso-style-name:afterhead5;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:8.0cm;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.afterhead6, li.afterhead6, div.afterhead6
+	{mso-style-name:afterhead6;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:212.65pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.Background, li.Background, div.Background
+	{mso-style-name:Background;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.5pt;
+	text-align:justify;
+	text-indent:-42.5pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Tahoma","sans-serif";}
+span.DocumentMapChar
+	{mso-style-name:"Document Map Char";
+	mso-style-link:"Document Map";
+	font-family:"Tahoma","sans-serif";
+	background:navy;}
+span.FooterChar
+	{mso-style-name:"Footer Char";
+	mso-style-link:Footer;
+	font-family:"Times New Roman","serif";}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Times New Roman","serif";}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-link:"Heading 2";
+	font-family:"Times New Roman","serif";}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Times New Roman","serif";}
+span.Heading4Char
+	{mso-style-name:"Heading 4 Char";
+	mso-style-link:"Heading 4";
+	font-family:"Times New Roman","serif";}
+span.Heading5Char
+	{mso-style-name:"Heading 5 Char";
+	mso-style-link:"Heading 5";
+	font-family:"Times New Roman","serif";}
+span.Heading6Char
+	{mso-style-name:"Heading 6 Char";
+	mso-style-link:"Heading 6";
+	font-family:"Times New Roman","serif";}
+span.Heading7Char
+	{mso-style-name:"Heading 7 Char";
+	mso-style-link:"Heading 7";
+	font-family:"Times New Roman","serif";}
+span.Heading8Char
+	{mso-style-name:"Heading 8 Char";
+	mso-style-link:"Heading 8";
+	font-family:"Times New Roman","serif";}
+span.Heading9Char
+	{mso-style-name:"Heading 9 Char";
+	mso-style-link:"Heading 9";
+	font-family:"Times New Roman","serif";}
+p.Parties, li.Parties, div.Parties
+	{mso-style-name:Parties;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.55pt;
+	text-align:justify;
+	text-indent:-42.55pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.Recitals, li.Recitals, div.Recitals
+	{mso-style-name:Recitals;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.5pt;
+	text-align:justify;
+	text-indent:-42.5pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.Schedule-Level1, li.Schedule-Level1, div.Schedule-Level1
+	{mso-style-name:"Schedule - Level 1";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.55pt;
+	text-align:justify;
+	text-indent:-42.55pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.Schedule-Level2, li.Schedule-Level2, div.Schedule-Level2
+	{mso-style-name:"Schedule - Level 2";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.55pt;
+	text-align:justify;
+	text-indent:-42.55pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.Schedule-Level3, li.Schedule-Level3, div.Schedule-Level3
+	{mso-style-name:"Schedule - Level 3";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:92.15pt;
+	text-align:justify;
+	text-indent:-49.6pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.Schedule-Level4, li.Schedule-Level4, div.Schedule-Level4
+	{mso-style-name:"Schedule - Level 4";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:155.95pt;
+	text-align:justify;
+	text-indent:-63.8pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.ScheduleHeading, li.ScheduleHeading, div.ScheduleHeading
+	{mso-style-name:"Schedule Heading";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:center;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.ScheduleHeading-AutoNumber, li.ScheduleHeading-AutoNumber, div.ScheduleHeading-AutoNumber
+	{mso-style-name:"Schedule Heading - Auto Number";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:35.45pt;
+	text-align:center;
+	text-indent:0cm;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+span.HeaderChar
+	{mso-style-name:"Header Char";
+	mso-style-link:Header;
+	font-family:"Times New Roman","serif";}
+p.PartHeading-AutoNumber, li.PartHeading-AutoNumber, div.PartHeading-AutoNumber
+	{mso-style-name:"Part Heading - Auto Number";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:35.45pt;
+	text-align:center;
+	text-indent:0cm;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.Bullet1, li.Bullet1, div.Bullet1
+	{mso-style-name:Bullet1;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:18.0pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	line-height:15.0pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.Bullet2, li.Bullet2, div.Bullet2
+	{mso-style-name:Bullet2;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:53.85pt;
+	text-align:justify;
+	text-indent:-17.85pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.Bullet3, li.Bullet3, div.Bullet3
+	{mso-style-name:Bullet3;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:97.25pt;
+	text-align:justify;
+	text-indent:-17.85pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+span.CommentTextChar
+	{mso-style-name:"Comment Text Char";
+	mso-style-link:"Comment Text";
+	font-family:"Times New Roman","serif";}
+span.CommentSubjectChar
+	{mso-style-name:"Comment Subject Char";
+	mso-style-link:"Comment Subject";
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+span.BodyTextChar
+	{mso-style-name:"Body Text Char";
+	mso-style-link:"Body Text";
+	font-family:"Arial","sans-serif";}
+span.AlternativeText
+	{mso-style-name:"Alternative Text";
+	font-weight:bold;}
+span.InsertText
+	{mso-style-name:"Insert Text";
+	font-weight:bold;}
+p.Definition, li.Definition, div.Definition
+	{mso-style-name:Definition;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-indent:0cm;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.DefinitionSublevel1, li.DefinitionSublevel1, div.DefinitionSublevel1
+	{mso-style-name:"Definition Sublevel 1";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.55pt;
+	text-align:justify;
+	text-indent:-42.55pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.DefinitionSublevel2, li.DefinitionSublevel2, div.DefinitionSublevel2
+	{mso-style-name:"Definition Sublevel 2";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:3.0cm;
+	text-align:justify;
+	text-indent:-42.5pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.DefinedTerm, li.DefinedTerm, div.DefinedTerm
+	{mso-style-name:"Defined Term";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:38.55pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.Lijstalinea, li.Lijstalinea, div.Lijstalinea
+	{mso-style-name:Lijstalinea;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:36.0pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	layout-grid-mode:line;}
+.MsoChpDefault
+	{font-family:"Arial","sans-serif";}
+.MsoPapDefault
+	{text-align:justify;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:70.9pt 70.9pt 70.9pt 70.9pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--&gt;
+&lt;/style&gt;
+
+&lt;/head&gt;
+
+&lt;body lang=EN-GB link=blue vlink=purple&gt;
+
+&lt;div class=WordSection1&gt;
+
+&lt;div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm'&gt;
+
+&lt;p class=MsoNormal align=center style='text-align:center;line-height:115%;
+border:none;padding:0cm'&gt;&lt;b&gt;&lt;span style='line-height:115%'&gt;FIRE ANGEL WI-SAFE GATEWAY
+- PRODUCT PRIVACY NOTICE&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p class=MsoNormal style='line-height:115%'&gt;&lt;span style='line-height:115%'&gt;We
+take your privacy very seriously. We ask that you read this privacy notice
+carefully. It sets out important information about the operation of your Fire
+Angel Wi-Safe Gateway product and about:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraph style='text-indent:-18.0pt;line-height:115%'&gt;&lt;span
+style='line-height:115%;font-family:Symbol'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;a href="#WhoWeAre"&gt;&lt;span style='line-height:115%'&gt;who we are&lt;/span&gt;&lt;/a&gt;&lt;span
+style='line-height:115%'&gt;;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraph style='text-indent:-18.0pt;line-height:115%'&gt;&lt;span
+style='line-height:115%;font-family:Symbol'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;a href="#HowAndWhyWeUseYourPersonalData"&gt;&lt;span style='line-height:
+115%'&gt;how and why we collect, store, use and share information about you&lt;/span&gt;&lt;/a&gt;&lt;span
+style='line-height:115%'&gt; (known as &amp;quot;&lt;b&gt;personal data&lt;/b&gt;&amp;quot;);&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraph style='text-indent:-18.0pt;line-height:115%'&gt;&lt;span
+style='line-height:115%;font-family:Symbol'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;a href="#HowLongWeKeepYourPersonalData"&gt;&lt;span style='line-height:
+115%'&gt;how long we will keep your personal data&lt;/span&gt;&lt;/a&gt;&lt;span
+style='line-height:115%'&gt;;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraph style='text-indent:-18.0pt;line-height:115%'&gt;&lt;span
+style='line-height:115%;font-family:Symbol'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;a href="#YourRights"&gt;&lt;span style='line-height:115%'&gt;your rights
+in relation to your personal data&lt;/span&gt;&lt;/a&gt;&lt;span style='line-height:115%'&gt;;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraph style='text-indent:-18.0pt;line-height:115%'&gt;&lt;span
+style='line-height:115%;font-family:Symbol'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;a href="#Complain"&gt;&lt;span style='line-height:115%'&gt;how to contact
+us (and supervisory authorities) if you have a complaint&lt;/span&gt;&lt;/a&gt;&lt;span
+style='line-height:115%'&gt;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm'&gt;
+
+&lt;p class=MsoNormal style='line-height:115%;border:none;padding:0cm'&gt;&lt;b&gt;&lt;span
+style='line-height:115%'&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='line-height:115%;border:none;padding:0cm'&gt;&lt;a
+name=WhoWeAre&gt;&lt;b&gt;&lt;span style='line-height:115%'&gt;1.         WHO WE ARE&lt;/span&gt;&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p class=MsoNormal style='line-height:115%'&gt;&lt;span style='line-height:115%'&gt;Fireangel
+Safety Technology Limited is a private limited company, registered under the
+laws of England and Wales, with company number 3641019 and whose registered
+address is Bridge House, 4 Borough Street, London Bridge, London, SE1 9QR. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='line-height:115%'&gt;&lt;span style='line-height:115%'&gt;We
+are the &amp;quot;controller&amp;quot; of personal data we collect from you or you
+provide to us. This means that when we collect and use your personal data, we
+are responsible for ensuring that your personal data is lawfully and properly
+processed and our conduct is regulated by the General Data Protection
+Regulation (Regulation (EU) 2016/679) (&amp;quot;GDPR&amp;quot;). Our registration
+number under the Data Protection Public Register is ZA062715.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='line-height:115%'&gt;&lt;span style='line-height:115%'&gt;When
+the following words with capital letters are used in this Privacy Notice, this
+is what they mean: &lt;/span&gt;&lt;/p&gt;
+
+&lt;table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=605
+ style='width:16.0cm;margin-left:5.35pt;border-collapse:collapse'&gt;
+ &lt;tr&gt;
+  &lt;td width=180 valign=top style='width:134.75pt;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=DefinedTerm style='margin-left:1.75pt'&gt;Contract Service Provider&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width=425 valign=top style='width:318.85pt;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=Definition style='margin-left:1.75pt;text-indent:0cm'&gt;means the
+  entity that installed the Product in your premises.&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width=180 valign=top style='width:134.75pt;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=DefinedTerm style='margin-left:1.75pt'&gt;Product&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width=425 valign=top style='width:318.85pt;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=Definition style='margin-left:1.75pt;text-indent:0cm'&gt;means the Fire
+  Angel Wi-Safe Gateway product.&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width=180 valign=top style='width:134.75pt;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=DefinedTerm style='margin-left:1.75pt'&gt;Product Software&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width=425 valign=top style='width:318.85pt;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=Definition style='margin-left:1.75pt;text-indent:0cm'&gt;means the
+  software that is embedded in the Product, which enables it to function.&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width=180 valign=top style='width:134.75pt;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=DefinedTerm style='margin-left:1.75pt'&gt;Service&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width=425 valign=top style='width:318.85pt;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=Definition style='margin-left:1.75pt;text-indent:0cm'&gt;means the Fire
+  Angel Wi-Safe Connect service.&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width=180 valign=top style='width:134.75pt;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=DefinedTerm style='margin-left:1.75pt'&gt;&amp;quot;we&amp;quot; &amp;quot;us&amp;quot;
+  and &amp;quot;our&amp;quot;&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width=425 valign=top style='width:318.85pt;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=Definition style='margin-left:1.75pt;text-indent:0cm'&gt;means Fireangel
+  Safety Technology Limited.&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm'&gt;
+
+&lt;p class=MsoNormal style='line-height:115%;border:none;padding:0cm'&gt;&lt;b&gt;&lt;span
+style='line-height:115%'&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='line-height:115%;border:none;padding:0cm'&gt;&lt;b&gt;&lt;span
+style='line-height:115%'&gt;2.         PERSONAL DATA WE MAY COLLECT FROM YOU&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;span
+style='line-height:115%'&gt;The following table explains what personal data we
+will or may collect about you and how it will be collected.&lt;/span&gt;&lt;/p&gt;
+
+&lt;table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'&gt;
+ &lt;tr&gt;
+  &lt;td width=196 valign=top style='width:147.15pt;border:solid windowtext 1.0pt;
+  background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;b&gt;&lt;span
+  style='line-height:115%'&gt;Category of personal data&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width=423 valign=top style='width:317.15pt;border:solid windowtext 1.0pt;
+  border-left:none;background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;b&gt;&lt;span
+  style='line-height:115%'&gt;What the personal data is and how it is collected&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width=196 valign=top style='width:147.15pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;b&gt;&lt;span
+  style='line-height:115%'&gt;Information you give us&lt;/span&gt;&lt;/b&gt;&lt;span
+  style='line-height:115%'&gt; (&amp;quot;&lt;b&gt;Submitted information&lt;/b&gt;&amp;quot;)&lt;/span&gt;&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width=423 valign=top style='width:317.15pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;u&gt;&lt;span
+  style='line-height:115%'&gt;The personal data you give us may include&lt;/span&gt;&lt;/u&gt;&lt;span
+  style='line-height:115%'&gt;: your first and last names, address, e-mail
+  address, telephone number, country of residence, enquiries you submit to us
+  about the Product, the Product Software and/or the Service, information about
+  problems/defects you are experiencing with the Product, the Product Software
+  and/or the Service and/or details relating to why you are corresponding
+  with/contacting us.&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;span
+  style='line-height:115%'&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;u&gt;&lt;span
+  style='line-height:115%'&gt;We may collect this personal data&lt;/span&gt;&lt;/u&gt;&lt;span
+  style='line-height:115%'&gt;:&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;when you fill in and submit (i.e. via the Internet)
+  forms we ask you to complete in relation to the Product, the Product Software
+  and/or the Service;&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;by corresponding or communicating with us, including
+  by telephone, by letter or by email.&lt;/span&gt;&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width=196 valign=top style='width:147.15pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;b&gt;&lt;span
+  style='line-height:115%'&gt;Information we collect via the Product, Product
+  Software and the Service&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;b&gt;&lt;span
+  style='line-height:115%'&gt;(&amp;quot;Product Information&amp;quot; and
+  &amp;quot;Operational Information&amp;quot;)&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width=423 valign=top style='width:317.15pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;u&gt;&lt;span
+  style='line-height:115%'&gt;The personal data we collect may include:&lt;/span&gt;&lt;/u&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;technical information, comprising the type of
+  Product you use, a unique product identifier (for example, the serial number
+  and/or model number of the Product) the MAC address of the Product's network
+  interface, IP address, network information, time zone setting, Product
+  Software version number (&amp;quot;&lt;b&gt;Product Information&lt;/b&gt;&amp;quot;); &lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;details about the operation of the Product and/or
+  the Product Software, comprising the activation state of the Product (i.e.
+  whether it is turned on, connected to our network and operating within normal
+  parameters (which is determined solely by us)), the dates and times at which
+  the alarm in the Product has been triggered (e.g. by smoke or carbon
+  monoxide) and if and when the alarm in the Product has been silenced
+  subsequently, the dates and times at which the &amp;quot;test&amp;quot; button on the
+  Product has been pressed, battery charge level and other diagnostic
+  information about the Product and its performance (&amp;quot;&lt;b&gt;Operational
+  Information&lt;/b&gt;&amp;quot;).&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:1.7pt;line-height:115%'&gt;&lt;span
+  style='line-height:115%'&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:1.7pt;line-height:115%'&gt;&lt;u&gt;&lt;span
+  style='line-height:115%'&gt;This personal data will be collected automatically&lt;/span&gt;&lt;/u&gt;&lt;span
+  style='line-height:115%'&gt; during the normal operation of the Product (via the
+  Product Software and the Service). &lt;/span&gt;&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width=196 valign=top style='width:147.15pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;b&gt;&lt;span
+  style='line-height:115%'&gt;Information we receive from other sources
+  (&amp;quot;Third Party Information&amp;quot;)&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width=423 valign=top style='width:317.15pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;span
+  style='line-height:115%'&gt;We work closely with other parties (including, for
+  example, Contract Service Providers, technical services providers and
+  distributors of the Product) to enable us to monitor the quality of our
+  products and their operation and we may receive information from those other
+  parties about you, about the Product, the Product Software and/or the
+  Service.&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;span
+  style='line-height:115%'&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;u&gt;&lt;span
+  style='line-height:115%'&gt;The personal data provided to us may include:&lt;/span&gt;&lt;/u&gt;&lt;span
+  style='line-height:115%'&gt; your first and last names, your email address and/or
+  your correspondence address, your Product serial number and information about
+  correspondence/contact you have had with them concerning the Product, the
+  Product Software and/or the Service and/or its/their operation.&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;span
+  style='line-height:115%'&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;u&gt;&lt;span
+  style='line-height:115%'&gt;This personal data will be provided to us by third
+  parties&lt;/span&gt;&lt;/u&gt;&lt;span style='line-height:115%'&gt;, including the entity who
+  installed the Product in the premises where it is located.&lt;/span&gt;&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;span
+style='line-height:115%'&gt;We need to collect the above personal data, so that
+the Product can perform its function and so that we can provide the Service. If
+you do not provide the above personal data to us, it may prevent the Product
+and Product Software from operating correctly and it may delay or prevent us
+from providing the Service. &lt;/span&gt;&lt;/p&gt;
+
+&lt;div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm'&gt;
+
+&lt;p class=MsoNormal style='line-height:115%;border:none;padding:0cm'&gt;&lt;b&gt;&lt;span
+style='line-height:115%'&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='line-height:115%;border:none;padding:0cm'&gt;&lt;b&gt;&lt;span
+style='line-height:115%'&gt;3.         &lt;a name=HowAndWhyWeUseYourPersonalData&gt;HOW
+AND WHY WE USE YOUR PERSONAL DATA&lt;/a&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p class=MsoNormal style='line-height:115%'&gt;&lt;span style='line-height:115%'&gt;Under
+the GDPR, we can only use your personal data if we have a legal basis for doing
+so. The legal basis on which we use your personal data is that the use of your
+personal data described in the table below &lt;i&gt;is necessary for the performance
+of that contract with you or to take steps, at your request, before entering
+into that contract&lt;/i&gt; (i.e. your agreement to the &lt;i&gt;End User Licence
+Agreement&lt;/i&gt; forms a contract between you and us, under which we
+are legally bound to provide the Service (subject to the terms and conditions
+set out in the &lt;i&gt;End User Licence Agreement&lt;/i&gt;)). &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='line-height:115%'&gt;&lt;span style='line-height:115%'&gt;We
+use the information we collect about you (i.e Submitted Information, Product
+Information, Operational Information and Third Party Information) in the
+following ways:&lt;/span&gt;&lt;/p&gt;
+
+&lt;table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'&gt;
+ &lt;tr&gt;
+  &lt;td width=196 valign=top style='width:147.15pt;border:solid windowtext 1.0pt;
+  background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;b&gt;&lt;span
+  style='line-height:115%'&gt;Category of personal data&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width=423 valign=top style='width:317.15pt;border:solid windowtext 1.0pt;
+  border-left:none;background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;b&gt;&lt;span
+  style='line-height:115%'&gt;How and why we use your personal data&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width=196 valign=top style='width:147.15pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;b&gt;&lt;span
+  style='line-height:115%'&gt;Submitted Information&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width=423 valign=top style='width:317.15pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;span
+  style='line-height:115%'&gt;Used by us: &lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;so that we can we can register your Product on our
+  Fire Angel Wi-Safe network; &lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;so that the Product can (i.e. via the Internet)
+  connect to our network and perform its function; and&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;in order for the Service to operate or to notify you
+  that we are ending the Service in accordance with the &lt;i&gt;End User Licence
+  Agreement&lt;/i&gt;.&lt;/span&gt;&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width=196 valign=top style='width:147.15pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;b&gt;&lt;span
+  style='line-height:115%'&gt;Submitted Information&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;b&gt;&lt;span
+  style='line-height:115%'&gt;Product Information  &lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;b&gt;&lt;span
+  style='line-height:115%'&gt;Operational Information&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width=423 valign=top style='width:317.15pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;span
+  style='line-height:115%'&gt;Used by us, so that we can:&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;identify your Product on our network (and
+  distinguish it from other products on our network);&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;monitor the Product and its operation and use in
+  connection with the Service. We will use the information gathered on an
+  aggregated and anonymised basis to ascertain behaviour patterns in respect of
+  the use made of and/or interaction with the Product from time to time. For
+  example, the Product Software will tell us the number of times the alarm in
+  the Product is triggered and subsequently silenced over a period of time and
+  we will use the information we gather to understand the frequency of risk
+  patterns where fire/temperature/CO risk is identified;&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;in the event that the alarm in the Product is triggered,
+  send automated notifications to you (including &amp;quot;push&amp;quot;
+  notifications, where you have indicated you would like to receive them (i.e.
+  by ticking the push notification's check box in your device settings)) via a
+  mobile software application (if you have downloaded and installed the same on
+  a mobile device) and/or to a third party email address (nominated by you);&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;analyse faults with the Product that are reported to
+  us via the Service and to provide customer assistance in respect of such
+  faults in accordance with any applicable warranty in respect of the Product;&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;develop and/or improve the technical operation
+  and/or quality of our products/services and/or any software used in
+  connection with our products/services.&lt;/span&gt;&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width=196 valign=top style='width:147.15pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;b&gt;&lt;span
+  style='line-height:115%'&gt;Submitted Information &lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;b&gt;&lt;span
+  style='line-height:115%'&gt;Third Party Information&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width=423 valign=top style='width:317.15pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=afterhead2 style='margin-left:0cm;line-height:115%'&gt;&lt;span
+  style='line-height:115%'&gt;Used by us, so that we can:&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;provide you with customer service and support in
+  relation to the Product, the Product Software and/or the Service, if and when
+  you contact us and ask us to do so;&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;monitor the quality of our products, their operation
+  and/or our products' compliance with applicable laws and regulations; &lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;contact you or the installer of the Product about
+  issues/faults with/the performance of the Product, the Product Software
+  and/or the Service&lt;/span&gt;&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p class=MsoNormal style='line-height:115%'&gt;&lt;span style='line-height:115%'&gt;We
+may also use the information you provide to us in an aggregated and anonymous
+form for research purposes and to help us make development, marketing, sales
+and/or other business decisions. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='line-height:115%'&gt;&lt;span style='line-height:115%'&gt;We
+may associate/combine any category of information with any other category of
+information (for example, we may associate/combine Submitted Information with
+Third party Information) and will treat the combined information as personal
+data in accordance with this Privacy Notice for as long as it is combined. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='line-height:115%'&gt;&lt;span style='line-height:115%'&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm'&gt;
+
+&lt;p class=MsoNormal style='line-height:115%;border:none;padding:0cm'&gt;&lt;b&gt;&lt;span
+style='line-height:115%'&gt;4.         DISCLOSURE OF YOUR INFORMATION&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p class=MsoNormal style='line-height:115%'&gt;&lt;span style='line-height:115%'&gt;At
+any time during which the Product, the Product Software and/or the Service are
+in use, we may disclose some or all of the data we collect from you to the
+following third parties:&lt;/span&gt;&lt;/p&gt;
+
+&lt;table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=614
+ style='width:460.7pt;margin-left:5.4pt;border-collapse:collapse;border:none'&gt;
+ &lt;tr&gt;
+  &lt;td width=189 valign=top style='width:5.0cm;border:solid windowtext 1.0pt;
+  background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=MsoNormal style='line-height:115%'&gt;&lt;b&gt;&lt;span style='line-height:115%'&gt;Category
+  of data&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width=425 valign=top style='width:318.95pt;border:solid windowtext 1.0pt;
+  border-left:none;background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=MsoNormal style='line-height:115%'&gt;&lt;b&gt;&lt;span style='line-height:115%'&gt;Recipient&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width=189 valign=top style='width:5.0cm;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=MsoNormal style='line-height:115%'&gt;&lt;b&gt;&lt;span style='line-height:115%'&gt;Submitted
+  Information&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+  &lt;p class=MsoNormal style='line-height:115%'&gt;&lt;b&gt;&lt;span style='line-height:115%'&gt;Product
+  Information &lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+  &lt;p class=MsoNormal style='line-height:115%'&gt;&lt;b&gt;&lt;span style='line-height:115%'&gt;Operational
+  Information&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+  &lt;p class=MsoNormal style='line-height:115%'&gt;&lt;span style='line-height:115%'&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width=425 valign=top style='width:318.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=MsoNormal style='line-height:115%'&gt;&lt;span style='line-height:115%'&gt;Contract
+  Service Provider: We will disclose this data to the Contract Service Provider
+  via our FireAngel Connect software, which will allow the Contract Service
+  Provider to access, process, analyse and/or store the data for the purposes
+  of enabling them to perform any contract they enter into with you and to: &lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;monitor the operational status and usage of the
+  Product;&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;receive alerts about faults that have arisen with
+  the Product;&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;receive alerts about the dates and times at which
+  the alarm in the Product has been triggered;&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;monitor the dates and times at which the
+  &amp;quot;test&amp;quot; button on the Product has been tested.  &lt;/span&gt;&lt;/p&gt;
+  &lt;p class=MsoNormal style='line-height:115%'&gt;&lt;span style='line-height:115%'&gt;This
+  is so that the Contract Service Provider can:&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;notify you if the Product is not connected to our
+  network, &lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;notify you if the Product has developed a fault; &lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;send you email notifications about the dates and
+  times at which the alarm in the Product has been triggered;&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;(if you have registered the Fire Angel Wi-Safe
+  Connect App) send push notifications to the Fire Angel Wi-Safe App about the
+  dates and times at which the alarm in the Product has been triggered; and/or &lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;notify you to remind you to test your Product.&lt;/span&gt;&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width=189 valign=top style='width:5.0cm;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=MsoNormal style='line-height:115%'&gt;&lt;b&gt;&lt;span style='line-height:115%'&gt;Submitted
+  Information&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+  &lt;p class=MsoNormal style='line-height:115%'&gt;&lt;b&gt;&lt;span style='line-height:115%'&gt;Product
+  Information &lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+  &lt;p class=MsoNormal style='line-height:115%'&gt;&lt;b&gt;&lt;span style='line-height:115%'&gt;Operational
+  Information&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+  &lt;p class=MsoNormal style='line-height:115%'&gt;&lt;b&gt;&lt;span style='line-height:115%'&gt;Third
+  Party Information&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width=425 valign=top style='width:318.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=MsoNormal style='line-height:115%'&gt;&lt;span style='line-height:115%'&gt;The
+  entity from whom the Contract Service Provider purchased your Product (&amp;quot;&lt;b&gt;Distributor&lt;/b&gt;&amp;quot;):
+  we will disclose this data to the Distributor&lt;span class=MsoCommentReference&gt;&lt;span
+  style='line-height:115%'&gt;,&lt;/span&gt;&lt;/span&gt; so that they can: &lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;provide you with customer service and support in
+  relation to the Product, the Product Software and/or the Service, if and when
+  you contact us/them and ask us/them to do so;&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;communicate/correspond with us about customer
+  service and support issues, faults and/or maintenance issues you are
+  experiencing / have experienced in respect of the Product, the Product
+  Software and/or the Service.&lt;/span&gt;&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p class=Bullet2 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:0cm;text-indent:0cm;line-height:115%'&gt;&lt;b&gt;&lt;span style='line-height:
+115%'&gt;We may need to share your personal data with other third parties&lt;/span&gt;&lt;/b&gt;&lt;span
+style='line-height:115%'&gt;:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=Bullet2 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:14.2pt;text-indent:-14.2pt;line-height:115%'&gt;&lt;span
+style='line-height:115%;font-family:Symbol'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;i&gt;&lt;span style='line-height:115%'&gt;where disclosure of the
+information is in our legitimate interests (i.e. for the success, growth and
+protection of our business), including:&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
+
+&lt;p class=Bullet1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:35.45pt;text-indent:-21.25pt;line-height:115%'&gt;&lt;span
+style='line-height:115%;font-family:"Courier New"'&gt;o&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span style='line-height:115%'&gt;with prospective sellers or buyers
+of businesses or assets, if we plan to sell or buy any business or assets, but
+we will only do so after the prospective seller or buyer has entered into an
+agreement with us to protect the confidentiality and security of your personal
+data;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=Bullet1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:35.45pt;text-indent:-21.25pt;line-height:115%'&gt;&lt;span
+style='line-height:115%;font-family:"Courier New"'&gt;o&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span style='line-height:115%'&gt;if Fireangel Safety Technology
+Limited or substantially all of its assets are acquired by a third party, in
+which case personal data held by it about users of the Product/Product Software/Service
+will be one of the transferred assets;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=Bullet1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:35.45pt;text-indent:-21.25pt;line-height:115%'&gt;&lt;span
+style='line-height:115%;font-family:"Courier New"'&gt;o&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span style='line-height:115%'&gt;in order to enforce or apply the EULA
+and/or any other agreements or to investigate potential breaches and/or to
+protect the rights, property or safety of Fireangel Safety Technology Limited,
+our customers, or others.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=Bullet2 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:14.2pt;text-indent:-14.2pt;line-height:115%'&gt;&lt;span
+style='line-height:115%;font-family:Symbol'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;i&gt;&lt;span style='line-height:115%'&gt;where disclosure of the
+information is necessary for compliance with a legal obligation to which we are
+subject, including:&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
+
+&lt;p class=Bullet1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:35.45pt;text-indent:-21.25pt;line-height:115%'&gt;&lt;span
+style='line-height:115%;font-family:"Courier New"'&gt;o&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span style='line-height:115%'&gt;if we are under a duty to disclose
+or share your personal data in order to comply with any legal or regulatory
+obligation or request, in which case we may have to disclose your personal data
+to law enforcement agencies and regulatory authorities.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=Bullet1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:0cm;text-indent:0cm;line-height:115%'&gt;&lt;span style='line-height:
+115%'&gt;We may allow other IT service providers to handle your personal data if
+we are satisfied that we have a legal basis to share the same with them and
+they take appropriate measures to protect your personal data. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=Bullet1 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:14.2pt;text-indent:0cm;line-height:115%'&gt;&lt;span style='line-height:
+115%'&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm'&gt;
+
+&lt;p class=MsoNormal style='line-height:115%;border:none;padding:0cm'&gt;&lt;b&gt;&lt;span
+style='line-height:115%'&gt;5.         WHERE WE STORE YOUR PERSONAL DATA&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p class=MsoNormal style='line-height:115%'&gt;&lt;span style='line-height:115%'&gt;Personal
+data you provide to us by corresponding with us by telephone, email or
+otherwise howsoever will be filed and stored at our offices (at Fireangel
+Safety Technology Limited, Vanguard Centre, Coventry, CV4 7EZ).&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='line-height:115%'&gt;&lt;span style='line-height:115%'&gt;Information
+which we collect from and about you (including Submitted Information, Product
+Information and Operational Information) will also be stored using the Amazon
+Cloud service, via an account which we control and administer. The information
+stored using the Amazon Cloud service is a distributed cloud platform, and
+therefore the information we collect is not stored at one specific address.
+Nevertheless, all the information you provide to us and which we collect will
+be stored at a destination within the European Economic Area (&amp;quot;EEA&amp;quot;).
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='line-height:115%'&gt;&lt;span style='line-height:115%'&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm'&gt;
+
+&lt;p class=MsoNormal style='line-height:115%;border:none;padding:0cm'&gt;&lt;a
+name=HowLongWeKeepYourPersonalData&gt;&lt;b&gt;&lt;span style='line-height:115%'&gt;6.         HOW
+LONG WE WILL KEEP YOUR PERSONAL DATA&lt;/span&gt;&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p class=MsoNormal style='line-height:115%'&gt;&lt;span style='line-height:115%'&gt;We
+will hold your personal data for the following duration:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraph style='margin-left:14.2pt;text-indent:-14.2pt;
+line-height:115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+style='line-height:115%'&gt;Submitted Information: For as long as your
+subscription to the FireAngel connect system (i.e. the Service) remains live,
+plus 3 years; &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraph style='margin-left:14.2pt;text-indent:-14.2pt;
+line-height:115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+style='line-height:115%'&gt;Product Information: For as long as your subscription
+to the FireAngel connect system (i.e. the Service) remains live, plus 3 years;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraph style='margin-left:14.2pt;text-indent:-14.2pt;
+line-height:115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+style='line-height:115%'&gt;Operational Information: For as long as your
+subscription to the FireAngel connect system (i.e. the Service) remains live,
+plus 3 years;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraph style='margin-left:14.2pt;text-indent:-14.2pt;
+line-height:115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+style='line-height:115%'&gt;Third Party Information: For as long as your
+subscription to the FireAngel connect system (i.e. the Service) remains live,
+plus 3 years. &lt;/span&gt;&lt;/p&gt;
+
+&lt;div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm'&gt;
+
+&lt;p class=MsoNormal style='line-height:115%;border:none;padding:0cm'&gt;&lt;span
+style='line-height:115%'&gt;We will not retain and process your personal data other
+than for the purposes set out in this Privacy Notice. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='line-height:115%;border:none;padding:0cm'&gt;&lt;span
+style='line-height:115%'&gt;When it is no longer necessary to retain your personal
+data, we will delete or anonymise it. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='line-height:115%;border:none;padding:0cm'&gt;&lt;span
+style='line-height:115%'&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='line-height:115%;border:none;padding:0cm'&gt;&lt;a
+name=YourRights&gt;&lt;b&gt;&lt;span style='line-height:115%'&gt;7.&lt;/span&gt;&lt;/b&gt;&lt;/a&gt;&lt;span
+style='line-height:115%'&gt;         &lt;b&gt;YOUR RIGHTS&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+6.0pt;margin-left:0cm;line-height:115%'&gt;&lt;span style='line-height:115%'&gt;You have
+the following rights in respect of your Personal Data, which you can exercise
+free of charge (unless your request is manifestly unfounded or excessive, in
+which case we may charge you a reasonable fee or refuse to act on the request):&lt;/span&gt;&lt;/p&gt;
+
+&lt;table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse'&gt;
+ &lt;tr&gt;
+  &lt;td width=196 valign=top style='width:147.15pt;border:solid windowtext 1.0pt;
+  background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;line-height:115%'&gt;&lt;b&gt;&lt;span style='line-height:115%'&gt;Right&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width=423 valign=top style='width:317.15pt;border:solid windowtext 1.0pt;
+  border-left:none;background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;line-height:115%'&gt;&lt;b&gt;&lt;span style='line-height:115%'&gt;Description&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width=196 valign=top style='width:147.15pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;line-height:115%'&gt;&lt;span style='line-height:115%'&gt;Access&lt;/span&gt;&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width=423 valign=top style='width:317.15pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;line-height:115%'&gt;&lt;span style='line-height:115%'&gt;The
+  right to be provided with a copy of your personal data.&lt;/span&gt;&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width=196 valign=top style='width:147.15pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;line-height:115%'&gt;&lt;span style='line-height:115%'&gt;Rectification&lt;/span&gt;&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width=423 valign=top style='width:317.15pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;line-height:115%'&gt;&lt;span style='line-height:115%'&gt;The right
+  to require us to correct any mistakes in your personal data.&lt;/span&gt;&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width=196 valign=top style='width:147.15pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;line-height:115%'&gt;&lt;span style='line-height:115%'&gt;To be
+  forgotten&lt;/span&gt;&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width=423 valign=top style='width:317.15pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;line-height:115%'&gt;&lt;span style='line-height:115%'&gt;The
+  right to require us to delete your personal data - in certain situations.&lt;/span&gt;&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width=196 valign=top style='width:147.15pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;line-height:115%'&gt;&lt;span style='line-height:115%'&gt;Restriction
+  of processing&lt;/span&gt;&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width=423 valign=top style='width:317.15pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;line-height:115%'&gt;&lt;span style='line-height:115%'&gt;The
+  right to require us to restrict processing of your personal data — in certain
+  circumstances (e.g. if you contest the accuracy of the personal data).&lt;/span&gt;&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width=196 valign=top style='width:147.15pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;line-height:115%'&gt;&lt;span style='line-height:115%'&gt;Data
+  portability&lt;/span&gt;&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width=423 valign=top style='width:317.15pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;line-height:115%'&gt;&lt;span style='line-height:115%'&gt;The
+  right to receive the personal data you provided to us, in a structured,
+  commonly used and machine-readable format and/or transmit that data to a third
+  party  — in certain situations.&lt;/span&gt;&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width=196 valign=top style='width:147.15pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;line-height:115%'&gt;&lt;span style='line-height:115%'&gt;To
+  object&lt;/span&gt;&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width=423 valign=top style='width:317.15pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;line-height:115%'&gt;&lt;span style='line-height:115%'&gt;The
+  right to object:&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;at any time to your personal data being processed
+  for direct marketing (including profiling);&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=afterhead2 style='margin-left:15.9pt;text-indent:-14.2pt;line-height:
+  115%'&gt;&lt;span style='line-height:115%;font-family:Symbol'&gt;·&lt;span
+  style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span
+  style='line-height:115%'&gt;in certain other situations to our continued
+  processing of your personal data (e.g. processing carried out for the purpose
+  of our legitimate interests).&lt;/span&gt;&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width=196 valign=top style='width:147.15pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;line-height:115%'&gt;&lt;span style='line-height:115%'&gt;Not to
+  be subject to automated individual decision-making&lt;/span&gt;&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width=423 valign=top style='width:317.15pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'&gt;
+  &lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;line-height:115%'&gt;&lt;span style='line-height:115%'&gt;The
+  right not to be subject to a decision based solely on automated processing
+  (including profiling) that produces legal effects concerning you or similarly
+  significantly affects you.&lt;/span&gt;&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+6.0pt;margin-left:0cm;line-height:115%'&gt;&lt;span style='line-height:115%'&gt;For
+further information on each of those rights, including the circumstances in
+which they apply, please contact us or consult  the &lt;span class=MsoHyperlink&gt;guidance
+issued by the UK Information Commissioner’s Office (ICO) on individuals’ rights
+under the General Data Protection Regulation&lt;/span&gt;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+6.0pt;margin-left:0cm;line-height:115%'&gt;&lt;span style='line-height:115%'&gt;If you
+would like to exercise any of those rights, please:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListBulletCxSpFirst align=left style='margin-left:42.55pt;
+text-align:left;text-indent:-42.55pt;line-height:115%'&gt;&lt;span style='font-size:
+11.0pt;line-height:115%;font-family:Symbol'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span style='font-size:11.0pt;line-height:115%'&gt;email, or write
+to us (see below: ‘&lt;b&gt;How to contact us&lt;/b&gt;’);&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListBulletCxSpMiddle align=left style='margin-left:42.55pt;
+text-align:left;text-indent:-42.55pt;line-height:115%'&gt;&lt;span style='font-size:
+11.0pt;line-height:115%;font-family:Symbol'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span style='font-size:11.0pt;line-height:115%'&gt;let us have
+enough information to identify you &lt;/span&gt;&lt;span style='font-size:11.0pt;
+line-height:115%'&gt;(e.g. your full name, address and client or matter reference
+number);&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListBulletCxSpMiddle align=left style='margin-left:42.55pt;
+text-align:left;text-indent:-42.55pt;line-height:115%'&gt;&lt;span style='font-size:
+11.0pt;line-height:115%;font-family:Symbol'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span style='font-size:11.0pt;line-height:115%'&gt;let us have proof
+of your identity and address (a copy of your driving licence or passport and a
+recent utility or credit card bill); and&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListBulletCxSpMiddle align=left style='margin-left:42.55pt;
+text-align:left;text-indent:-42.55pt;line-height:115%'&gt;&lt;span style='font-size:
+11.0pt;line-height:115%;font-family:Symbol'&gt;·&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;span style='font-size:11.0pt;line-height:115%'&gt;let us know what
+right you want to exercise and the information to which your request relates.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListBulletCxSpLast align=left style='margin-left:42.55pt;
+text-align:left;text-indent:0cm;line-height:115%'&gt;&lt;span style='font-size:11.0pt;
+line-height:115%'&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm'&gt;
+
+&lt;p class=MsoNormal style='line-height:115%;border:none;padding:0cm'&gt;&lt;b&gt;&lt;span
+style='line-height:115%'&gt;8.&lt;/span&gt;&lt;/b&gt;&lt;span style='line-height:115%'&gt;         &lt;b&gt;KEEPING
+YOUR PERSONAL DATA SECURE&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+6.0pt;margin-left:0cm;text-align:justify;line-height:115%'&gt;We have appropriate
+security measures to prevent your personal data from being accidentally lost,
+or used or accessed unlawfully. Those processing your information will do so
+only in an authorised manner and are subject to a duty of confidentiality.&lt;/p&gt;
+
+&lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+6.0pt;margin-left:0cm;text-align:justify;line-height:115%'&gt;We have procedures
+in place to deal with any suspected data security breach. We will notify you
+and any applicable regulator of a suspected data security breach where we are
+legally required to do so.&lt;/p&gt;
+
+&lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+6.0pt;margin-left:0cm;text-align:justify;line-height:115%'&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm'&gt;
+
+&lt;p class=MsoNormal style='line-height:115%;border:none;padding:0cm'&gt;&lt;a
+name=Complain&gt;&lt;b&gt;&lt;span style='line-height:115%'&gt;9.&lt;/span&gt;&lt;/b&gt;&lt;/a&gt;&lt;span
+style='line-height:115%'&gt;         &lt;b&gt;HOW TO COMPLAIN&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+6.0pt;margin-left:0cm;text-align:justify;line-height:115%'&gt;We hope&lt;b&gt; &lt;/b&gt;&lt;span
+class=AlternativeText&gt;&lt;span style='font-weight:normal'&gt;we&lt;/span&gt;&lt;/span&gt;&lt;b&gt; &lt;/b&gt;can
+resolve any query or concern you may raise about our use of your personal data
+(see below &lt;span style='line-height:115%'&gt;‘&lt;b&gt;How to contact us&lt;/b&gt;’)&lt;/span&gt;. &lt;/p&gt;
+
+&lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+6.0pt;margin-left:0cm;text-align:justify;line-height:115%'&gt;The &lt;span
+class=MsoHyperlink&gt;General Data Protection Regulation&lt;/span&gt; also gives you the
+right to lodge a complaint with a supervisory authority, in particular in the
+European Union (or European Economic Area) state where you work, normally live
+or where any alleged infringement of data protection laws occurred. The
+supervisory authority in the UK is the Information Commissioners Office, who
+may be contacted at &lt;span class=MsoHyperlink&gt;https://ico.org.uk/concerns&lt;/span&gt;
+or telephone: &lt;span class=InsertText&gt;0303 123 1113&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+6.0pt;margin-left:0cm;text-align:justify;line-height:115%'&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm'&gt;
+
+&lt;p class=MsoNormal style='line-height:115%;border:none;padding:0cm'&gt;&lt;b&gt;&lt;span
+style='line-height:115%'&gt;10.&lt;/span&gt;&lt;/b&gt;&lt;span style='line-height:115%'&gt;       &lt;b&gt;CHANGES
+TO THIS PRIVACY NOTICE&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+6.0pt;margin-left:0cm;text-align:justify;line-height:115%'&gt;This Privacy Notice
+was originally published in September 2016 and last updated in June 2018.&lt;/p&gt;
+
+&lt;p class=MsoNormal style='line-height:115%'&gt;We may change this Privacy Notice
+from time to time. &lt;span style='line-height:115%'&gt;Any changes we may make to
+our Privacy Notice in the future will be posted on our website (at &lt;/span&gt;https://www.fireangel.co.uk/&lt;span
+style='line-height:115%'&gt;) and, where appropriate, notified to you by e-mail.
+Please check our website frequently to see any updates or changes to this
+Privacy Notice.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='line-height:115%'&gt;&lt;span style='line-height:115%'&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm'&gt;
+
+&lt;p class=MsoNormal style='line-height:115%;border:none;padding:0cm'&gt;&lt;a
+name=ContactUs&gt;&lt;b&gt;&lt;span style='line-height:115%'&gt;11.&lt;/span&gt;&lt;/b&gt;&lt;/a&gt;&lt;span
+style='line-height:115%'&gt;       &lt;b&gt;HOW TO CONTACT US&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+6.0pt;margin-left:0cm;text-align:justify;line-height:115%'&gt;Please contact us by
+post, email or telephone if you have any questions about this privacy notice or
+the personal data we hold about you. Our contact details are as follows:&lt;/p&gt;
+
+&lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+6.0pt;margin-left:0cm;text-align:justify;line-height:115%'&gt;Post: &lt;span
+style='line-height:115%'&gt;Fireangel Safety Technology Limited, Vanguard Centre,
+Coventry, CV4 7EZ&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+6.0pt;margin-left:0cm;text-align:justify;line-height:115%'&gt;Email: info@fireangeltech.com&lt;/p&gt;
+
+&lt;p class=MsoBodyText style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+6.0pt;margin-left:0cm;text-align:justify;line-height:115%'&gt;Telephone: 024 7771 7700&lt;/p&gt;
+
+&lt;p class=MsoNormal style='line-height:115%'&gt;&lt;span style='line-height:115%'&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;/body&gt;</value>
+  </data>
+</root>

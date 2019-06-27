@@ -1,0 +1,192 @@
+﻿<%@ Master Language="VB" Inherits="SprueAdmin.TelerikCtlContent" MasterPageFile="~/TelerikCtlSite.master" CodeBehind="TelerikCtlContent.master.vb" %>
+
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+<%@ Register Src="~/UserControls/LanguageSelector.ascx" TagName="LanguageSelector" TagPrefix="uc1" %>
+<asp:Content ID="ContentHead" ContentPlaceHolderID="siteHeadContent" runat="Server">
+    <asp:ContentPlaceHolder ID="contentHead" runat="server">
+        <link rel="stylesheet" href="/common/css/global/jquery-ui.smoothness.css" />
+    </asp:ContentPlaceHolder>
+
+
+</asp:Content>
+<asp:Content ID="ContentMenu" ContentPlaceHolderID="siteContentHeader" runat="Server">
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $(".dropdown-menu li a").click(function () {
+                var selText = $(this).text();
+                $(this).parents('.btn-group').find('.dropdown-toggle').html(selText);
+            });
+        });
+
+        function RadComboKeyPress(sender, args) {
+            if (sender && typeof sender.showDropDown == 'function') {
+                sender.showDropDown();
+            }
+        }
+        function RadComboBlurred(sender, args) {
+            if (sender && typeof sender.get_emptyMessage == 'function') {
+                if (!findFirstComboTextMatch(sender, args)) {
+                    sender.clearSelection();
+                    sender.set_text("");
+                }
+            }
+        }
+
+        function findFirstComboTextMatch(sender, args) {
+            var foundItem = false;
+            if (sender.get_text() && sender.get_text().trim() != "") {
+                var listItems = sender.get_items();
+                var inputText = sender.get_text().toLowerCase();
+
+                if (sender.get_selectedIndex() && sender.get_selectedIndex() >= 0 && inputText == listItems.getItem(sender.get_selectedIndex()).get_text().toLowerCase()) {
+                    foundItem = true;
+                }
+                else {
+                    for (var i = 0; i < listItems.get_count() ; i++) {
+                        var item = listItems.getItem(i);
+                        if (item) {
+                            if (sender.get_filter() == 2 && item.get_text().toLowerCase().substring(0, inputText.length) === inputText) {
+                                foundItem = true;
+                            }
+                            else if (sender.get_filter() == 1 && item.get_text().toLowerCase().indexOf(inputText) > -1) {
+                                foundItem = true;
+                            }
+                            if (foundItem) {
+                                item.set_selected(true);
+                                sender.set_selectedIndex(item.get_index());
+                                sender.set_text(item.get_text());
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
+            return foundItem;
+        }
+    </script>
+
+    <telerik:RadXmlHttpPanel runat="server" ID="xhpTimerPanel" OnClientResponseEnded="timerPanelResponseEnded"></telerik:RadXmlHttpPanel>
+    <div class="container-fluid masHeaderbg rwPadLR0" runat="server" id="divSiteHeader">
+        <div class="container rwHeader rwPadLR0">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="lblHeader col-md-8">
+                        <asp:Literal ID="Literal1" runat="server" Text="<%$Resources:PageGlobalResources,AdministrationSystemTitle %>" />
+                    </div>
+                    <div runat="server" id="divCulture" class="pull-right col-md-4">
+                    <uc1:LanguageSelector id="lngSelector" runat="server" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pull-right">
+                        <asp:Image ID="Image1" runat="server" ImageUrl="~/common/img/header-logo.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="row rwPadLR0" style="margin-top: 30px;">
+                <div class="col-md-9">
+                    <asp:Repeater ID="rptMenu" runat="server">
+                        <HeaderTemplate>
+                            <ul class="nav nav-tabs">
+                        </HeaderTemplate>
+                        <ItemTemplate>
+                            <li class='topMenuItem <%# Eval("CssClass")%>' style="font-weight: bold">
+                                <asp:HyperLink ID="lnkItem" runat="server" Target="_top" NavigateUrl='<%#Eval("link")%>' Text='<%#Eval("text")%>' />
+                            </li>
+                        </ItemTemplate>
+                        <FooterTemplate>
+                            </ul>
+                        </FooterTemplate>
+                    </asp:Repeater>
+                </div>
+                <div class="col-md-3 padL0">
+                    <div class="col-md-8 colPadR5 padL0">
+                        <div class="left-inner-addon">
+                            <i class="glyphicon glyphicon-user"></i>
+                            <asp:Label ID="lblUserName" runat="server" CssClass="form-control" />
+                        </div>
+                    </div>
+                    <div class="col-md-4 padL0">
+                        <asp:LinkButton ID="lnkLogoff" runat="server" Text="<%$Resources:PageGlobalResources,LogoffButton %>" CssClass="btn btn-warning btnLogOff" CausesValidation="false"></asp:LinkButton>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bgorange">
+        </div>
+    </div>
+
+</asp:Content>
+<asp:Content ID="ContentBody" ContentPlaceHolderID="siteBodyContent" runat="Server">
+    <telerik:RadScriptBlock runat="server">
+        <script type="text/javascript">
+
+            var timerPanel;
+            var timerPanelInterval;
+
+            Sys.Application.add_load(ContentMasterLoadHandler)
+
+            function setupValidConfirm() {
+                $('.validateAll, .validateAllNoMsg').onIfNotPresent("click", "validate", function (e) {
+                    return ValidateAllValidationGroups();
+                });
+
+            }
+            var inTimerRequest = false;
+
+            function ContentMasterLoadHandler() {
+                timerPanel = $find("<%= xhpTimerPanel.ClientID%>");
+
+                setupValidConfirm();
+            };
+
+            function timerPanelResponseEnded(sender, args) {
+                setTimerCallBack(timerPanelInterval);
+            }
+
+            function setTimerCallBack(interval) {
+                timerPanelInterval = interval;
+                setTimeout(function () { SetTimerPanelValue('Pagetimer'); }, interval);
+            }
+
+            function SetTimerPanelValue(value) {
+                if (timerPanel) {
+                    timerPanel.set_value(value);
+                }
+            }
+
+            function ValidateAllValidationGroups() {
+                var i;
+                for (i = 0; i < Page_Validators.length; i++) {
+                    var targCtl = $find(Page_Validators[i].controltovalidate);
+
+                    if (!targCtl) {
+                        Page_Validators[i].enabled = false;
+                    }
+                }
+
+                return Page_ClientValidate();
+            }
+
+        </script>
+    </telerik:RadScriptBlock>
+    <div class="container rwPLR45 rwPadLR0">
+        <asp:HiddenField runat="server" ID="hdnConfirmPrompt"></asp:HiddenField>
+        <div id="titleBar" runat="server" class="col-md-12 rwPT10B7 bgTheme">
+            <div class="row rwmargin9">
+                <div class="col-md-6" style="padding-top: 8px;">
+                    <asp:Label ID="lblPageTitle" runat="server" Text="ContentPage" CssClass="lblMgeSensor label" />
+                </div>
+                <div class="col-md-6 text-right">
+                    <asp:Button ID="btnBack" runat="server" CssClass="btn btn-warning btnLogOff" Text="<%$Resources:PageGlobalResources,NavBack %>" CausesValidation="false" UseSubmitBehavior="false" />
+                </div>
+            </div>
+        </div>
+
+        <asp:ContentPlaceHolder ID="contentBody" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+</asp:Content>
